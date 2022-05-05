@@ -3,4 +3,4 @@
 #SBATCH --time=00:01:00
 echo 'Hello, world!'
 cat README.md
-sleep 30
+sleep 20
