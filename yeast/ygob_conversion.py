@@ -5,13 +5,14 @@ f=open("ygob_testfile.txt",'r')
 raw=f.readlines()
 f.close()
 
-gene=[]
-direction=[]
-for i in range len(raw):
-  x=raw[i]
-  gene[i]=x.split('/')[0]
-  direction[i]=x.split('/')[1]
+gene=[None]*len(raw)
+direction=[None]*len(raw)
+for i in range(len(raw)):
+  x=repr(raw[i]).split('\\t')
+  gene[i]=x[0]
+  direction[i]=x[1]
 print(gene[:10])
 print(direction[:10])
+
 
   

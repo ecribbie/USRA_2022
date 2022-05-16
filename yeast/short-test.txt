@@ -1,0 +1,10 @@
+CAGL0A00165g	0	18037	18876	ON	1	A00165	complement(18037..18876)	some similarities with KLLA0E10593g Kluyveromyces lactis
+CAGL0A00187g	0	19487	21757	ON	1	A00187	complement(19487..21757)	weakly similar to uniprot|P53191 Saccharomyces cerevisiae YGL023c PIB2 phosphatidylinositol 3-phosphate binding
+CAGL0A00209g	1	22260	24440	ON	1	A00209	(22260..24440)	highly similar to uniprot|P39007 Saccharomyces cerevisiae YGL022w STT3
+CAGL0A00231g	1	25241	27622	ON	1	A00231	(25241..27622)	similar to uniprot|P43633 Saccharomyces cerevisiae YGL021w ALK1 DNA damage-responsive protein
+CAGL0A00253g	0	27915	28586	ON	1	A00253	complement(27915..28586)	similar to uniprot|P53192 Saccharomyces cerevisiae YGL020c
+CAGL0A00275g	1	29069	29869	ON	1	A00275	(29069..29869)	highly similar to uniprot|P43639 Saccharomyces cerevisiae YGL019w CKB1
+CAGL0A00297g	0	30179	30775	ON	1	A00297	complement(30179..30775)	similar to uniprot|P53193 Saccharomyces cerevisiae YGL018c JAC1 molecular chaperone
+CAGL0A00319g	1	30978	32507	ON	1	A00319	(30978..32507)	similar to uniprot|P16639 Saccharomyces cerevisiae YGL017w ATE1 arginyl tRNA transferase
+CAGL0A00341g	1	33056	33625	ON	1	A00341	(33056..33625)	similar to uniprot|P25338 Saccharomyces cerevisiae YGL010w
+
