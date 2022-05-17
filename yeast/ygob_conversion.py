@@ -7,12 +7,15 @@ f.close()
 
 gene=[None]*len(raw)
 direction=[None]*len(raw)
+similarities=[None]*len(raw)
 for i in range(len(raw)):
   x=repr(raw[i]).split('\\t')
   gene[i]=x[0]
   direction[i]=x[1]
+  similarities[i]=x[8]
 print(gene[:10])
 print(direction[:10])
+print(similarities[:10])
 
 
   
