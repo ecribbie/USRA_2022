@@ -2,9 +2,16 @@
 
 **Overview**
 
-Link to website:ygob.ucd.ie/ygob/ First created a python file to take a species genome tab file and convert it inte a nested dictionary containig its genes and relevant information "ygob_conversion.py"
+Link to website:ygob.ucd.ie/ygob/
 
-The species files can be found at:ygob.ucd.ie/ygob/data/v7-Aug2012/ The ygob_conversion.py currently takes all files with structure as described in README file:ygob.ucd.ie/ygob/data/v7-Aug2012/README section (2) Ancestor genome tab to be done seperatly
+First created a python file that takes a species genome tab file and creates a nested dictionary containing the species' genes and their relevant information such as direction, start and end coordinates and similarities section to other genes. That file is called "ygob_conversion.py"
+
+The species files can be found at:ygob.ucd.ie/ygob/data/v7-Aug2012/ 
+
+The ygob_conversion.py script currently takes all files with structure as described in the README file: ygob.ucd.ie/ygob/data/v7-Aug2012/README section (2) 
+
+The Ancestor genome tab is structured differently and we'll need to create a new script accordingly. (should just be a change in indices)
+
 
 **Questions**
 
@@ -12,7 +19,11 @@ In the genome.tab files found at:ygob.ucd.ie/ygob/data/v7-Aug2012/ such as:ygob.
 
 When creating marker assignments for these species if a gene in one species is similar to a gene in another species would we assign both of these the same marker (example call them both gene 1), assuming for simplicity that these genes are not similar to others? If so whcih of these terms above would imply using the same marker? All of them?
 
+
 **Formatting of similarities**
+
+The following are the authors associated to certain species on the YGOB phylogeny. Since each genome tab file's similarity section is then written by a different group it's structure is different. The following summaries very briefly describe the structure of the similarity colomns for species added by the associated groups.
+
 
 Gordon et al. (2011)
 
