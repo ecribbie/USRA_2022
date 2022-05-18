@@ -1,4 +1,4 @@
-<u>**Yeast Gene Order Browser**<u>
+**Yeast Gene Order Browser**
 
 **Overview**
 
@@ -13,6 +13,7 @@ In the genome.tab files found at:ygob.ucd.ie/ygob/data/v7-Aug2012/ such as:ygob.
 When creating marker assignments for these species if a gene in one species is similar to a gene in another species would we assign both of these the same marker (example call them both gene 1), assuming for simplicity that these genes are not similar to others? If so whcih of these terms above would imply using the same marker? All of them?
 
 **Formatting of similarities**
+
 Gordon et al. (2011)
 
 -similarities as "Anc_#.### ----" or "-----" or "trna Type:..." or nothing. Extra text sometimes added at end, ---- is a gene in Saccharomyces cerevisiae
