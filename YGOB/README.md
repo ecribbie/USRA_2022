@@ -1,4 +1,4 @@
-<font size=8> Yeast Gene Order Browser 8 </font>
+<font size=20> Yeast Gene Order Browser 8</font>
 
 **Overview**
 
