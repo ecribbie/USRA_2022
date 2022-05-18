@@ -1,4 +1,4 @@
-<font size=20> Yeast Gene Order Browser 8</font>
+<u>**Yeast Gene Order Browser**<u>
 
 **Overview**
 
@@ -7,11 +7,12 @@ Link to website:ygob.ucd.ie/ygob/ First created a python file to take a species 
 The species files can be found at:ygob.ucd.ie/ygob/data/v7-Aug2012/ The ygob_conversion.py currently takes all files with structure as described in README file:ygob.ucd.ie/ygob/data/v7-Aug2012/README section (2) Ancestor genome tab to be done seperatly
 
 **Questions**
--in the genome.tab files found at:ygob.ucd.ie/ygob/data/v7-Aug2012/ such as:ygob.ucd.ie/ygob/data/v7-Aug2012/Cglabrata_genome.tab the 9th colomn discusses the genes similarities with other genes in different species. It uses various levels of similarity; similar to, weakly similar to, highly similar to, syntenic homolog of, etc.
+
+In the genome.tab files found at:ygob.ucd.ie/ygob/data/v7-Aug2012/ such as:ygob.ucd.ie/ygob/data/v7-Aug2012/Cglabrata_genome.tab the 9th colomn discusses the genes similarities with other genes in different species. It uses various levels of similarity; similar to, weakly similar to, highly similar to, syntenic homolog of, etc.
 
 When creating marker assignments for these species if a gene in one species is similar to a gene in another species would we assign both of these the same marker (example call them both gene 1), assuming for simplicity that these genes are not similar to others? If so whcih of these terms above would imply using the same marker? All of them?
 
-Formatting of similarities
+**Formatting of similarities**
 Gordon et al. (2011)
 
 -similarities as "Anc_#.### ----" or "-----" or "trna Type:..." or nothing. Extra text sometimes added at end, ---- is a gene in Saccharomyces cerevisiae
