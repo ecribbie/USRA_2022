@@ -4,7 +4,7 @@
 
 Link to website:ygob.ucd.ie/ygob/
 
-First created a python file that takes a species genome tab file and creates a nested dictionary containing the species' genes and their relevant information such as direction, start and end coordinates and similarities section to other genes. That file is called "ygob_conversion.py"
+First created a python file that takes a species genome tab file and creates a nested dictionary containing the species' genes and their relevant information such as direction, start and end coordinates and similarities section to other genes. That file is called "genome_tab_to_dictionary.py"
 
 The species files can be found at:ygob.ucd.ie/ygob/data/v7-Aug2012/ 
 
