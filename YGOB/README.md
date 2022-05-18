@@ -25,7 +25,7 @@ When creating marker assignments for these species if a gene in one species is s
 The following are the authors associated to certain species on the YGOB phylogeny. Since each genome tab file's similarity section is then written by a different group it's structure is different. The following summaries very briefly describe the structure of the similarity colomns for species added by the associated groups.
 
 
-Gordon et al. (2011)
+<u>Gordon et al. (2011)</u>
 
 -similarities as "Anc_#.### ----" or "-----" or "trna Type:..." or nothing. Extra text sometimes added at end, ---- is a gene in Saccharomyces cerevisiae
 
