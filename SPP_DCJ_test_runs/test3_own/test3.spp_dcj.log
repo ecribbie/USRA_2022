@@ -1,0 +1,20 @@
+INFO	2022-05-13 11:44:08,577	loading species tree from SpeciesTree_3.txt
+INFO	2022-05-13 11:44:08,578	loading candidate adjacencies from Adjacenciestest3.txt
+INFO	2022-05-13 11:44:08,603	identified 0 candidate telomeres in genome A
+INFO	2022-05-13 11:44:08,603	identified 4 candidate telomeres in genome B
+INFO	2022-05-13 11:44:08,603	identified 4 candidate telomeres in genome C
+INFO	2022-05-13 11:44:08,603	constructing relational diagrams for all 2 branches of the tree
+INFO	2022-05-13 11:44:08,610	writing objective over all graphs
+INFO	2022-05-13 11:44:08,611	writing constraints...
+INFO	2022-05-13 11:44:08,611	writing constraints for relational diagram of A and B
+INFO	2022-05-13 11:44:08,614	writing constraints for relational diagram of A and C
+INFO	2022-05-13 11:44:08,616	writing domains...
+INFO	2022-05-13 11:44:08,616	writing domains for relational diagram of A and B
+INFO	2022-05-13 11:44:08,616	writing domains for relational diagram of A and C
+INFO	2022-05-13 11:44:08,616	writing variables...
+INFO	2022-05-13 11:44:08,616	writing general variables for relational diagram of A and B
+INFO	2022-05-13 11:44:08,616	writing general variables for relational diagram of A and C
+INFO	2022-05-13 11:44:08,617	writing binary variables for relational diagram of A and B
+INFO	2022-05-13 11:44:08,617	writing binary variables for relational diagram of A and C
+INFO	2022-05-13 11:44:08,617	writing ID-to-gene extremity mapping to test3.idmap
+INFO	2022-05-13 11:44:08,618	DONE
