@@ -27,7 +27,7 @@ print(species[repr(raw[6]).split('\\t')[0]])
 
 if author=="Gordon":
   for gene in species:
-    if len(species[gene]['sim'].split(" "))==1 and re.search("Y",species[gene]['sim'].split(" ")):
+    if len(species[gene]['sim'].split(" "))==1 and re.search("Y",species[gene]['sim']):
       species[gene]['match']=species[gene]['sim'].removesuffix("\\n'")
     elif re.search("Anc",species[gene]['sim']):
       ind=[species[gene]['sim'].split(" ").index(i) for i in species[gene]['sim'].split(" ") if 'Anc' in i]
