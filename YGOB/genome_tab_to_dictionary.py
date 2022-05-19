@@ -46,7 +46,8 @@ print(species[repr(raw[6]).split('\\t')[0]])
   
 if author=="Scannell 2011":
   for gene in species:
-    if len(species[gene]['sim'].split(" "))==2 and re.search("Y",species[gene]['sim']) and re.search("(",species[gene]['sim']):
-      species[gene]['match']=species[gene]['sim'].split(" ")[0].removesuffix("\\n'")
+    if re.search(" ",species[gene]['sim']):
+      if len(species[gene]['sim'].split(" "))==2 and re.search("Y",species[gene]['sim']):
+        species[gene]['match']=species[gene]['sim'].split(" ")[0].removesuffix("\\n'")
     else:
       species[gene]['match']=None
