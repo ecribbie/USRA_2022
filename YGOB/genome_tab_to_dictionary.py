@@ -41,13 +41,15 @@ if author=="Gordon":
       species[gene]['match']=species[gene]['sim'].split(" ")[ind[0]].removesuffix("\\n'")
     else:
       species[gene]['match']=None
-print(species[repr(raw[0]).split('\\t')[0]])
-print(species[repr(raw[6]).split('\\t')[0]])
-  
-if author=="Scannell 2011":
+
+elif author=="Scannell 2011":
   for gene in species:
     if re.search(" ",species[gene]['sim']):
       if len(species[gene]['sim'].split(" "))==2 and re.search("Y",species[gene]['sim']):
         species[gene]['match']=species[gene]['sim'].split(" ")[0].removesuffix("\\n'")
     else:
       species[gene]['match']=None
+      
+print(species[repr(raw[0]).split('\\t')[0]])
+print(species[repr(raw[1]).split('\\t')[0]])
+print(species[repr(raw[63]).split('\\t')[0]])
