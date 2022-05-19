@@ -22,8 +22,8 @@ for i in range(len(raw)):
   species[x[0]]['end']=x[3]
 
 print(species[repr(raw[0]).split('\\t')[0]])
-print('---------------------------------------------')
-print(species[repr(raw[6]).split('\\t')[0]])
+print(species[repr(raw[1]).split('\\t')[0]])
+print(species[repr(raw[59]).split('\\t')[0]])
 
 
 #Convert similarity columns to gene mathches.
@@ -51,7 +51,8 @@ elif author=="Scannell 2011":
         species[gene]['match']=None
     else:
       species[gene]['match']=None
-      
+
+print('---------------------------------------------')
 print(species[repr(raw[0]).split('\\t')[0]])
 print(species[repr(raw[1]).split('\\t')[0]])
 print(species[repr(raw[59]).split('\\t')[0]])
