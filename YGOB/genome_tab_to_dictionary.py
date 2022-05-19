@@ -4,11 +4,11 @@ import re
 
 #will want to have a way to input desired file but for now using directly ygob_testfile.txt
 
-f=open("species_genome_tabs/Tphaffii_genome.txt",'r')
+f=open("species_genome_tabs/Suvarum_genome.txt",'r')
 raw=f.readlines()
 f.close()
 
-author="Gordon"
+author="Scannell 2011"
 
 #Create nested dictionary for the species genes then direction (dir), similarity sentence (sim) and start and end coordinates (start) (end)
 #This is for the basic layout of species genomes see link:ygob.ucd.ie > genome sequences > README > section (2) the delimiter between columns when copied to txt is \\t
