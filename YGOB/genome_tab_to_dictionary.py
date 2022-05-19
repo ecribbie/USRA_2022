@@ -25,6 +25,10 @@ print(species[repr(raw[0]).split('\\t')[0]])
 print('---------------------------------------------')
 print(species[repr(raw[6]).split('\\t')[0]])
 
+
+#Convert similarity columns to gene mathches.
+
+
 if author=="Gordon":
   for gene in species:
     if len(species[gene]['sim'].split(" "))==1 and re.search("Y",species[gene]['sim']):
