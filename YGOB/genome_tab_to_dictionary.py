@@ -32,7 +32,7 @@ if author=="Gordon":
     elif re.search("Anc",species[gene]['sim']):
       ind=[species[gene]['sim'].split(" ").index(i) for i in species[gene]['sim'].split(" ") if 'Anc' in i]
       ind=[x+1 for x in ind]
-      species[gene]['match']=species[gene]['sim'].split(" ")[ind].removesuffix("\\n'")
+      species[gene]['match']=species[gene]['sim'].split(" ")[ind[0]].removesuffix("\\n'")
     else:
       species[gene]['match']=None
 print(species[repr(raw[0]).split('\\t')[0]])
