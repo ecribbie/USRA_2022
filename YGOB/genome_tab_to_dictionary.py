@@ -2,7 +2,7 @@
 
 #will want to have a way to input desired file but for now using directly ygob_testfile.txt
 
-f=open("Cglabrata_genome.txt",'r')
+f=open("species_genome_tabs/Tphaffii_genome.txt",'r')
 raw=f.readlines()
 f.close()
 
