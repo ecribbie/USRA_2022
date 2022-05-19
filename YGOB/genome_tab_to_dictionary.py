@@ -29,7 +29,7 @@ if author=="Gordon":
   for gene in species:
     if len(species[gene]['sim'].split(" "))==1:
       species[gene]['match']=species[gene]['sim']
-    elif re.search("cerevisia",species[gene]['sim'].split(" ")):
+    elif re.search("cerevisia",species[gene]['sim']):
       ind=species[gene]['sim'].split(" ").index("cerivisia")+1
       species[gene]['match']=species[gene]['sim'].split(" ")[ind]
     else:
