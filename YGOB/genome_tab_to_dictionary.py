@@ -17,7 +17,7 @@ for i in range(len(raw)):
   x=repr(raw[i]).split('\\t')
   species[x[0]]={}
   species[x[0]]['dir']=x[1]
-  species[x[0]]['sim']=x[8]
+  species[x[0]]['sim']=x[8].lstrip()
   species[x[0]]['start']=x[2]
   species[x[0]]['end']=x[3]
 
@@ -52,4 +52,4 @@ elif author=="Scannell 2011":
       
 print(species[repr(raw[0]).split('\\t')[0]])
 print(species[repr(raw[1]).split('\\t')[0]])
-print(species[repr(raw[63]).split('\\t')[0]])
+print(species[repr(raw[62]).split('\\t')[0]])
