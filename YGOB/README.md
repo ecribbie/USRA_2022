@@ -60,3 +60,15 @@ __Wendland et al. (2011)__
 __Kells et al. (2004)__
 
 -"--- extra description) where --- is a gene of Saccharomyces cerevisiae
+
+
+
+
+**Issues to resolve**
+
+How to match up similar/identical genes across species when creating family assignments
+  -Structure of similarities column not consistent and sometimes match up to what seem to be non existent genes example: (first gene of Cglabrata is said to be similar to KLLA0E10593g from Klactis but that gene is not found in Klactis genome tab file)
+  
+Need to consider not duplicating a marker in same species
+
+
