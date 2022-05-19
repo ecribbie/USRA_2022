@@ -23,4 +23,4 @@ Plot summary:
 -Light grey lines are a gene itself or a telomere
 -Dark black lines are for all adjacencies
 -Red highlights signify that that adjacency is present in the final solution
-    *NOTE:Gene-telomare adjacencies will never be red
+    *NOTE:Gene-telomere adjacencies will never be red
