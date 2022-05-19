@@ -52,4 +52,4 @@ elif author=="Scannell 2011":
       
 print(species[repr(raw[0]).split('\\t')[0]])
 print(species[repr(raw[1]).split('\\t')[0]])
-print(species[repr(raw[62]).split('\\t')[0]])
+print(species[repr(raw[59]).split('\\t')[0]])
