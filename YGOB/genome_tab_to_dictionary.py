@@ -47,6 +47,8 @@ elif author=="Scannell 2011":
     if re.search(" ",species[gene]['sim']):
       if len(species[gene]['sim'].split(" "))==2 and re.search("Y",species[gene]['sim']):
         species[gene]['match']=species[gene]['sim'].split(" ")[0].removesuffix("\\n'")
+      else:
+        species[gene]['match']=None
     else:
       species[gene]['match']=None
       
