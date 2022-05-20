@@ -8,7 +8,7 @@ First created a python file that takes a species genome tab file and creates a n
 
 The species files can be found [here](ygob.ucd.ie/ygob/data/v7-Aug2012/)
 
-The ygob_conversion.py script currently takes all files with structure as described in the (README file)[ygob.ucd.ie/ygob/data/v7-Aug2012/README] section (2) 
+The ygob_conversion.py script currently takes all files with structure as described in the [README file](ygob.ucd.ie/ygob/data/v7-Aug2012/README) section (2) 
 
 The Ancestor genome tab is structured differently and we'll need to create a new script accordingly. (should just be a change in indices)
 
