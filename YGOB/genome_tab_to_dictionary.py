@@ -52,6 +52,7 @@ elif author=="Scannell 2011":
     else:
       species[gene]['match']=None
 
+
 print('---------------------------------------------')
 print(species[repr(raw[0]).split('\\t')[0]])
 print(species[repr(raw[1]).split('\\t')[0]])
