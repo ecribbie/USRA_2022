@@ -67,7 +67,10 @@ __Kells et al. (2004)__
 ## Issues to resolve
 
 How to match up similar/identical genes across species when creating family assignments
+  
   -Structure of similarities column not consistent and sometimes match up to what seem to be non existent genes example: (first gene of Cglabrata is said to be similar to KLLA0E10593g from Klactis but that gene is not found in Klactis genome tab file)
+  
+  -How to match to the right species, matches can be to various species (very much more commonly to S.cer or Anc though)
   
 Need to consider not duplicating a marker in same species
 
