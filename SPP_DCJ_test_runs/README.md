@@ -1,6 +1,6 @@
 These test runs were to test the SPP_DCJ algorithm on very basic test files in order to spot mistakes/improvements to be made.
 
-##Possible changes to be made:
+#Possible changes to be made:
 
 -in run.sh file change Example.sol to Example1.sol on line 7 (this is just a typo and the program will not run without fixing this)
 
