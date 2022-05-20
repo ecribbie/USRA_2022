@@ -1,26 +1,26 @@
-**Yeast Gene Order Browser**
+# Yeast Gene Order Browser
 
-**Overview**
+## Overview
 
-Link to website:ygob.ucd.ie/ygob/
+Link to [YGOB website](ygob.ucd.ie/ygob/)
 
 First created a python file that takes a species genome tab file and creates a nested dictionary containing the species' genes and their relevant information such as direction, start and end coordinates and similarities section to other genes. That file is called "genome_tab_to_dictionary.py"
 
-The species files can be found at:ygob.ucd.ie/ygob/data/v7-Aug2012/ 
+The species files can be found [here](ygob.ucd.ie/ygob/data/v7-Aug2012/)
 
-The ygob_conversion.py script currently takes all files with structure as described in the README file: ygob.ucd.ie/ygob/data/v7-Aug2012/README section (2) 
+The ygob_conversion.py script currently takes all files with structure as described in the (README file)[ygob.ucd.ie/ygob/data/v7-Aug2012/README] section (2) 
 
 The Ancestor genome tab is structured differently and we'll need to create a new script accordingly. (should just be a change in indices)
 
 
-**Questions**
+## Questions
 
 In the genome.tab files found at:ygob.ucd.ie/ygob/data/v7-Aug2012/ such as:ygob.ucd.ie/ygob/data/v7-Aug2012/Cglabrata_genome.tab the 9th colomn discusses the genes similarities with other genes in different species. It uses various levels of similarity; similar to, weakly similar to, highly similar to, syntenic homolog of, etc.
 
 When creating marker assignments for these species if a gene in one species is similar to a gene in another species would we assign both of these the same marker (example call them both gene 1), assuming for simplicity that these genes are not similar to others? If so whcih of these terms above would imply using the same marker? All of them?
 
 
-**Formatting of similarities**
+## Formatting of similarities
 
 The following are the authors associated to certain species on the YGOB phylogeny. Since each genome tab file's similarity section is then written by a different group it's structure is different. The following summaries very briefly describe the structure of the similarity colomns for species added by the associated groups.
 
@@ -64,7 +64,7 @@ __Kells et al. (2004)__
 
 
 
-**Issues to resolve**
+## Issues to resolve
 
 How to match up similar/identical genes across species when creating family assignments
   -Structure of similarities column not consistent and sometimes match up to what seem to be non existent genes example: (first gene of Cglabrata is said to be similar to KLLA0E10593g from Klactis but that gene is not found in Klactis genome tab file)
