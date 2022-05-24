@@ -8,9 +8,9 @@ First created a python file that takes a species genome tab file and creates a n
 
 The species files can be found [here](ygob.ucd.ie/ygob/data/v7-Aug2012/)
 
-The ygob_conversion.py script currently takes all files with structure as described in the [README file](ygob.ucd.ie/ygob/data/v7-Aug2012/README) section (2) 
+The genome_tab_to_dictionary.py script currently takes all files with structure as described in the [README file](ygob.ucd.ie/ygob/data/v7-Aug2012/README) section (2) 
 
-The Ancestor genome tab is structured differently and we'll need to create a new script accordingly. (should just be a change in indices)
+The Anc_tab_to_dictionary.py script currently takes the Anc genome tab file as described in the [README file](ygob.ucd.ie/ygob/data/v7-Aug2012/README) section (2) under Ancestor 
 
 
 ## Questions
@@ -18,6 +18,8 @@ The Ancestor genome tab is structured differently and we'll need to create a new
 In the [genome.tab files](ygob.ucd.ie/ygob/data/v7-Aug2012/) such as that of [Cglabrata](ygob.ucd.ie/ygob/data/v7-Aug2012/Cglabrata_genome.tab) the 9th colomn discusses the genes similarities with other genes from different species. It uses various levels of similarity; similar to, weakly similar to, highly similar to, syntenic homolog of, etc.
 
 When creating marker assignments for these species if a gene in one species is similar to a gene in another species would we assign both of these the same marker (example call them both gene 1), assuming for simplicity that these genes are not similar to others? If so whcih of these terms above would imply using the same marker? All of them?
+
+Why does the [S.Cerevisiae Ohnologs File](http://ygob.ucd.ie/browser/ohnologs.html) have two genes matching to each Ancestor gene
 
 
 ## Formatting of similarities
