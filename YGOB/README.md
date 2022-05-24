@@ -29,39 +29,39 @@ The following are the authors associated to certain species on the YGOB phylogen
 
 __Gordon et al. (2011)__
 
--similarities as "Anc_#.### ----" or "-----" or "trna Type:..." or nothing. Extra text sometimes added at end, ---- is a gene in Saccharomyces cerevisiae
+  - similarities as "Anc_#.### ----" or "-----" or "trna Type:..." or nothing. Extra text sometimes added at end, ---- is a gene in Saccharomyces cerevisiae
 
 __Scannel et al. (2011)__
 
--similarities as "--- (REAL or REPEAT)" where --- is a gene in Saccharomyces cerevisiae
+  - similarities as "--- (REAL or REPEAT)" where --- is a gene in Saccharomyces cerevisiae
 
 __Scannel et al. (2007)__
 
--similarites as "[### nt, ### aa]"
+  - similarites as "[### nt, ### aa]"
 
 __Dujon et al. (2004)__
 
--Review again more complicated and differing methods through same species
+  - Review again more complicated and differing methods through same species
 
 __Goffeau et al. (s. cer.)__
 
--no similarities relevant just descriptions it is s.cer. which most compare to. See table with Ancestor (Anc) for matches
+  - no similarities relevant just descriptions it is s.cer. which most compare to. See table with Ancestor (Anc) for matches
 
 __Souciet et al. (2009)__
 
--similarities as "similarity level "uniprot|--- Saccharomyces cerevisiae @@@ " description of other info" --- is uniprot code and @@@ is a gene in Saccharomyces cerevisiae
+  - similarities as "similarity level "uniprot|--- Saccharomyces cerevisiae @@@ " description of other info" --- is uniprot code and @@@ is a gene in Saccharomyces cerevisiae
 
 __Dietrich et al. (2004)__
 
--"(Non-)Syntenic homolog of Saccharomyces cerevisiae --- " or one case of "No homolog in Saccharomyces cerevisiae, similar   to Kluyveromyces lactis @@@ "  --- Saccharomyces cerivisiae gene and @@@ is Kluyveromyces lactis gene
+  - "(Non-)Syntenic homolog of Saccharomyces cerevisiae --- " or one case of "No homolog in Saccharomyces cerevisiae, similar   to Kluyveromyces lactis @@@ "  --- Saccharomyces cerivisiae gene and @@@ is Kluyveromyces lactis gene
 
 __Wendland et al. (2011)__
 
--"similar to Saccharomyces cerevisiae --- " or "similar to Ashbya gossypii @@@ " --- is a gene of Saccharomyces cerevisiae  @@@ is a gene of Ashbya gossypii
+  - "similar to Saccharomyces cerevisiae --- " or "similar to Ashbya gossypii @@@ " --- is a gene of Saccharomyces cerevisiae  @@@ is a gene of Ashbya gossypii
 
 __Kells et al. (2004)__
 
--"--- extra description) where --- is a gene of Saccharomyces cerevisiae
+  - "--- extra description) where --- is a gene of Saccharomyces cerevisiae
 
 
 
@@ -70,10 +70,10 @@ __Kells et al. (2004)__
 
 How to match up similar/identical genes across species when creating family assignments
   
-  -Structure of similarities column not consistent and sometimes match up to what seem to be non existent genes example: (first gene of Cglabrata is said to be similar to KLLA0E10593g from Klactis but that gene is not found in Klactis genome tab file)
+  - Structure of similarities column not consistent and sometimes match up to what seem to be non existent genes example: (first gene of Cglabrata is said to be similar to KLLA0E10593g from Klactis but that gene is not found in Klactis genome tab file)
   
-  -How to match to the right species, matches can be to various species (very much more commonly to S.cer or Anc though)
+  - How to match to the right species, matches can be to various species (very much more commonly to S.cer or Anc though)
   
-Need to consider not duplicating a marker in same species
+  - Need to consider not duplicating a marker in same species
 
 
