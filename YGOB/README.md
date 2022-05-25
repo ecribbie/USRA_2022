@@ -15,14 +15,23 @@ The Anc_tab_to_dictionary.py script currently takes the Anc genome tab file as d
 
 ## Questions
 
-In the [genome.tab files](ygob.ucd.ie/ygob/data/v7-Aug2012/) such as that of [Cglabrata](ygob.ucd.ie/ygob/data/v7-Aug2012/Cglabrata_genome.tab) the 9th colomn discusses the genes similarities with other genes from different species. It uses various levels of similarity; similar to, weakly similar to, highly similar to, syntenic homolog of, etc.
 
-When creating marker assignments for these species if a gene in one species is similar to a gene in another species would we assign both of these the same marker (example call them both gene 1), assuming for simplicity that these genes are not similar to others? If so whcih of these terms above would imply using the same marker? All of them?
+## Information on files
 
-Why does the [S.Cerevisiae Ohnologs File](http://ygob.ucd.ie/browser/ohnologs.html) have two genes matching to each Ancestor gene
+  - *Pillars.tab file:*
+    - Each row/pillar is a family
+    - Families not yet reconcilled (may have two copies of same gene)
 
 
-## Formatting of similarities
+
+## Issues to resolve
+  - [ ] How to get amino acid coding for each gene directly
+  - [ ] Keep only pillars for which we have amino acid coding for each gene in pillar
+  - [ ] Keep track of how many pillars are removed and distribution of their sizes
+
+
+
+## Formatting of similarities (NO LONGER NEEDED
 
 The following are the authors associated to certain species on the YGOB phylogeny. Since each genome tab file's similarity section is then written by a different group it's structure is different. The following summaries very briefly describe the structure of the similarity colomns for species added by the associated groups.
 
@@ -66,14 +75,5 @@ __Kells et al. (2004)__
 
 
 
-## Issues to resolve
-
-How to match up similar/identical genes across species when creating family assignments
-  
-  - Structure of similarities column not consistent and sometimes match up to what seem to be non existent genes example: (first gene of Cglabrata is said to be similar to KLLA0E10593g from Klactis but that gene is not found in Klactis genome tab file)
-  
-  - How to match to the right species, matches can be to various species (very much more commonly to S.cer or Anc though)
-  
-  - Need to consider not duplicating a marker in same species
 
 
