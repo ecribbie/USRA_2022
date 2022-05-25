@@ -19,7 +19,7 @@ bad=[]
 for familiy in dict:
 	count=0
 	for gene in dict[family]['genes']:
-		if !re.search(''.join(">",gene),AA):
+		if not re.search(''.join(">",gene),AA):
 			count++
 	if count !=0:
 		bad.append(family)
