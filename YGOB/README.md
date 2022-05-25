@@ -21,6 +21,9 @@ The Anc_tab_to_dictionary.py script currently takes the Anc genome tab file as d
   - *Pillars.tab file:*
     - Each row/pillar is a family
     - Families not yet reconcilled (may have two copies of same gene)
+  - *Genome.tab files:*
+    - Relevant columns: Gene name, direction, start/end coordinates
+    - Can be used to extract adjacencies that will be required for SPP_DCJ
 
 
 
@@ -31,7 +34,7 @@ The Anc_tab_to_dictionary.py script currently takes the Anc genome tab file as d
 
 
 
-## Formatting of similarities (NO LONGER NEEDED
+## Formatting of similarities (NO LONGER NEEDED)
 
 The following are the authors associated to certain species on the YGOB phylogeny. Since each genome tab file's similarity section is then written by a different group it's structure is different. The following summaries very briefly describe the structure of the similarity colomns for species added by the associated groups.
 
