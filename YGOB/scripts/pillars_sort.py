@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-f=open("Pillars.txt")
+f=open("../Additional_files/Pillars.txt")
 pillars=f.readlines()
 f.close()
 
