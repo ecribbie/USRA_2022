@@ -31,8 +31,8 @@ for i in range(1,10):
 	dict[int(i+1)]['genes'][:]= (gene for gene in dict[int(i+1)]['genes'] if gene != "---")
 
 
-badgene=[]
-bad=[]
+bad_genes=[]
+bad_families=[]
 for family in dict:
 
 	for gene in dict[family]['genes']:
@@ -40,10 +40,9 @@ for family in dict:
 		if gene in AA_genes:
 			None
 		else:
-			badgene.append(gene)
-			bad.append(family)
+			bad_genes.append(gene)
+			bad_families.append(family)
 
 
-
-
-print(len(AA_genes))
+print(bad_families)
+print(bad_genes)
