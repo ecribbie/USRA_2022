@@ -1,17 +1,31 @@
-#!/usr/bin/python
+#!/usr/bin/python import re
+
 import re
 
 f=open("../Additional_files/Pillars.txt")
 pillars=f.readlines()
 f.close()
 
-f=open("../Additional_files/NT.txt")
-NT=f.readlines()
+
+import urllib.request
+
+f=urllib.request.urlopen('http://ygob.ucd.ie/ygob/data/v7-Aug2012/AA.fsa')
+#AA=f.read()
+#f=open("../Additional_files/AA.txt")
+AA=f.readlines()
 f.close()
 
+print(AA[0].decode("utf-8"))
+print(AA[1].decode("utf-8"))
+
+AA_genes=[x.decode("utf-8").split(" ")[0].removeprefix(">") for x in AA if x.decode("utf-8").startswith(">")]
+
+
+
 dict={}
+
 # len(pillars)
-for i in range(10):
+for i in range(1,10):
 	dict[int(i+1)]={}
 	dict[int(i+1)]['genes']=repr(pillars[i]).removesuffix("\\n'").removeprefix("'").split('\\t')
 	dict[int(i+1)]['genes'][:]= (gene for gene in dict[int(i+1)]['genes'] if gene != "---")
@@ -20,18 +34,16 @@ for i in range(10):
 badgene=[]
 bad=[]
 for family in dict:
-	count=0
+
 	for gene in dict[family]['genes']:
-		for line in NT:
-			if re.search(''.join([">",gene]),line):
-				count=count+1
-			if count !=0:
-				break
-		if count==0:
+
+		if gene in AA_genes:
+			None
+		else:
 			badgene.append(gene)
 			bad.append(family)
-			break
-	
-print(bad)
-		
-print(badgene)
+
+
+
+
+print(len(AA_genes))
