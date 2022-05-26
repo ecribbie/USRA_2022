@@ -5,8 +5,8 @@ f=open("../Additional_files/Pillars.txt")
 pillars=f.readlines()
 f.close()
 
-f=open("../Additional_files/AA.txt")
-AA=f.readlines()
+f=open("../Additional_files/NT.txt")
+NT=f.readlines()
 f.close()
 
 dict={}
@@ -22,7 +22,7 @@ bad=[]
 for family in dict:
 	count=0
 	for gene in dict[family]['genes']:
-		for line in AA:
+		for line in NT:
 			if re.search(''.join([">",gene]),line):
 				count=count+1
 			if count !=0:
