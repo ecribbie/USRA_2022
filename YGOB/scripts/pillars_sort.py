@@ -5,24 +5,33 @@ f=open("../Additional_files/Pillars.txt")
 pillars=f.readlines()
 f.close()
 
-f.open("../Additional_files/AA.txt")
+f=open("../Additional_files/AA.txt")
 AA=f.readlines()
 f.close()
 
 dict={}
-
-for i in range(len(pillars)):
+# len(pillars)
+for i in range(10):
 	dict[int(i+1)]={}
 	dict[int(i+1)]['genes']=repr(pillars[i]).removesuffix("\\n'").removeprefix("'").split('\\t')
+	dict[int(i+1)]['genes'][:]= (gene for gene in dict[int(i+1)]['genes'] if gene != "---")
 
+
+badgene=[]
 bad=[]
-for familiy in dict:
+for family in dict:
 	count=0
 	for gene in dict[family]['genes']:
-		if not re.search(''.join(">",gene),AA):
-			count=count+1
-	if count !=0:
-		bad.append(family)
+		for line in AA:
+			if re.search(''.join([">",gene]),line):
+				count=count+1
+			if count !=0:
+				break
+		if count==0:
+			badgene.append(gene)
+			bad.append(family)
+			break
+	
 print(bad)
 		
-
+print(badgene)
