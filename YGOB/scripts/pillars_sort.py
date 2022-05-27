@@ -60,11 +60,22 @@ for family in dict:
 			None
 		else:
 			bad_genes.append(gene)
-			bad_families.append(family)
+			if family not in bad_families:
+				bad_families.append(family)
 
 stop_loop=timeit.default_timer()
 
 print("Time:",stop_loop-start_file)
-print(bad_families)
-print(bad_genes)
+
+
+
+f=open("pillars_sort_output.txt",'w')
+f.write("The list of pillars with genes not in AA are: [")
+f.write(' '.join([str(int) for int in bad_families]))
+f.write("]\n")
+f.write("\nThe bad genes are: : [")
+f.write(' '.join(bad_genes))
+f.write("]\n")
+f.close()
+
 
