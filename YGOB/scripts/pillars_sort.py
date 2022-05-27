@@ -6,7 +6,7 @@ import urllib.request
 
 
 
-start=timeit.default_timer()
+start_file=timeit.default_timer()
 
 
 
@@ -32,18 +32,18 @@ AA_genes=[x.decode("utf-8").split(" ")[0].removeprefix(">") for x in AA if x.dec
 
 dict={}
 
-for i in range(10):
+for i in range(len(pillars)):
 	dict[int(i+1)]={}
 	dict[int(i+1)]['genes']=repr(pillars[i]).removesuffix("\\n'").removeprefix("'").split('\\t')
 	dict[int(i+1)]['genes'][:]= (gene for gene in dict[int(i+1)]['genes'] if gene != "---")
 
 
-stop=timeit.default_timer()
+stop_file=timeit.default_timer()
 
 
 
 
-print("Time:",stop-start)
+print("Time:",stop_file-start_file)
 
 
 
@@ -62,7 +62,9 @@ for family in dict:
 			bad_genes.append(gene)
 			bad_families.append(family)
 
+stop_loop=timeit.default_timer()
 
+print("Time:",stop_loop-start_file)
 print(bad_families)
 print(bad_genes)
 
