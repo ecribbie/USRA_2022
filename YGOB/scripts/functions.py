@@ -79,5 +79,13 @@ def pillar_filter(pillarurl,AAurl):
     return(dict)
 
 
-
+def family_lengths(families):
+    lengths=[]
+    dist=[0]*20
+    for i in families:
+        lengths.append(len(families[i]['genes']))
+    for i in range(1,21):
+        dist[i-1]=lengths.count(i)
+        
+    return(dist)
 
