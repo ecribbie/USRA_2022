@@ -1,5 +1,8 @@
 #!/usr/bin/python
 
+import math
+
+
 def readurl(url):
     import urllib.request as ur
     f=ur.urlopen(url)
@@ -48,6 +51,7 @@ def import_ancestor(url):
 
 
 def pillar_filter(pillarurl,AAurl):
+       
     import re
     
     pillars=readurl(pillarurl)
@@ -79,12 +83,12 @@ def pillar_filter(pillarurl,AAurl):
     return(dict)
 
 
-def family_lengths(families):
+def family_lengths(families,max_size_of_family=20):
     lengths=[]
-    dist=[0]*20
+    dist=[0]*max_size_of_family
     for i in families:
         lengths.append(len(families[i]['genes']))
-    for i in range(1,21):
+    for i in range(1,max_size_of_family+1):
         dist[i-1]=lengths.count(i)
         
     return(dist)
@@ -122,12 +126,37 @@ def species_pairs(speciea,specieb,pillars):
     for family in pillars:
         counta=0
         countb=0
+        countdup=0
         for gene in pillars[family]['genes']:
             if gene in speciea:
                 counta=counta+1
             elif gene in specieb:
                 countb=countb+1
-        pairs=pairs+min(counta,countb)
-    return(pairs)
+            if gene in speciea and gene in specieb:
+                countdup=countdup+0.5
             
+        pairs=pairs+min(counta,countb)
+        if math.floor(countdup)>0.5:
+            pairs=pairs+1
+    return(pairs)
+    
+    
+    
+def match_matrix(species,names,pillars):
+    dat={}
+    for i in range(len(species)):
+        matches=[species_pairs(x,species[i],pillars) for x in species]
+        dat[names[i]]=matches
+    return(dat)
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
         
