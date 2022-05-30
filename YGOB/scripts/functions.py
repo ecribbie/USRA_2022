@@ -18,11 +18,11 @@ def import_species(url):
     species={}
     for i in range(len(raw)):
       x=repr(raw[i].decode("utf-8")).split('\\t')
-      species[x[0]]={}
-      species[x[0]]['dir']=x[1]
-      species[x[0]]['start']=x[2]
-      species[x[0]]['end']=x[3]
-      species[x[0]]['seq']=x[5]
+      species[x[0].removeprefix("'")]={}
+      species[x[0].removeprefix("'")]['dir']=x[1]
+      species[x[0].removeprefix("'")]['start']=x[2]
+      species[x[0].removeprefix("'")]['end']=x[3]
+      species[x[0].removeprefix("'")]['seq']=x[5]
     return species
 
 
@@ -38,9 +38,9 @@ def import_ancestor(url):
     species={}
     for i in range(len(raw)):
       x=repr(raw[i].decode("utf-8")).split('\\t')
-      species[x[0]]={}
-      species[x[0]]['dir']=x[1]
-      species[x[0]]['seq']=x[3]
+      species[x[0].removeprefix("'")]={}
+      species[x[0].removeprefix("'")]['dir']=x[1]
+      species[x[0].removeprefix("'")]['seq']=x[3]
     return species
 
 
@@ -89,3 +89,45 @@ def family_lengths(families):
         
     return(dist)
 
+
+def species_fragmentation(species):
+    fragmentation=[0]*len(species)
+    i=0
+    for specie in species:
+        unique=[]
+        for gene in specie:
+            if specie[gene]['seq'] not in unique:
+                unique.append(specie[gene]['seq'])
+        fragmentation[i]=len(unique)
+        i=i+1
+    return(fragmentation)
+
+def species_associations(species,pillars):
+    pillars = {key: pillars[key]  for key in pillars.keys() if len(pillars[key]['genes'])>1}
+    associations=[0]*len(species)
+    i=0
+    for specie in species:
+        links=[]
+        for gene in specie:
+            for family in pillars:
+                if gene in pillars[family]['genes'] and family not in links:
+                    links.append(family)
+        associations[i]=len(links)
+        i=i+1
+    return(associations)
+
+
+def species_pairs(speciea,specieb,pillars):
+    pairs=0
+    for family in pillars:
+        counta=0
+        countb=0
+        for gene in pillars[family]['genes']:
+            if gene in speciea:
+                counta=counta+1
+            elif gene in specieb:
+                countb=countb+1
+        pairs=pairs+min(counta,countb)
+    return(pairs)
+            
+        
