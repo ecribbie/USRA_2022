@@ -3,6 +3,7 @@
 import math
 
 
+
 #The readurl function takes in a url to a .txt or .tab file and reads in the contents of the file into a list where each element is a line of the text stored as a string.
 def readurl(url):
     import urllib.request as ur
@@ -12,6 +13,7 @@ def readurl(url):
     f.close()
     
     return(file)
+
 
 
 #The import_species function takes in the output of the readurl file of a .tab file of a species genome. The format for that file is as described in link:ygob.ucd.ie > genome sequences > README > section (2). This function outputs a dictionary of the species genes each of which is a dictionary containing the direction (dir) (Crick strand=0, Watson strand=1) and the start and end coordinates (start) (end) of the gene.
@@ -31,6 +33,7 @@ def import_species(url):
     return species
 
 
+
 #The import_ancestor file does the same as above function import_species but for the Ancestor species as it has a different file format, also described in link:ygob.ucd.ie > genome sequences > README > section (2).
 def import_ancestor(url):    
     raw=readurl(url)
@@ -44,7 +47,6 @@ def import_ancestor(url):
       species[x[0].removeprefix("'")]['seq']=x[3]
     
     return species
-
 
 
 
@@ -84,6 +86,7 @@ def pillar_filter(pillarurl,AAurl):
     return(dict)
 
 
+
 #The family_lengths function takes in a dictionary of families, output of above pillar_filter function aswell as an optional maximum size the family can be. The default is 20. It outputs a list of the number of families with each length from 1 to the maximum. Example: [3,0,4,1] would imply there where 8 families and 3 had one gene, 4 had 3 genes and 1 had 4 genes (this would assume a max input of 4, or else the list would have 16 additional zeros at the end).
 def family_lengths(families,max_size_of_family=20):
     
@@ -96,6 +99,8 @@ def family_lengths(families,max_size_of_family=20):
         dist[i-1]=lengths.count(i)
         
     return(dist)
+
+
 
 #The species_fragmentation function takes in a list of species dictionaries, a list of outputs from import_species function (several different runs for different species saved into a list), and returns a list of the the number of distinct fragments for each specie.
 def species_fragmentation(species):
@@ -112,6 +117,7 @@ def species_fragmentation(species):
         i=i+1
         
     return(fragmentation)
+
 
 
 # The species_associations function takes in a list of dictionaries of species (list of different outputs from import_species) as well as a dictionary of families (output of pillars_filter function). It outputs a list where each entry is the number of families that contain at least one gene of the associated species.
@@ -132,6 +138,7 @@ def species_associations(species,pillars):
         i=i+1
     
     return(associations)
+
 
 
 # The species_pairs function takes in two specie dictionaries (output of import_species function) as well as a family dictionary (output of pillars-filter function). It outputs the number of families with a gene from each species, if there are two copies from each then that is counted as 2 families and same for 3 and so on, if there is only 1 gene from one specie and 2 from the other in the family this only counts as one pair. If the same specie is inputed in both arguments then the output is the number of families with more than one gene from the specie.
@@ -161,6 +168,7 @@ def species_pairs(speciea,specieb,pillars):
     
     return(pairs)
     
+
     
 # The match_matrix function takes in a list of specie dictionaries as well as the list of the specie names. The output is a dictionary of specie names with a list associated that is the number of pairs with each specie in the inputed list, incluing itself, calculated as in species_pairs function.   
 def match_matrix(species,names,pillars):
@@ -172,15 +180,17 @@ def match_matrix(species,names,pillars):
         dat[names[i]]=matches
         
     return(dat)
+
+
+
+#The group_pairs function takes in a list of species dictionaries (output from import_species) and a family dictionry (output of pillar_filter). It returns the total number of matches of genes that would be found in a same reconcilled family for all the given species.
+def group_pairs(group,pillars):
     
+    total=0
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-        
+    for i in range(len(group)):
+        for j in range(i+1,len(group)):            
+            total=total+species_pairs(group[i],group[j],pillars)
+            
+    return(total)
+
