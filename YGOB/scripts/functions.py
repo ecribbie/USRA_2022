@@ -1,6 +1,8 @@
 #!/usr/bin/python
 
 import math
+from copy import deepcopy
+import re
 
 
 
@@ -16,14 +18,17 @@ def readurl(url):
 
 
 
-#The import_species function takes in the output of the readurl file of a .tab file of a species genome. The format for that file is as described in link:ygob.ucd.ie > genome sequences > README > section (2). This function outputs a dictionary of the species genes each of which is a dictionary containing the direction (dir) (Crick strand=0, Watson strand=1) and the start and end coordinates (start) (end) of the gene.
-def import_species(url):
+#The import_species function takes in the url of a file of a species genome as well as the species' name. The format for that file is as described in link:ygob.ucd.ie > genome sequences > README > section (2). This function outputs a dictionary of the species genes each of which is a dictionary containing the direction (dir) (Crick strand=0, Watson strand=1) and the start and end coordinates (start) (end) of the gene.
+def import_species(url,name):
     raw=readurl(url)
    
     species={}
+    species['name']=name
     
     for i in range(len(raw)):
       x=repr(raw[i].decode("utf-8")).split('\\t')
+      if x[0].startswith('\"'): 
+            x[0]=x[0].removeprefix('\"')
       species[x[0].removeprefix("'")]={}
       species[x[0].removeprefix("'")]['dir']=x[1]
       species[x[0].removeprefix("'")]['start']=x[2]
@@ -111,6 +116,8 @@ def species_fragmentation(species):
     for specie in species:
         unique=[]
         for gene in specie:
+            if gene=='name':
+                continue
             if specie[gene]['seq'] not in unique:
                 unique.append(specie[gene]['seq'])
         fragmentation[i]=len(unique)
@@ -131,6 +138,8 @@ def species_associations(species,pillars):
     for specie in species:
         links=[]
         for gene in specie:
+            if gene=='name':
+                continue
             for family in pillars:
                 if gene in pillars[family]['genes'] and family not in links:
                     links.append(family)
@@ -171,13 +180,13 @@ def species_pairs(speciea,specieb,pillars):
 
     
 # The match_matrix function takes in a list of specie dictionaries as well as the list of the specie names. The output is a dictionary of specie names with a list associated that is the number of pairs with each specie in the inputed list, incluing itself, calculated as in species_pairs function.   
-def match_matrix(species,names,pillars):
+def match_matrix(species,pillars):
     
     dat={}
     
     for i in range(len(species)):
         matches=[species_pairs(x,species[i],pillars) for x in species]
-        dat[names[i]]=matches
+        dat[species[i]['name']]=matches
         
     return(dat)
 
@@ -194,3 +203,43 @@ def group_pairs(group,pillars):
             
     return(total)
 
+
+
+#The gene_species_mapping function creates a text file where each line is a map from a gene followed by a space and then its specie it came from (GeneRax format). This will get used when reconstructing reconcilled gene trees.
+def gene_species_mapping(species):
+    
+    f=open("gene_species_mapping_output.txt",'w')
+    
+    for specie in species:
+        i=0
+        for gene in specie:
+            if gene=='name':
+                continue
+            f.write(' '.join([gene,specie['name']]))
+            f.write("\n")
+        i=i+1
+    
+    f.close()
+    
+    return("Done")
+    
+    
+
+def pillar_resort(species,pil,minimum=0):
+    pillars=deepcopy(pil)
+    for family in pillars:
+        for gene in pillars[family]['genes']:
+            count=0
+            for specie in species:
+                if gene in specie:
+                    count=count+1
+            if count==0 and not re.search("Anc_",gene):
+                pillars[family]['genes'].remove(gene)
+    pillars = {key: pillars[key]  for key in pillars.keys() if len(pillars[key]['genes'])>=minimum}
+    return(pillars)
+    
+    
+    
+    
+    
+    
