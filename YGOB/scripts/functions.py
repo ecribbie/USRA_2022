@@ -225,7 +225,7 @@ def gene_species_mapping(species):
     
     
 
-def pillar_resort(species,pil,minimum=0):
+def pillar_resort(species,pil,minimum=1):
     pillars=deepcopy(pil)
     for family in pillars:
         for gene in pillars[family]['genes']:
@@ -233,7 +233,7 @@ def pillar_resort(species,pil,minimum=0):
             for specie in species:
                 if gene in specie:
                     count=count+1
-            if count==0 and not re.search("Anc_",gene):
+            if count==0: #and not re.search("Anc_",gene)
                 pillars[family]['genes'].remove(gene)
     pillars = {key: pillars[key]  for key in pillars.keys() if len(pillars[key]['genes'])>=minimum}
     return(pillars)
