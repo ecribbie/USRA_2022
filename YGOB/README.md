@@ -26,11 +26,14 @@ The Anc_tab_to_dictionary.py script currently takes the Anc genome tab file as d
     - Can be used to extract adjacencies that will be required for SPP_DCJ
 
 
+## Running Software
 
-## Issues to resolve
-  - [ ] How to get amino acid coding for each gene directly
-  - [ ] Keep only pillars for which we have amino acid coding for each gene in pillar
-  - [ ] Keep track of how many pillars are removed and distribution of their sizes
+  - MUSCLE: after loading muscle module run with syntax muscle -in input_file -out ouput_file see [MUSCLE](http://drive5.com/muscle/)
+  - MACSE: after loading java module run with syntax as java -jar <path to software directory> -prog alignSequences -seq input -out_NT output1 -out_AA output2 see [MACSE](https://bioweb.supagro.inra.fr/macse/)
+  - IQ-TREE:
+  - TREERECS:
+  - GENERAX: use mpiexec as call to and for info/help in CL run mpiexec -h see [this page](https://github.com/BenoitMorel/GeneRax/wiki/GeneRax) for more info
+
 
 
 
