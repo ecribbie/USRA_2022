@@ -32,7 +32,7 @@ The Anc_tab_to_dictionary.py script currently takes the Anc genome tab file as d
   - MACSE: after loading java module run with syntax as java -jar <path to software directory> -prog alignSequences -seq input -out_NT output1 -out_AA output2 see [MACSE](https://bioweb.supagro.inra.fr/macse/)
   - IQ-TREE:
   - TREERECS:
-  - GENERAX: use mpiexec as call to and for info/help in CL run mpiexec -h see [this page](https://github.com/BenoitMorel/GeneRax/wiki/GeneRax) for more info
+  - GENERAX: use mpiexec as call to and for info/help in CL run mpiexec -h see [GENERAX](https://github.com/BenoitMorel/GeneRax/wiki/GeneRax) for more info
 
 
 
