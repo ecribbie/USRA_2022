@@ -19,14 +19,21 @@ def readurl(url):
 
 
 #The import_species function takes in the url of a file of a species genome as well as the species' name. The format for that file is as described in link:ygob.ucd.ie > genome sequences > README > section (2). This function outputs a dictionary of the species genes each of which is a dictionary containing the direction (dir) (Crick strand=0, Watson strand=1) and the start and end coordinates (start) (end) of the gene.
-def import_species(url,name):
-    raw=readurl(url)
-   
+def import_species(url,name,file=True):
+    if file==False:
+        raw=readurl(url)
+    else:
+        f=open(url)
+        raw=f.readlines()
+        f.close()
     species={}
     species['name']=name
     
     for i in range(len(raw)):
-      x=repr(raw[i].decode("utf-8")).split('\\t')
+      if file==False:
+        x=repr(raw[i].decode("utf-8")).split('\\t')
+      else:
+        x=repr(raw[i]).split('\\t')
       if x[0].startswith('\"'): 
             x[0]=x[0].removeprefix('\"')
       species[x[0].removeprefix("'")]={}
@@ -40,13 +47,21 @@ def import_species(url,name):
 
 
 #The import_ancestor file does the same as above function import_species but for the Ancestor species as it has a different file format, also described in link:ygob.ucd.ie > genome sequences > README > section (2).
-def import_ancestor(url):    
-    raw=readurl(url)
+def import_ancestor(url,file=True):    
+    if file==False:
+        raw=readurl(url)
+    else:
+        f=open(url)
+        raw=f.readlines()
+        f.close()
 
     species={}
     
     for i in range(len(raw)):
-      x=repr(raw[i].decode("utf-8")).split('\\t')
+      if file==False:
+        x=repr(raw[i].decode("utf-8")).split('\\t')
+      else:
+        x=repr(raw[i]).split('\\t')
       species[x[0].removeprefix("'")]={}
       species[x[0].removeprefix("'")]['dir']=x[1]
       species[x[0].removeprefix("'")]['seq']=x[3]
@@ -56,20 +71,35 @@ def import_ancestor(url):
 
 
 #The pillar_filter function takes in a url to a pillar file aswell as the AA or NT file in which it filters out pillars(families) that have genes that do not have their sequence information stored in the second file. The link to the structure of these files can be found in link:ygob.ucd.ie > genome sequences > README. This function clearly ignores ancestor genes (containing Anc_) as they do not have gene sequences. It outputs a dictionary of the families with the genes in each (genes).
-def pillar_filter(pillarurl,AAurl):
+def pillar_filter(pillarurl,AAurl,file=True):
        
     import re
+    if file==False:
+        pillars=readurl(pillarurl)
+        AA=readurl(AAurl)
+    else:
+        f=open(pillarurl)
+        pillars=f.readlines()
+        f.close()
+        f=open(AAurl)
+        AA=f.readlines()
+        f.close()
     
-    pillars=readurl(pillarurl)
-    AA=readurl(AAurl)
+    
 
-    AA_genes=[x.decode("utf-8").split(" ")[0].removeprefix(">") for x in AA if x.decode("utf-8").startswith(">")]
+    if file==False:
+        AA_genes=[x.decode("utf-8").split(" ")[0].removeprefix(">") for x in AA if x.decode("utf-8").startswith(">")]
+    else:
+        AA_genes=[x.split(" ")[0].removeprefix(">") for x in AA if x.startswith(">")]
 
     dict={}
 
     for i in range(len(pillars)):
         dict[int(i+1)]={}
-        dict[int(i+1)]['genes']=repr(pillars[i].decode("utf-8")).removesuffix("\\n'").removeprefix("'").split('\\t')
+        if file==False:
+            dict[int(i+1)]['genes']=repr(pillars[i].decode("utf-8")).removesuffix("\\n'").removeprefix("'").split('\\t')
+        else:
+            dict[int(i+1)]['genes']=repr(pillars[i]).removesuffix("\\n'").removeprefix("'").split('\\t')
         dict[int(i+1)]['genes'][:]= (gene for gene in dict[int(i+1)]['genes'] if gene != "---")
 
     bad_genes=[];   bad_families=[];   good_families=[]
