@@ -94,19 +94,12 @@ def pillar_filter(pillar,AA):
         dict[int(i+1)]['genes']=repr(pillars[i]).removesuffix("\\n'").removeprefix("'").split('\\t')
         dict[int(i+1)]['genes'][:]= (gene for gene in dict[int(i+1)]['genes'] if gene != "---")
 
-    bad_genes=[];   bad_families=[];   good_families=[]
+    bad_families=[];
     
     for family in dict:
         for gene in dict[family]['genes']:
-            if gene in AA_genes:
-                None
-            elif re.search("Anc_",gene):
-                None
-            else:
-                bad_genes.append(gene)
-                if family not in bad_families:
-                    bad_families.append(family)
-    
+            if gene not in AA_genes and not re.search("Anc_",gene) and family not in bad_families:
+                bad_families.append(family)
     for key in bad_families:
         del dict[key]
     
@@ -248,17 +241,28 @@ def gene_species_mapping(species):
     
 
 def pillar_resort(species,pil,minimum=1):
-    pillars=deepcopy(pil)
+
     pillars_keep=deepcopy(pil)
-    for family in pillars:
-        for gene in pillars[family]['genes']:
+
+    for family in pil:
+
+        for gene in pil[family]['genes']:
+
             count=0
+
             for specie in species:
+
                 if gene in specie:
+
                     count=count+1
+		    break
+
             if count==0:
+
                 pillars_keep[family]['genes'].remove(gene)
+
     pillars_left = {key: pillars_keep[key]  for key in pillars_keep.keys() if len(pillars_keep[key]['genes'])>=minimum}
+
     return(pillars_left)
     
     
