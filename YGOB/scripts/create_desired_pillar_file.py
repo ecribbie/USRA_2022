@@ -21,20 +21,15 @@ for line in mapping:
 		species[line.split(" ")[1]]=[line.split(" ")[0]]
 
 
-print("time to filter and sort",flush=True)
-
 pillars=f.pillar_filter(pil_f,AA_genes_f)
 
 families=f.pillar_resort(species,pillars,3)
 
 
-print("time to write",flush=True)
-
 g=open('desired_pillar.txt','w')
 
-for fam in pillars:
+for fam in families:
     g.write(" ".join(pillars[fam]['genes']))
     g.write("\n")
-    if int(fam)%100==0:
-        print("got to fam",fam,flush=True)
+    
 g.close()

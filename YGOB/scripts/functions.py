@@ -247,18 +247,15 @@ def pillar_resort(species,pil,minimum=1):
     for family in pil:
 
         for gene in pil[family]['genes']:
-
             count=0
 
             for specie in species:
 
                 if gene in specie:
-
                     count=count+1
-		    break
+                    break
 
             if count==0:
-
                 pillars_keep[family]['genes'].remove(gene)
 
     pillars_left = {key: pillars_keep[key]  for key in pillars_keep.keys() if len(pillars_keep[key]['genes'])>=minimum}
