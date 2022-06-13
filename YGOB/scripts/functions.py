@@ -84,7 +84,7 @@ def pillar_filter(pillar,AA):
     
     for i in range(len(AA_genes)):
         AA_genes[i]=AA_genes[i].removesuffix("\n")
-    print(AA_genes[:20])
+   
     
 
     dict={}
