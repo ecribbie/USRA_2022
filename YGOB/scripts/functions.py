@@ -83,7 +83,7 @@ def pillar_filter(pillar,AA):
     f.close()
     
     for i in range(len(AA_genes)):
-        AA_genes[i]=AA_genes[i].removesuffix("\n")
+        AA_genes[i]=AA_genes[i].split(" ")[0].removeprefix(">").removesuffix("\n")
    
     
 

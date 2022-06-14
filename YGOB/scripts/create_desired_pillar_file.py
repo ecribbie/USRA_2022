@@ -1,5 +1,6 @@
 import sys
 import functions as f
+from copy import deepcopy
 
 species={}
 
@@ -16,16 +17,38 @@ f_open.close()
 
 for line in mapping:
 	if line.split(" ")[1] in species:
-		species[line.split(" ")[1]].append(line.split(" ")[0])
+		species[line.split(" ")[1].removesuffix("\n")].append(line.split(" ")[0])
 	else:
-		species[line.split(" ")[1]]=[line.split(" ")[0]]
-
+		species[line.split(" ")[1].removesuffix("\n")]=[line.split(" ")[0]]
 
 pillars=f.pillar_filter(pil_f,AA_genes_f)
 
-print("there are pillars \#",len(pillars),flush=True)
 
-families=f.pillar_resort(species,pillars,3)
+
+
+
+
+pillars_keep=deepcopy(pillars)
+    
+for family in pillars:
+	for gene in pillars[family]['genes']:
+      		count=0
+       		for specie in species:
+               		if gene in species[specie]:
+               			count=count+1
+      				break
+       		if count==0:
+              		pillars_keep[family]['genes'].remove(gene)
+
+families= {key: pillars_keep[key]  for key in pillars_keep.keys() if len(pillars_keep[key]['genes'])>=3}
+
+
+
+
+
+
+
+
 
 print("length of families is:",len(families),flush=True)
 
