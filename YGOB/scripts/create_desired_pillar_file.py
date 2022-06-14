@@ -23,8 +23,11 @@ for line in mapping:
 
 pillars=f.pillar_filter(pil_f,AA_genes_f)
 
+print("there are pillars \#",len(pillars),flush=True)
+
 families=f.pillar_resort(species,pillars,3)
 
+print("length of families is:",len(families),flush=True)
 
 g=open('desired_pillar.txt','w')
 
