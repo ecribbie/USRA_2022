@@ -24,6 +24,7 @@ In order to work with the large AA.fsa and NT.fsa files without the sequences an
 This was done with:
 
 grep ">" AA.fsa > AA_genes.txt
+
 grep ">" NT.fsa > NT_genes.txt
 
 
