@@ -9,7 +9,24 @@ This directory is organized in several subdirectories:
 - `EXP` contains the results of the expertiments ran using the YGOB data.
 
 
+## YGOB Data
+
+The data that is being used from the YGOB site is as follows:
+  - Species genome tab files for each specie, these were copie pasted from the YGOB site May 2022
+  - Pillars tab file, copie pasted from the YGOB site May 2022
+  - AA.fsa and NT.fsa file not found in this repository due to size but was read in using the run_get_ygob_fasta_file.sh script in May 2022
+
+
+In order to work with the large AA.fsa and NT.fsa files without the sequences an AA_genes.txt and NT_genes.txt file was created which contains the genes and their information without their sequences. This was done with:
+
+
+
+
+
 ## TO REORGANIZE FROM HERE
+
+
+
 
 
 ## Information on files
