@@ -33,12 +33,12 @@ pillars_keep=deepcopy(pillars)
 for family in pillars:
 	for gene in pillars[family]['genes']:
       		count=0
-       		for specie in species:
-               		if gene in species[specie]:
-               			count=count+1
-      				break
-       		if count==0:
-              		pillars_keep[family]['genes'].remove(gene)
+                for specie in species:
+			if gene in species[specie]:
+				count=count+1
+				break
+			if count==0:
+			pillars_keep[family]['genes'].remove(gene)
 
 families= {key: pillars_keep[key]  for key in pillars_keep.keys() if len(pillars_keep[key]['genes'])>=3}
 
