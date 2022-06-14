@@ -20,10 +20,9 @@ An explanation of the files can be found in the <a href="http://ygob.ucd.ie/ygob
 
 
 In order to work with the large AA.fsa and NT.fsa files without the sequences an AA_genes.txt and NT_genes.txt file was created which contains the genes and their information without their sequences. 
+
 This was done with:
-
 grep ">" AA.fsa > AA_genes.txt
-
 grep ">" NT.fsa > NT_genes.txt
 
 
