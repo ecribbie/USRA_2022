@@ -1,5 +1,17 @@
 # Yeast Gene Order Browser
 
+This directory contains the data, scripts and results obtained on
+yeasts data obtained from the <a href="ygob.ucd.ie/ygob/">YGOB data
+repository</a>.
+
+This directory is organized in several subdirectories:
+- `DATA` contains everything related to downloading and preprocessing the data from YGOB.
+- `EXP` contains the results of the expertiments ran using the YGOB data.
+
+
+
+## TO REORGANIZE FROM HERE
+
 ## Overview
 
 Link to [YGOB website](ygob.ucd.ie/ygob/)
