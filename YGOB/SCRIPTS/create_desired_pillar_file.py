@@ -24,12 +24,8 @@ for line in mapping:
 pillars=f.pillar_filter(pil_f,AA_genes_f)
 
 
-
-
-
-
 pillars_keep=deepcopy(pillars)
-    
+
 for family in pillars:
 	for gene in pillars[family]['genes']:
 		count=0
@@ -37,25 +33,21 @@ for family in pillars:
 			if gene in species[specie]:
 				count=count+1
 				break
-			if count==0:
+		if count==0:
 			pillars_keep[family]['genes'].remove(gene)
 
 families= {key: pillars_keep[key]  for key in pillars_keep.keys() if len(pillars_keep[key]['genes'])>=3}
 
 
 
+print("length of families is:",len(families))
 
 
 
-
-
-
-print("length of families is:",len(families),flush=True)
-
-g=open('desired_pillar.txt','w')
+g=open('../DATA/desired_pillar.txt','w')
 
 for fam in families:
 	g.write(" ".join(pillars[fam]['genes']))
 	g.write("\n")
-    
+
 g.close()
