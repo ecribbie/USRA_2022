@@ -16,30 +16,26 @@ The data that is being used from the YGOB site is as follows:
   - Pillars tab file, copie pasted from the YGOB site May 2022
   - AA.fsa and NT.fsa file not found in this repository due to size but was read in using the run_get_ygob_fasta_file.sh script in May 2022
 
+An explanation of the files can be found in the <a href="http://ygob.ucd.ie/ygob/data/v7-Aug2012/README">YGOB README file</a>.
+
 
 In order to work with the large AA.fsa and NT.fsa files without the sequences an AA_genes.txt and NT_genes.txt file was created which contains the genes and their information without their sequences. This was done with:
+grep ">" AA.fsa > AA_genes.txt
+grep ">" NT.fsa > NT_genes.txt
 
 
+## Functions
 
+Several functions that are used in various scripts as well as the Exploration Notebook were written in a functions.py file in order to easily access them and avoid rewriting the same code over and over again.
 
+## Initial Exploration
 
-## TO REORGANIZE FROM HERE
+In order to better understand the data at hand and in order to select a subset of species and pillars that better fit our goal a Jupyter Notebook data_exploration.ipynb was created. 
 
-
-
-
-
-## Information on files
-
-  - *Pillars.tab file:*
-    - Each row/pillar is a family
-    - Families not yet reconcilled (may have two copies of same gene)
-  - *Genome.tab files:*
-    - Relevant columns: Gene name, direction, start/end coordinates
-    - Can be used to extract adjacencies that will be required for SPP_DCJ
-
+This Notebook explains the steps taken and and selections made. 
 
 ## Running Software
+The following software will be used in our experiments. After dowloading/installing the software they can be used as follows on the Cedar Compute Canada cluster, on other platforms calls to the packages and use may vary.
 
   - MUSCLE: after loading muscle module run with syntax muscle -in input_file -out ouput_file see [MUSCLE](http://drive5.com/muscle/)
   - MACSE: load java module and run with syntax java -jar (software directory path) -prog alignSequences -seq input -out_NT output1 -out_AA output2 see [MACSE](https://bioweb.supagro.inra.fr/macse/)
