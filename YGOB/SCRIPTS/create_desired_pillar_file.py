@@ -32,8 +32,8 @@ pillars_keep=deepcopy(pillars)
     
 for family in pillars:
 	for gene in pillars[family]['genes']:
-      		count=0
-                for specie in species:
+		count=0
+		for specie in species:
 			if gene in species[specie]:
 				count=count+1
 				break
@@ -55,7 +55,7 @@ print("length of families is:",len(families),flush=True)
 g=open('desired_pillar.txt','w')
 
 for fam in families:
-    g.write(" ".join(pillars[fam]['genes']))
-    g.write("\n")
+	g.write(" ".join(pillars[fam]['genes']))
+	g.write("\n")
     
 g.close()
