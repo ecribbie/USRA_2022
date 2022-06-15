@@ -23,9 +23,9 @@ In order to work with the large AA.fsa and NT.fsa files without the sequences an
 
 This was done with:
 
-grep ">" AA.fsa > AA_genes.txt
+`grep ">" AA.fsa > AA_genes.txt`
 
-grep ">" NT.fsa > NT_genes.txt
+`grep ">" NT.fsa > NT_genes.txt`
 
 
 ## Functions
@@ -34,7 +34,7 @@ Several functions that are used in various scripts as well as the Exploration No
 
 ## Initial Exploration
 
-In order to better understand the data at hand and in order to select a subset of species and pillars that better fit our goal a Jupyter Notebook data_exploration.ipynb was created. 
+In order to better understand the data at hand and in order to select a subset of species and pillars that better fit our goal a Jupyter Notebook `data_exploration.ipynb` was created. 
 
 This Notebook explains the steps taken and and selections made. 
 
@@ -42,9 +42,9 @@ This Notebook explains the steps taken and and selections made.
 
 The first step was to create a file with the gene mappings, this is a file where each line contains a gene followed by a space and then its specie. This was in fact done in the data exploration using a function from the functions file.
 
-The second step was to create a file containing the desired pillars, in this case this meant removing genes that were not part of selected species as well as removing pillars with less than 3 genes in it. This was done with run_get_desired_pillars.sh
+The second step was to create a file `desired_pillar.txt` containing the desired pillars, in this case this meant removing genes that were not part of selected species as well as removing pillars with less than 3 genes in it. This was done with `run_get_desired_pillars.sh`
 
-Finally two folders were created PILLARS_AA_FILES and PILLARS_NT_FILES in the DATA folder. By running run_AA_get_family_files and run_NT_get_family_files, several fasta files were created into these folders. Each file contained in fasta format the genes for a specific pillar in our desired pillars file including either their amino-acid or nucleotide sequences respectively. 
+Finally two folders were created `PILLARS_AA_FILES` and `PILLARS_NT_FILES` in the `DATA` folder. By running `run_AA_get_family_files` and `run_NT_get_family_files`, several fasta files were created into these folders. Each file contained in fasta format the genes for a specific pillar in our `desired_pillar.txt` file including either their amino-acid or nucleotide sequences respectively. 
 
 
 ## Running Software
