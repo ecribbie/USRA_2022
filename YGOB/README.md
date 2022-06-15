@@ -38,6 +38,15 @@ In order to better understand the data at hand and in order to select a subset o
 
 This Notebook explains the steps taken and and selections made. 
 
+## Preparing Files for Software
+
+The first step was to create a file with the gene mappings, this is a file where each line contains a gene followed by a space and then its specie. This was in fact done in the data exploration using a function from the functions file.
+
+The second step was to create a file containing the desired pillars, in this case this meant removing genes that were not part of selected species as well as removing pillars with less than 3 genes in it. This was done with run_get_desired_pillars.sh
+
+Finally two folders were created PILLARS_AA_FILES and PILLARS_NT_FILES in the DATA folder. By running run_AA_get_family_files and run_NT_get_family_files, several fasta files were created into these folders. Each file contained in fasta format the genes for a specific pillar in our desired pillars file including either their amino-acid or nucleotide sequences respectively. 
+
+
 ## Running Software
 The following software will be used in our experiments. After dowloading/installing the software they can be used as follows on the Cedar Compute Canada cluster, on other platforms calls to the packages and use may vary.
 
