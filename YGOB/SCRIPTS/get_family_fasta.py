@@ -24,13 +24,13 @@ for fam in range(0,len(pillars)):
     d2[fam]["total"]=len(genes)
         
 
-print(d1.keys(),flush=True)
-
 for record in  SeqIO.parse(AA,"fasta"):
     gene=record.id.split(" ")[0]
+    if gene not in d1:
+        continue
     pillar=d1[gene]
     if d2[pillar]['read']==0:
-        globals()["".join(["fam",pillar])]=open("".join([filetype,"_",str(pillar),".fsa"]),"w")
+        globals()["".join(["fam",pillar])]=open("".join([file_type,"_",str(pillar),".fsa"]),"w")
     globals()["".join(["fam",pillar])].write(record)
     globals()["".join(["fam",pillar])].write("\n")
     d2[pillar]["read"]+=1
