@@ -30,10 +30,10 @@ for record in  SeqIO.parse(AA,"fasta"):
         continue
     pillar=d1[gene]
     if d2[pillar]['read']==0:
-        globals()["".join(["fam",pillar])]=open("".join([file_type,"_",str(pillar),".fsa"]),"w")
-    globals()["".join(["fam",pillar])].write(record)
-    globals()["".join(["fam",pillar])].write("\n")
+        globals()["".join(["fam",str(pillar)])]=open("".join([file_type,"_",str(pillar),".fsa"]),"w")
+    SeqIO.write(record,globals()["".join(["fam",str(pillar)])],"fasta")
+    globals()["".join(["fam",str(pillar)])].write("\n")
     d2[pillar]["read"]+=1
     if d2[pillar]["read"]==d2[pillar]["total"]:
-        globals()["".join(["fam",pillar])].close()
+        globals()["".join(["fam",str(pillar)])].close()
     
