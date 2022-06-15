@@ -13,18 +13,18 @@ d1={}
 d2={}
 
 
-for fam in range(1,len(pillars)+1):
+for fam in range(0,len(pillars)):
     
     genes=pillars[fam].split(" ")
     
     for gene in genes:
-        d1[gene]=i
-    
-    d2[i]["read"]=0
-    d2[i]["total"]=len(genes)
+        d1[gene]=fam
+    d2[fam]={}
+    d2[fam]["read"]=0
+    d2[fam]["total"]=len(genes)
         
 
-
+print(d1.keys(),flush=True)
 
 for record in  SeqIO.parse(AA,"fasta"):
     gene=record.id.split(" ")[0]

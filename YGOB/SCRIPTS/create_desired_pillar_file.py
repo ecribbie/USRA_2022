@@ -16,7 +16,7 @@ f_open.close()
 
 
 for line in mapping:
-	if line.split(" ")[1] in species:
+	if line.split(" ")[1].removesuffix("\n") in species:
 		species[line.split(" ")[1].removesuffix("\n")].append(line.split(" ")[0])
 	else:
 		species[line.split(" ")[1].removesuffix("\n")]=[line.split(" ")[0]]
