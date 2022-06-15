@@ -45,7 +45,7 @@ The first step was to create a file with the gene mappings, this is a file where
 
 The second step was to create a file `desired_pillar.txt` containing the desired pillars, in this case this meant removing genes that were not part of selected species as well as removing pillars with less than 3 genes in it. This was done with `run_get_desired_pillars.sh`
 
-Finally two folders were created `PILLARS_AA_FILES` and `PILLARS_NT_FILES` in the `DATA` folder. By running `run_AA_get_family_files` and `run_NT_get_family_files`, several fasta files were created into these folders. Each file contained in fasta format the genes for a specific pillar in our `desired_pillar.txt` file including either their amino-acid or nucleotide sequences respectively. 
+Finally two folders were created `PILLARS_AA_FILES` and `PILLARS_NT_FILES` in the `DATA` folder. By running `run_AA_get_family_files` and `run_NT_get_family_files`, several fasta files were created into these folders. Each file contained in fasta format the genes for a specific pillar in our `desired_pillar.txt` file including either their amino-acid or nucleotide sequences respectively. Each folder also contains a list of all the file names `file_names.txt`, done with `ls >> file_names.txt` from each folder 
 
 
 ## Running Software
