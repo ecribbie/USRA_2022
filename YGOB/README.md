@@ -6,6 +6,7 @@ repository</a>.
 
 This directory is organized in several subdirectories:
 - `DATA` contains everything related to downloading and preprocessing the data from YGOB.
+- `SCRIPTS` contains all scripts
 - `EXP` contains the results of the expertiments ran using the YGOB data.
 
 
