@@ -6,7 +6,6 @@
 
 file_AA=$(sed -n "${SLURM_ARRAY_TASK_ID}p" ../DATA/PILLAR_AA_FILES/file_names.txt)
 
-echo $file_AA
 
 muscle -in ../DATA/PILLAR_AA_FILES/${file_AA} -out ../EXP/MUSCLE_AA/${file_AA}
 
