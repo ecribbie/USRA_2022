@@ -49,8 +49,13 @@ Finally two folders were created `PILLARS_AA_FILES` and `PILLARS_NT_FILES` in th
 
 
 ## Running Software
-The following software will be used in our experiments. After dowloading/installing the software they can be used as follows on the Cedar Compute Canada cluster, on other platforms calls to the packages and use may vary.
 
+The First step was to create sequence alignments. This was done with two different softwares in order to later test the methods robustness. For this step [MUSCLE](http://drive5.com/muscle/) and [MACSE](https://bioweb.supagro.inra.fr/macse/) were used. They each were run on all of the `PILLARS_AA_FILES` and `PILLARS_NT_FILES` respectively. This was done with the `run_muscle.sh` and `run_macse.sh` scripts. The result from MUSCLE was a set of files that contained aligned sequences for each gene in a specific family. These files were saved into a precreated folder in `EXP` called `MUCLES_AA`. As for MACSE the result was two similar sets of files with aligned sequences for all genes in a specific family, a group of AA sequence files and a group of NT sequence files. They were also saved into precreated folders in `EXP` called `MACSE_AA` and `MACSE_NT`. The logs for these runs are saved into a folder called `log` in the `SCRIPTS` folder.
+
+
+
+
+#### Software Use Explanation (to be removed later)
   - MUSCLE: after loading muscle module run with syntax muscle -in input_file -out ouput_file see [MUSCLE](http://drive5.com/muscle/)
   - MACSE: load java module and run with syntax java -jar (software directory path) -prog alignSequences -seq input -out_NT output1 -out_AA output2 see [MACSE](https://bioweb.supagro.inra.fr/macse/)
   - IQ-TREE: after loading iq-tree/2.0.7 module run with iqtree, for info run iqtree -h for help file and options or see [IQ-TREE](http://www.iqtree.org/doc/Quickstart#minimal-command-line-examples)
