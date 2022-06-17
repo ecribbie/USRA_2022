@@ -41,7 +41,7 @@ This Notebook explains the steps taken and and selections made.
 
 ## Preparing Files for Software
 
-The first step was to create a file with the gene mappings, this is a file where each line contains a gene followed by a space and then its specie. This was in fact done in the data exploration using a function from the functions file.
+The first step was to create a `gene_species_mapping_output.txt` file in `DATA` with the gene-species mappings, this is a file where each line contains a gene followed by a space and then its specie. This was in fact done in the data exploration using a function from the functions file.
 
 The second step was to create a file `desired_pillar.txt` containing the desired pillars, in this case this meant removing genes that were not part of selected species as well as removing pillars with less than 3 genes in it. This was done with `run_get_desired_pillars.sh`
 
