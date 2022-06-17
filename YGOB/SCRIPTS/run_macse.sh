@@ -1,9 +1,10 @@
 #!/bin/bash
 
-#SBATCH --time=00:20:00
+#SBATCH --time=00:30:00
 #SBATCH --account=def-chauvec
-#SBATCH --array=1-2
+#SBATCH --array=1-5028
 #SBATCH --output=log/macse_%a.log
+#SBATCH --error=log/macse_%a.err
 
 file_NT=$(sed -n "${SLURM_ARRAY_TASK_ID}p" ../DATA/PILLAR_NT_FILES/file_names.txt)
 
