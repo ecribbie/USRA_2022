@@ -8,6 +8,7 @@ g=open(sys.argv[2])
 original=g.readlines()
 g.close
 
+h=open(sys.argv[3],'w')
 
 numbers=[]
 all=[]
@@ -32,6 +33,9 @@ missing=[]
 
 for i in range(len(all)):
 	if all[i] not in numbers:
-		missing.append(i+1)
+		missing.append(all[i])
 
-print(missing)
+for i in missing:
+	h.write(str(i))
+	h.write("\n")
+h.close()
