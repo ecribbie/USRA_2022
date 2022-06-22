@@ -1,4 +1,4 @@
 #!/bin/bash
 
-python macse_log_check.py log/macse_file_names.txt
+python macse_log_check.py log/file_names_macse_3.txt
 
