@@ -14,7 +14,7 @@ f.close()
 w=open(output,'w')
 
 
-path=''.join(alignments_f.split("/")[:-1])
+path='/'.join(alignments_f.split("/")[:-1])
 
 
 w.write("[FAMILIES]\n")
@@ -22,7 +22,7 @@ w.write("[FAMILIES]\n")
 
 for line in alignments:
 	w.write("- " + line.removesuffix(".fsa"))
-	w.write("alignment = " + ''.join([path,line]))
+	w.write("alignment = " + ''.join([path,"/",line]))
 	w.write("mapping = " + mapping + "\n")
 	w.write("subst_model = " + subst + "\n")
 
