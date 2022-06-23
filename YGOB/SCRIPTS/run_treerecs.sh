@@ -4,7 +4,7 @@
 #SBATCH --array=1-2
 #SBATCH --output=log/treerecs_%a.log
 
-file_newick=$(sed -n "${SLURM_ARRAY_TASK_ID}p" ../EXP/MUSCLE_AA/file_names.txt)
+file_newick=$(sed -n "${SLURM_ARRAY_TASK_ID}p" ../EXP/IQTREE/newick_files.txt)
 
 
 
