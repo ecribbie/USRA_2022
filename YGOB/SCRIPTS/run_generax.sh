@@ -34,4 +34,4 @@ echo "$seed"
 echo "$strat"
 echo "$model"
 
-../../../TOOLS/GeneRax/build/bin/generax -f ../DATA/generax_muscle_file.txt -s ../DATA/species_tree.txt -p ../EXP/GENERAX/ --per-family-rates --seed ${seed} --rec-model ${model} --strategy ${strat}
+../../../TOOLS/GeneRax/build/bin/generax -f ../DATA/generax_muscle_family_file.txt -s ../DATA/species_tree.txt -p ../EXP/GENERAX/ --per-family-rates --seed ${seed} --rec-model ${model} --strategy ${strat}
