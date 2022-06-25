@@ -1,0 +1,10 @@
+Ecym_8070 Ecymbalariae
+ADR080W Egossypii
+KAFR0L01370 Kafricana
+KLLA0F04950g Klactis
+KNAG0B02740 Knaganishii
+SAKL0F10582g Lkluyveri
+KLTH0H01936g Lthermotolerans
+YLR214W Scerevisiae
+TDEL0C02270 Tdelbrueckii
+TPHA0A03020 Tphaffii

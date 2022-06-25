@@ -1,0 +1,12 @@
+Ecym_2767 Ecymbalariae
+AFR587C Egossypii
+KAFR0A06130 Kafricana
+KAFR0G03090 Kafricana
+KNAG0B05930 Knaganishii
+KNAG0D04250 Knaganishii
+SAKL0H03916g Lkluyveri
+NCAS0A02350 Ncastallii
+NCAS0J01290 Ncastallii
+NDAI0J02050 Ndairenensis
+YGR071C Scerevisiae
+YLR373C Scerevisiae

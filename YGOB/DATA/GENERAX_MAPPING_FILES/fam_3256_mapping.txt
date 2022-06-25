@@ -1,0 +1,9 @@
+KAFR0F00580 Kafricana
+KNAG0F01550 Knaganishii
+NCAS0B07140 Ncastallii
+NCAS0G02180 Ncastallii
+NDAI0K01170 Ndairenensis
+YNL145W Scerevisiae
+TDEL0B04780 Tdelbrueckii
+TPHA0I01280 Tphaffii
+Zrou_YGOB_MFA1 Zrouxii

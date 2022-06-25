@@ -1,0 +1,12 @@
+Ecym_2635 Ecymbalariae
+ACR276C Egossypii
+KAFR0D01260 Kafricana
+KLLA0F07755g Klactis
+KNAG0L00560 Knaganishii
+SAKL0B09746g Lkluyveri
+KLTH0D02596g Lthermotolerans
+NCAS0I00510 Ncastallii
+NDAI0A08520 Ndairenensis
+TDEL0H03590 Tdelbrueckii
+TPHA0L00540 Tphaffii
+ZYRO0D05610g Zrouxii

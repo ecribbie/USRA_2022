@@ -1,0 +1,15 @@
+CAGL0M00264g Cglabrata
+Ecym_5147 Ecymbalariae
+ABL082C Egossypii
+KAFR0E04440 Kafricana
+KLLA0B03828g Klactis
+KNAG0B06890 Knaganishii
+SAKL0G18722g Lkluyveri
+KLTH0D17402g Lthermotolerans
+NCAS0J02280 Ncastallii
+NDAI0J03000 Ndairenensis
+YJR141W Scerevisiae
+TBLA0E04920 Tblattae
+TDEL0D00410 Tdelbrueckii
+TPHA0B00320 Tphaffii
+ZYRO0B08800g Zrouxii

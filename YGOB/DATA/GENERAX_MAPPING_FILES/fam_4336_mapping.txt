@@ -1,0 +1,5 @@
+KLTH0F02288g Lthermotolerans
+TBLA0A05410 Tblattae
+TDEL0C06230 Tdelbrueckii
+TPHA0B04520 Tphaffii
+ZYRO0F16764g Zrouxii

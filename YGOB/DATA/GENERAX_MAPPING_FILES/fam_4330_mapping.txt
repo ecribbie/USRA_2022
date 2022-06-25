@@ -1,0 +1,13 @@
+Ecym_1012 Ecymbalariae
+KAFR0D00190 Kafricana
+KLLA0C00594g Klactis
+KNAG0C00270 Knaganishii
+SAKL0C00572g Lkluyveri
+KLTH0F00572g Lthermotolerans
+NCAS0B09060 Ncastallii
+NDAI0A00190 Ndairenensis
+YCL056C Scerevisiae
+TBLA0A04970 Tblattae
+TDEL0C06930 Tdelbrueckii
+TPHA0E03960 Tphaffii
+ZYRO0F18370g Zrouxii

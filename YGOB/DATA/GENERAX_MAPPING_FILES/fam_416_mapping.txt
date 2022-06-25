@@ -1,0 +1,14 @@
+Ecym_4691 Ecymbalariae
+ABR218C Egossypii
+KAFR0L01690 Kafricana
+KLLA0E20219g Klactis
+KNAG0B02400 Knaganishii
+SAKL0F12232g Lkluyveri
+KLTH0C06864g Lthermotolerans
+NCAS0E02660 Ncastallii
+NDAI0E04280 Ndairenensis
+YBL060W Scerevisiae
+TBLA0I00460 Tblattae
+TDEL0C01630 Tdelbrueckii
+TPHA0E00930 Tphaffii
+ZYRO0B03168g Zrouxii

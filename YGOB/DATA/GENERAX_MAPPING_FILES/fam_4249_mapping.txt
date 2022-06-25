@@ -1,0 +1,10 @@
+CAGL0M12881g Cglabrata
+Ecym_8019 Ecymbalariae
+ACL035C Egossypii
+KLLA0C09240g Klactis
+SAKL0F09526g Lkluyveri
+KLTH0A05104g Lthermotolerans
+TBLA0F01920 Tblattae
+TDEL0H01680 Tdelbrueckii
+TPHA0J01080 Tphaffii
+ZYRO0C08998g Zrouxii

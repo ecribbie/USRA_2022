@@ -1,0 +1,11 @@
+Ecym_7035 Ecymbalariae
+AEL243W Egossypii
+KAFR0E03170 Kafricana
+KNAG0A03710 Knaganishii
+NCAS0B02210 Ncastallii
+NDAI0C05480 Ndairenensis
+YBR199W Scerevisiae
+TBLA0B04620 Tblattae
+TDEL0B03050 Tdelbrueckii
+TPHA0I01910 Tphaffii
+ZYRO0D03960g Zrouxii

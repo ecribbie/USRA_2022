@@ -1,0 +1,12 @@
+Ecym_4125 Ecymbalariae
+AGR189W Egossypii
+KAFR0H01720 Kafricana
+KLLA0F13420g Klactis
+KNAG0A02480 Knaganishii
+KNAG0A04320 Knaganishii
+NCAS0B02720 Ncastallii
+NCAS0C02660 Ncastallii
+NDAI0C04970 Ndairenensis
+YDL197C Scerevisiae
+TDEL0B01930 Tdelbrueckii
+ZYRO0A09812g Zrouxii

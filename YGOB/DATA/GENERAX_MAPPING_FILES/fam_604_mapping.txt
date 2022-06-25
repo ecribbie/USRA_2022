@@ -1,0 +1,9 @@
+Agos_YGOB_18260 Egossypii
+Klac_YGOB_18260 Klactis
+Sklu_YGOB_Kwal_14.1254 Lkluyveri
+KLTH0G18260g Lthermotolerans
+NCAS0J00440 Ncastallii
+NDAI0C06440 Ndairenensis
+TDEL0C00650 Tdelbrueckii
+TPHA0D00425 Tphaffii
+Zrou_YGOB_18260 Zrouxii

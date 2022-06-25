@@ -1,0 +1,10 @@
+Ecym_3039 Ecymbalariae
+ACL011C Egossypii
+KLLA0C06072g Klactis
+KNAG0E00880 Knaganishii
+SAKL0E01672g Lkluyveri
+KLTH0C10824g Lthermotolerans
+YMR003W Scerevisiae
+TBLA0B00500 Tblattae
+TDEL0G04340 Tdelbrueckii
+ZYRO0C07392g Zrouxii

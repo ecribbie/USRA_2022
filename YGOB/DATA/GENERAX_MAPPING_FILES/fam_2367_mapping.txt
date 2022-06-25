@@ -1,0 +1,7 @@
+KAFR0D01050 Kafricana
+SAKL0B01716g Lkluyveri
+KLTH0A03124g Lthermotolerans
+NCAS0J00480 Ncastallii
+YLR053C Scerevisiae
+TDEL0C00770 Tdelbrueckii
+ZYRO0F03432g Zrouxii

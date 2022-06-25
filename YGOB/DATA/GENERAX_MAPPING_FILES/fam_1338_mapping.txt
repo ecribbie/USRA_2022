@@ -1,0 +1,8 @@
+CAGL0J00561g Cglabrata
+KNAG0M01460 Knaganishii
+KLTH0G06996g Lthermotolerans
+NCAS0A06690 Ncastallii
+NDAI0D01630 Ndairenensis
+YHR029C Scerevisiae
+TDEL0E03530 Tdelbrueckii
+TPHA0E02280 Tphaffii

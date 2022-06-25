@@ -1,0 +1,13 @@
+Cgla_YGOB_Anc_5.707 Cglabrata
+KAFR0D02200 Kafricana
+KLLA0A00506g Klactis
+KNAG0L02160 Knaganishii
+SAKL0E15026g Lkluyveri
+KLTH0E00946g Lthermotolerans
+NCAS0G00210 Ncastallii
+NDAI0F00270 Ndairenensis
+YIL152W Scerevisiae
+TBLA0I01690 Tblattae
+TDEL0B02130 Tdelbrueckii
+TPHA0E00180 Tphaffii
+ZYRO0B16434g Zrouxii

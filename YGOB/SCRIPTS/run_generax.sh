@@ -4,9 +4,9 @@
 #SBATCH --output=log/generax_%a.log
 #SBATCH --array=1-8
 
-mod=$(( $SLURM_ARRAY_TASK_ID % "2" ))
+mod=$(( $SLURM_ARRAY_TASK_ID % 2 ))
 
-if [ $mod -eq 0]
+if [ $mod -eq "0" ]
 then
 	seed=123
 else
@@ -34,4 +34,4 @@ echo "$seed"
 echo "$strat"
 echo "$model"
 
-../../../TOOLS/GeneRax/build/bin/generax -f ../DATA/generax_muscle_family_file.txt -s ../DATA/species_tree.txt -p ../EXP/GENERAX/ --per-family-rates --seed ${seed} --rec-model ${model} --strategy ${strat}
+../../../TOOLS/GeneRax/build/bin/generax -f ../DATA/generax_made_muscle_family_file.txt -s ../DATA/species_tree.tree -p ../EXP/GENERAX/ --per-family-rates --seed ${seed} --rec-model ${model} --strategy ${strat}

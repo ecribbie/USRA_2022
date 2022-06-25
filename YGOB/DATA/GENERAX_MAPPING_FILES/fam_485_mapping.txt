@@ -1,0 +1,13 @@
+Agos_YGOB_Anc_7.495 Egossypii
+KAFR0G00770 Kafricana
+KLLA0F03179g Klactis
+KNAG0D01200 Knaganishii
+SAKL0F14630g Lkluyveri
+KLTH0E01430g Lthermotolerans
+NCAS0H00400 Ncastallii
+NDAI0D00350 Ndairenensis
+Scer_YGOB_Anc_7.495 Scerevisiae
+TBLA0F02810 Tblattae
+TDEL0H00750 Tdelbrueckii
+TPHA0I02980 Tphaffii
+Zrou_YGOB_Anc_7.495 Zrouxii

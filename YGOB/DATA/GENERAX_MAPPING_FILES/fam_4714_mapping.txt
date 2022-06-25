@@ -1,0 +1,13 @@
+Cgla_YGOB_YGL194C-A Cglabrata
+AFR170C Egossypii
+KAFR0C02910 Kafricana
+Klac_YGOB_YGL194C-A Klactis
+KNAG0G01360 Knaganishii
+Sklu_YGOB_YGL194C-A Lkluyveri
+Kthe_YGOB_YGL194C-A Lthermotolerans
+NCAS0B05470 Ncastallii
+YGL194C-A Scerevisiae
+TBLA0F00400 Tblattae
+TDEL0B04570 Tdelbrueckii
+TPHA0H00310 Tphaffii
+Zrou_YGOB_YGL194C-A Zrouxii

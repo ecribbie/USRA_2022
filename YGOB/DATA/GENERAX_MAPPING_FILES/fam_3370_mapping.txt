@@ -1,0 +1,10 @@
+KAFR0H03040 Kafricana
+KNAG0H01780 Knaganishii
+SAKL0D10472g Lkluyveri
+NCAS0G03150 Ncastallii
+NDAI0D01180 Ndairenensis
+YNR004W Scerevisiae
+TBLA0D04890 Tblattae
+TDEL0B05700 Tdelbrueckii
+TPHA0O00940 Tphaffii
+ZYRO0E03894g Zrouxii

@@ -1,0 +1,10 @@
+CAGL0M10285g Cglabrata
+KAFR0D03320 Kafricana
+KNAG0A06630 Knaganishii
+SAKL0A08756g Lkluyveri
+KLTH0D06226g Lthermotolerans
+NCAS0A05630 Ncastallii
+NDAI0K02450 Ndairenensis
+YKL005C Scerevisiae
+TDEL0A02820 Tdelbrueckii
+ZYRO0B01386g Zrouxii

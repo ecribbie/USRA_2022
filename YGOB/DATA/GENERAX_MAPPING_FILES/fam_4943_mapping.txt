@@ -1,0 +1,13 @@
+Ecym_YGOB_RNH203 Ecymbalariae
+Agos_YGOB_RNH203 Egossypii
+KAFR0G00190 Kafricana
+KLLA0C03256g Klactis
+KNAG0C00800 Knaganishii
+SAKL0C03608g Lkluyveri
+KLTH0F03432g Lthermotolerans
+NCAS0B08550 Ncastallii
+NDAI0A00680 Ndairenensis
+TBLA0A05880 Tblattae
+TDEL0C05700 Tdelbrueckii
+TPHA0I02540 Tphaffii
+Zrou_YGOB_RNH203 Zrouxii

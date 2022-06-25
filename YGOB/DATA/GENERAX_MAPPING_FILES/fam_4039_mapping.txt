@@ -1,0 +1,12 @@
+CAGL0L09273g Cglabrata
+AGL057W Egossypii
+KAFR0B01930 Kafricana
+KLLA0E13905g Klactis
+KNAG0D02360 Knaganishii
+NCAS0A03640 Ncastallii
+NDAI0C06140 Ndairenensis
+YPR006C Scerevisiae
+TBLA0C00500 Tblattae
+TDEL0C01320 Tdelbrueckii
+TPHA0H00600 Tphaffii
+ZYRO0F04708g Zrouxii

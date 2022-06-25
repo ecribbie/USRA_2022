@@ -1,0 +1,10 @@
+Cgla_YGOB_Anc_6.284 Cglabrata
+Ecym_2134 Ecymbalariae
+AFL165W Egossypii
+Sklu_YGOB_Anc_6.284 Lkluyveri
+KLTH0H02552g Lthermotolerans
+NCAS0D04240 Ncastallii
+NDAI0I00690 Ndairenensis
+YMR194C-B Scerevisiae
+TDEL0A06980 Tdelbrueckii
+ZYRO0C05830g Zrouxii

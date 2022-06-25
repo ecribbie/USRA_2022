@@ -1,0 +1,12 @@
+KAFR0A05080 Kafricana
+KAFR0G02680 Kafricana
+KLLA0D01243g Klactis
+KNAG0M01190 Knaganishii
+SAKL0E01342g Lkluyveri
+KLTH0C11154g Lthermotolerans
+NCAS0D02170 Ncastallii
+NCAS0H00840 Ncastallii
+NDAI0C02620 Ndairenensis
+TDEL0G04460 Tdelbrueckii
+TPHA0M00280 Tphaffii
+ZYRO0C07722g Zrouxii

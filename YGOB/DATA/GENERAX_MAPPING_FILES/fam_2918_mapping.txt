@@ -1,0 +1,8 @@
+KAFR0B05020 Kafricana
+KNAG0E01980 Knaganishii
+NCAS0D01120 Ncastallii
+NDAI0H03040 Ndairenensis
+YMR147W Scerevisiae
+TBLA0B09170 Tblattae
+TPHA0G02010 Tphaffii
+ZYRO0A08118g Zrouxii

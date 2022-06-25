@@ -1,0 +1,7 @@
+KAFR0H01340 Kafricana
+KLLA0F18909g Klactis
+KNAG0H01120 Knaganishii
+NCAS0A10710 Ncastallii
+NDAI0A05590 Ndairenensis
+YBR072W Scerevisiae
+TDEL0D03350 Tdelbrueckii
