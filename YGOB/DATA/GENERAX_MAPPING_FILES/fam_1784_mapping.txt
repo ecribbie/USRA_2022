@@ -3,8 +3,11 @@ AFR087W Egossypii
 KLLA0F14080g Klactis
 SAKL0D05412g Lkluyveri
 KLTH0D03344g Lthermotolerans
-NCAS0A09520 Ncastallii
+NCAS0A09520 Ncastellii
 NDAI0G05420 Ndairenensis
 YJL100W Scerevisiae
+Skud_10.114 Skudriavzevii
+Smik_10.142 Smikitae
+Smik_10.142 Suvarum
 TDEL0D01350 Tdelbrueckii
 ZYRO0F01958g Zrouxii

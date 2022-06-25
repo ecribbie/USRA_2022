@@ -1,4 +1,7 @@
 CAGL0L07502g Cglabrata
 KNAG0J00780 Knaganishii
-NCAS0I01540 Ncastallii
+NCAS0I01540 Ncastellii
 NDAI0A07480 Ndairenensis
+Skud_2.190 Skudriavzevii
+Smik_2.200 Smikitae
+Smik_2.200 Suvarum

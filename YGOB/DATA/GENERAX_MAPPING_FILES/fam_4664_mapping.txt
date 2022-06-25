@@ -1,8 +1,9 @@
 Ecym_3479 Ecymbalariae
 ADL324W Egossypii
 KLLA0B08547g Klactis
-NCAS0I01160 Ncastallii
+NCAS0I01160 Ncastellii
 NDAI0A07840 Ndairenensis
 TBLA0B02460 Tblattae
 TDEL0C04880 Tdelbrueckii
+Kpol_1065.27 Vpolyspora
 ZYRO0C16038g Zrouxii

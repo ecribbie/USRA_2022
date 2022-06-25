@@ -4,9 +4,13 @@ Klac_YGOB_YER053C-A Klactis
 KNAG0D01720 Knaganishii
 Sklu_YGOB_YER053C-A Lkluyveri
 Kthe_YGOB_YER053C-A Lthermotolerans
-NCAS0E03130 Ncastallii
+Kwal_YGOB_YER053C-A Lwaltii
+NCAS0E03130 Ncastellii
 NDAI0E04360 Ndairenensis
 YER053C-A Scerevisiae
+Skud_5.166 Skudriavzevii
+Smik_5.181 Smikitae
+Smik_5.181 Suvarum
 TBLA0D04150 Tblattae
 TDEL0H02150 Tdelbrueckii
 TPHA0C01170 Tphaffii

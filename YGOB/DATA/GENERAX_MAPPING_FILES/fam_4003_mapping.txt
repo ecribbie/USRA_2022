@@ -3,9 +3,13 @@ Ecym_2537 Ecymbalariae
 KAFR0H01490 Kafricana
 KLLA0D11880g Klactis
 KNAG0A02250 Knaganishii
-NCAS0C02420 Ncastallii
+NCAS0C02420 Ncastellii
 NDAI0E03110 Ndairenensis
 YPL039W Scerevisiae
+Skud_16.242 Skudriavzevii
+Smik_16.196 Smikitae
+Smik_16.196 Suvarum
 TBLA0A00360 Tblattae
 TPHA0L01330 Tphaffii
+Kpol_1031.74 Vpolyspora
 ZYRO0F08184g Zrouxii

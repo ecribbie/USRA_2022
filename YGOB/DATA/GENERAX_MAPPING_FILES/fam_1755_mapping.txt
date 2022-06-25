@@ -3,9 +3,12 @@ KLLA0E15401g Klactis
 KNAG0C02670 Knaganishii
 SAKL0C06556g Lkluyveri
 KLTH0F05830g Lthermotolerans
-NCAS0A09790 Ncastallii
+NCAS0A09790 Ncastellii
 NDAI0G06190 Ndairenensis
 YJL132W Scerevisiae
+Skud_10.83 Skudriavzevii
+Smik_10.102 Smikitae
+Smik_10.102 Suvarum
 TBLA0D05660 Tblattae
 TDEL0H01030 Tdelbrueckii
 ZYRO0D03256g Zrouxii

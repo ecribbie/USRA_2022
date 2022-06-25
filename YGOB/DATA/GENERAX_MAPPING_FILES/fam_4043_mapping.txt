@@ -5,5 +5,9 @@ KNAG0D02280 Knaganishii
 KNAG0G01140 Knaganishii
 SAKL0H20394g Lkluyveri
 KLTH0H08800g Lthermotolerans
-NCAS0B04660 Ncastallii
+Kwal_14.2206 Lwaltii
+NCAS0B04660 Ncastellii
 YPR015C Scerevisiae
+Skud_16.300 Skudriavzevii
+Smik_16.255 Smikitae
+Smik_16.255 Suvarum

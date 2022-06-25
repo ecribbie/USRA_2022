@@ -1,8 +1,12 @@
 Klac_YGOB_Anc_2.241 Klactis
 SAKL0E08778g Lkluyveri
 KLTH0G09350g Lthermotolerans
-NCAS0B06480 Ncastallii
+NCAS0B06480 Ncastellii
 YIL121W Scerevisiae
+Skud_9.48 Skudriavzevii
+Smik_9.48 Smikitae
+Smik_9.48 Suvarum
 TBLA0E03790 Tblattae
 TDEL0C04580 Tdelbrueckii
 TPHA0C03100 Tphaffii
+Kpol_1003.11 Vpolyspora

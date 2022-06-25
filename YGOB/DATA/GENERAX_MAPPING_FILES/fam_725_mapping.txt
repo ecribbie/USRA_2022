@@ -4,7 +4,11 @@ KLLA0E23211g Klactis
 KNAG0A02030 Knaganishii
 Sklu_YGOB_YBR201C-A Lkluyveri
 Kthe_YGOB_YBR201C-A Lthermotolerans
-NCAS0C02160 Ncastallii
+Kwal_YGOB_YBR201C-A Lwaltii
+NCAS0C02160 Ncastellii
 YBR201C-A Scerevisiae
+Skud_2.328 Skudriavzevii
+Smik_2.342 Smikitae
+Smik_2.342 Suvarum
 TDEL0B03140 Tdelbrueckii
 Zrou_YGOB_YBR201C-A Zrouxii

@@ -5,4 +5,5 @@ SAKL0G12386g Lkluyveri
 KLTH0B02904g Lthermotolerans
 NDAI0I02050 Ndairenensis
 TDEL0E04060 Tdelbrueckii
+Kpol_178.3 Vpolyspora
 ZYRO0B09966g Zrouxii

@@ -4,4 +4,5 @@ KLLA0B10626g Klactis
 SAKL0F15642g Lkluyveri
 KLTH0F18612g Lthermotolerans
 TPHA0I03140 Tphaffii
+Kpol_1013.48 Vpolyspora
 ZYRO0D01452g Zrouxii

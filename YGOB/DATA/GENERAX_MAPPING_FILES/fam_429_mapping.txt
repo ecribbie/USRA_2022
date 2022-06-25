@@ -1,8 +1,11 @@
 CAGL0F00891g Cglabrata
 SAKL0B09900g Lkluyveri
 KLTH0D02442g Lthermotolerans
-NCAS0I00460 Ncastallii
+NCAS0I00460 Ncastellii
 YOL047C Scerevisiae
+Skud_15.111 Skudriavzevii
+Smik_15.121 Smikitae
+Smik_15.121 Suvarum
 TBLA0E02300 Tblattae
 TDEL0H03660 Tdelbrueckii
 TPHA0L00480 Tphaffii

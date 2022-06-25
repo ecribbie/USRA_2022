@@ -3,7 +3,8 @@ Ecym_1003 Ecymbalariae
 KLLA0C00352g Klactis
 KNAG0C00150 Knaganishii
 KLTH0F00374g Lthermotolerans
-NCAS0B09150 Ncastallii
+Kwal_YGOB_HMalpha1 Lwaltii
+NCAS0B09150 Ncastellii
 NDAI0A00100 Ndairenensis
 YCL066W Scerevisiae
 TBLA0A07590 Tblattae

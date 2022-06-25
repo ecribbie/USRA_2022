@@ -3,6 +3,10 @@ AGL098W Egossypii
 SAKL0H13244g Lkluyveri
 KLTH0F08052g Lthermotolerans
 YLR231C Scerevisiae
+Skud_12.308 Skudriavzevii
+Smik_12.293 Smikitae
+Smik_12.293 Suvarum
 TDEL0F05410 Tdelbrueckii
 TPHA0L01030 Tphaffii
+Kpol_1029.21 Vpolyspora
 ZYRO0C04708g Zrouxii

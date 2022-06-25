@@ -1,6 +1,9 @@
 KNAG0A04140 Knaganishii
 SAKL0H11990g Lkluyveri
-NCAS0B02580 Ncastallii
+NCAS0B02580 Ncastellii
 NDAI0C05110 Ndairenensis
 YDR242W Scerevisiae
+Skud_4.504 Skudriavzevii
+Smik_4.489 Smikitae
+Smik_4.489 Suvarum
 TDEL0B01680 Tdelbrueckii

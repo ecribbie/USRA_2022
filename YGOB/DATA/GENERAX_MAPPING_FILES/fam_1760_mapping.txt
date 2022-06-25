@@ -3,7 +3,7 @@ KLLA0F11440g Klactis
 KNAG0A02970 Knaganishii
 SAKL0H06864g Lkluyveri
 KLTH0D10934g Lthermotolerans
-NCAS0B01570 Ncastallii
+NCAS0B01570 Ncastellii
 NDAI0E01220 Ndairenensis
 TDEL0A06090 Tdelbrueckii
 TPHA0D01180 Tphaffii

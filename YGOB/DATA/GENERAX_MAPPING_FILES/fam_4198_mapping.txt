@@ -4,9 +4,14 @@ AFR701C Egossypii
 KAFR0D00440 Kafricana
 SAKL0C01518g Lkluyveri
 KLTH0F01496g Lthermotolerans
+Kwal_33.13188 Lwaltii
 NDAI0A00470 Ndairenensis
 YCL028W Scerevisiae
+Skud_3.34 Skudriavzevii
+Smik_3.49 Smikitae
+Smik_3.49 Suvarum
 TBLA0A07310 Tblattae
 TDEL0C06550 Tdelbrueckii
 TPHA0E03670 Tphaffii
+Kpol_2002.43 Vpolyspora
 ZYRO0F17534g Zrouxii

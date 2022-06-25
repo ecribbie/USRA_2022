@@ -1,3 +1,6 @@
 KAFR0B04090 Kafricana
-NCAS0A07370 Ncastallii
+NCAS0A07370 Ncastellii
 NDAI0D02340 Ndairenensis
+Skud_13.185 Skudriavzevii
+Smik_13.199 Smikitae
+Smik_13.199 Suvarum

@@ -5,4 +5,5 @@ SAKL0G00572g Lkluyveri
 KLTH0F17930g Lthermotolerans
 TDEL0B02420 Tdelbrueckii
 TPHA0J01490 Tphaffii
+Kpol_1018.83 Vpolyspora
 ZYRO0A11770g Zrouxii

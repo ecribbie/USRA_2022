@@ -3,10 +3,14 @@ Ecym_8419 Ecymbalariae
 ACL073W Egossypii
 KLLA0E00507g Klactis
 SAKL0H26048g Lkluyveri
-NCAS0C05940 Ncastallii
+NCAS0C05940 Ncastellii
 NDAI0H00180 Ndairenensis
 YHL036W Scerevisiae
+Skud_8.8 Skudriavzevii
+Smik_8.5 Smikitae
+Smik_8.5 Suvarum
 TBLA0G00720 Tblattae
 TDEL0G01860 Tdelbrueckii
 TPHA0F00170 Tphaffii
+Kpol_311.4 Vpolyspora
 ZYRO0G07590g Zrouxii

@@ -3,6 +3,10 @@ ADR190W Egossypii
 SAKL0G05104g Lkluyveri
 KLTH0G03938g Lthermotolerans
 YDR428C Scerevisiae
+Skud_4.703 Skudriavzevii
+Smik_4.702 Smikitae
+Smik_4.702 Suvarum
 TDEL0A03980 Tdelbrueckii
 TPHA0D02390 Tphaffii
+Kpol_1004.28 Vpolyspora
 ZYRO0D12738g Zrouxii

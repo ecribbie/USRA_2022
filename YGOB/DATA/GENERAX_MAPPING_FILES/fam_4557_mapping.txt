@@ -6,11 +6,13 @@ KAFR0L01255 Kafricana
 Klac_YGOB_Anc_7.299 Klactis
 Sklu_YGOB_Anc_7.299 Lkluyveri
 Kthe_YGOB_Anc_7.299 Lthermotolerans
-NCAS0A13830 Ncastallii
-NCAS0E03660 Ncastallii
+Kwal_YGOB_Anc_7.299 Lwaltii
+NCAS0A13830 Ncastellii
+NCAS0E03660 Ncastellii
 NDAI0A02210 Ndairenensis
 NDAI0A02970 Ndairenensis
 YDL184C Scerevisiae
 YDL133C-A Scerevisiae
 TDEL0H01450 Tdelbrueckii
+Kpol_1020.3a Vpolyspora
 Zrou_YGOB_Anc_7.299 Zrouxii

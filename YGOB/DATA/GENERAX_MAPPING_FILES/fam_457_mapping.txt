@@ -4,9 +4,12 @@ ADR019C Egossypii
 KAFR0G02740 Kafricana
 KAFR0K01040 Kafricana
 KNAG0L00870 Knaganishii
-NCAS0E02110 Ncastallii
-NCAS0I00690 Ncastallii
+NCAS0E02110 Ncastellii
+NCAS0I00690 Ncastellii
 NDAI0E03650 Ndairenensis
 YER011W Scerevisiae
+Skud_5.111 Skudriavzevii
+Smik_5.126 Smikitae
+Smik_5.126 Suvarum
 TBLA0J01810 Tblattae
 TPHA0I02140 Tphaffii

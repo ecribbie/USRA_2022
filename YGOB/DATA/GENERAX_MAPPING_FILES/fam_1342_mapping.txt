@@ -4,5 +4,6 @@ Klac_YGOB_YBL026W-A Klactis
 KNAG0H00980 Knaganishii
 SAKL0B06622g Lkluyveri
 Kthe_YGOB_YBL026W-A Lthermotolerans
+Kwal_YGOB_YBL026W-A Lwaltii
 TDEL0F02060 Tdelbrueckii
 Zrou_YGOB_YBL026W-A Zrouxii

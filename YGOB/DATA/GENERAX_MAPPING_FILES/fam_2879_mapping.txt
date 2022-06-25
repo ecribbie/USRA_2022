@@ -2,7 +2,11 @@ Ecym_7001 Ecymbalariae
 ABR123W Egossypii
 SAKL0E03146g Lkluyveri
 KLTH0D05280g Lthermotolerans
+Kwal_26.7728 Lwaltii
 YMR095C Scerevisiae
+Skud_13.251 Skudriavzevii
+Smik_13.279 Smikitae
+Smik_13.279 Suvarum
 TDEL0A02420 Tdelbrueckii
 TPHA0G03070 Tphaffii
 ZYRO0G03080g Zrouxii

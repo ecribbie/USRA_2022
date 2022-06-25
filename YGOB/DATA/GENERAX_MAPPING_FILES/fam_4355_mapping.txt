@@ -2,3 +2,4 @@ SAKL0G13376g Lkluyveri
 KLTH0B03894g Lthermotolerans
 TDEL0E04480 Tdelbrueckii
 TPHA0E03200 Tphaffii
+Kpol_2002.86 Vpolyspora

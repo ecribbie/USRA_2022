@@ -1,4 +1,7 @@
 CAGL0E02255g Cglabrata
 SAKL0C12034g Lkluyveri
 YOL109W Scerevisiae
+Skud_15.43 Skudriavzevii
+Smik_15.43 Smikitae
+Smik_15.43 Suvarum
 TDEL0E00800 Tdelbrueckii

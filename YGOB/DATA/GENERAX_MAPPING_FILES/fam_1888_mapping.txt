@@ -3,6 +3,10 @@ ACL127W Egossypii
 SAKL0G14674g Lkluyveri
 KLTH0B01364g Lthermotolerans
 YJR025C Scerevisiae
+Skud_10.248 Skudriavzevii
+Smik_10.303 Smikitae
+Smik_10.303 Suvarum
 TDEL0E05010 Tdelbrueckii
 TPHA0A04890 Tphaffii
+Kpol_1050.41 Vpolyspora
 ZYRO0G11418g Zrouxii

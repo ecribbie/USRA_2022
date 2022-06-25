@@ -4,9 +4,12 @@ ADL091C Egossypii
 KLLA0F27753g Klactis
 SAKL0F07590g Lkluyveri
 KLTH0E04488g Lthermotolerans
-NCAS0E01790 Ncastallii
+NCAS0E01790 Ncastellii
 NDAI0G01980 Ndairenensis
 YFR036W Scerevisiae
+Skud_6.127 Skudriavzevii
+Smik_7.356 Smikitae
+Smik_7.356 Suvarum
 TBLA0D04650 Tblattae
 TDEL0H02480 Tdelbrueckii
 TPHA0C01410 Tphaffii

@@ -3,10 +3,14 @@ Ecym_1241 Ecymbalariae
 AFR306C Egossypii
 SAKL0F02860g Lkluyveri
 KLTH0F14740g Lthermotolerans
-NCAS0F03530 Ncastallii
+NCAS0F03530 Ncastellii
 NDAI0B05830 Ndairenensis
 YPR147C Scerevisiae
+Skud_16.442 Skudriavzevii
+Smik_16.400 Smikitae
+Smik_16.400 Suvarum
 TBLA0C04450 Tblattae
 TDEL0D05560 Tdelbrueckii
 TPHA0D04220 Tphaffii
+Kpol_480.17 Vpolyspora
 ZYRO0D10076g Zrouxii

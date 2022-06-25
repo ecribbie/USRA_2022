@@ -2,10 +2,14 @@ CAGL0M11704g Cglabrata
 KAFR0B02960 Kafricana
 KLLA0F20009g Klactis
 KNAG0G02280 Knaganishii
-NCAS0C03400 Ncastallii
+NCAS0C03400 Ncastellii
 NDAI0G02730 Ndairenensis
 YLR109W Scerevisiae
+Skud_12.177 Skudriavzevii
+Smik_12.169 Smikitae
+Smik_12.169 Suvarum
 TBLA0H01350 Tblattae
 TDEL0F04270 Tdelbrueckii
 TPHA0I01920 Tphaffii
+Kpol_1004.59 Vpolyspora
 ZYRO0D06248g Zrouxii

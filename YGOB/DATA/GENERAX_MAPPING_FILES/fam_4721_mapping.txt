@@ -2,3 +2,4 @@ Ecym_3587 Ecymbalariae
 AFR336W Egossypii
 KLLA0C12463g Klactis
 KLTH0C09526g Lthermotolerans
+Kpol_1053.27 Vpolyspora

@@ -1,5 +1,5 @@
 KAFR0A03070 Kafricana
-NCAS0C00230 Ncastallii
+NCAS0C00230 Ncastellii
 NDAI0E00120 Ndairenensis
 NDAI0K00140 Ndairenensis
 TBLA0C06260 Tblattae

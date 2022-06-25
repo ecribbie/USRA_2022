@@ -1,5 +1,8 @@
 CAGL0D04092g Cglabrata
 KAFR0J00420 Kafricana
-NCAS0A01280 Ncastallii
+NCAS0A01280 Ncastellii
 NDAI0C02100 Ndairenensis
 YHR043C Scerevisiae
+Skud_8.102 Skudriavzevii
+Smik_8.112 Smikitae
+Smik_8.112 Suvarum

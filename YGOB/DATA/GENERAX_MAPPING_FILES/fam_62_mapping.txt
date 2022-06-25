@@ -2,6 +2,9 @@ CAGL0F05329g Cglabrata
 Klac_YGOB_Anc_8.419 Klactis
 KNAG0A04530 Knaganishii
 KLTH0F07986g Lthermotolerans
-NCAS0B02910 Ncastallii
+NCAS0B02910 Ncastellii
 YDR210W Scerevisiae
+Skud_4.471 Skudriavzevii
+Smik_4.455 Smikitae
+Smik_4.455 Suvarum
 ZYRO0C04774g Zrouxii

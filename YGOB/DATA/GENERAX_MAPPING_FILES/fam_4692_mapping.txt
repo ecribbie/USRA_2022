@@ -3,9 +3,10 @@ AER140C Egossypii
 KLLA0B04862g Klactis
 SAKL0G17600g Lkluyveri
 KLTH0D16434g Lthermotolerans
-NCAS0J02070 Ncastallii
+NCAS0J02070 Ncastellii
 NDAI0J02780 Ndairenensis
 TBLA0B06330 Tblattae
 TDEL0D00830 Tdelbrueckii
 TPHA0B01660 Tphaffii
+Kpol_520.30 Vpolyspora
 ZYRO0B14454g Zrouxii

@@ -5,4 +5,5 @@ Sklu_YGOB_Anc_7.35 Lkluyveri
 KLTH0D01232g Lthermotolerans
 TDEL0H04160 Tdelbrueckii
 TPHA0H02900 Tphaffii
+Kpol_367.4 Vpolyspora
 ZYRO0D04884g Zrouxii

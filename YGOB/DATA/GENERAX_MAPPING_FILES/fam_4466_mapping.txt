@@ -3,5 +3,5 @@ ACL159W Egossypii
 KLLA0C16687g Klactis
 SAKL0F10978g Lkluyveri
 KLTH0H01474g Lthermotolerans
-NCAS0A14070 Ncastallii
+NCAS0A14070 Ncastellii
 TPHA0D04550 Tphaffii

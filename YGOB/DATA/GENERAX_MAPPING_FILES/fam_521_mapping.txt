@@ -4,6 +4,6 @@ KLLA0D07524g Klactis
 KNAG0G01090 Knaganishii
 SAKL0B02266g Lkluyveri
 KLTH0A02728g Lthermotolerans
-NCAS0C03980 Ncastallii
+NCAS0C03980 Ncastellii
 TDEL0C00950 Tdelbrueckii
 ZYRO0F03806g Zrouxii

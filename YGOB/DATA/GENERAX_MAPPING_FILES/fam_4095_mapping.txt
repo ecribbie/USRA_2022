@@ -1,4 +1,8 @@
 KAFR0H00820 Kafricana
-NCAS0A11250 Ncastallii
+NCAS0A11250 Ncastellii
 YPR078C Scerevisiae
+Skud_16.366 Skudriavzevii
+Smik_16.321 Smikitae
+Smik_16.321 Suvarum
+Kpol_538.19 Vpolyspora
 ZYRO0C16720g Zrouxii

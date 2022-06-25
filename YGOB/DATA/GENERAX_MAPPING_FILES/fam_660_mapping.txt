@@ -1,3 +1,6 @@
 KLTH0B00440g Lthermotolerans
 YFL054C Scerevisiae
+Skud_6.3 Skudriavzevii
+Smik_6.8 Smikitae
+Smik_6.8 Suvarum
 TDEL0C00200 Tdelbrueckii

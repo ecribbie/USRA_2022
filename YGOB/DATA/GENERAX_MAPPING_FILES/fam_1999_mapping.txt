@@ -1,3 +1,4 @@
 Ecym_5224 Ecymbalariae
 ADR327W Egossypii
 YJR153W Scerevisiae
+Skud_10.381 Skudriavzevii

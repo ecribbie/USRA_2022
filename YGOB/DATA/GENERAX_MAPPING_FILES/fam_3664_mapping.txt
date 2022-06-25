@@ -3,5 +3,8 @@ AGR274C Egossypii
 SAKL0A08206g Lkluyveri
 KLTH0G15334g Lthermotolerans
 YOR177C Scerevisiae
+Skud_15.344 Skudriavzevii
+Smik_15.362 Smikitae
+Smik_15.362 Suvarum
 TDEL0G04560 Tdelbrueckii
 TPHA0K01150 Tphaffii

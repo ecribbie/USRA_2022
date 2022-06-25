@@ -3,3 +3,7 @@ KAFR0E00160 Kafricana
 KLLA0C18975g Klactis
 KNAG0G00110 Knaganishii
 YKL215C Scerevisiae
+Skud_11.5 Skudriavzevii
+Smik_11.8 Smikitae
+Smik_11.8 Suvarum
+Kpol_1054.61 Vpolyspora

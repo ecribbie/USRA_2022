@@ -2,8 +2,12 @@ CAGL0L06116g Cglabrata
 KLLA0F09163g Klactis
 KNAG0G01290 Knaganishii
 SAKL0H24904g Lkluyveri
-NCAS0C04060 Ncastallii
+NCAS0C04060 Ncastellii
 NDAI0G03410 Ndairenensis
 YGL185C Scerevisiae
+Skud_7.87 Skudriavzevii
+Smik_7.88 Smikitae
+Smik_7.88 Suvarum
 TDEL0B04650 Tdelbrueckii
+Kpol_541.52 Vpolyspora
 ZYRO0G19184g Zrouxii

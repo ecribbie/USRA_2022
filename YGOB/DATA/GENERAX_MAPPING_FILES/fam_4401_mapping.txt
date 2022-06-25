@@ -2,4 +2,5 @@ Ecym_4066 Ecymbalariae
 KLLA0B00759g Klactis
 SAKL0G05016g Lkluyveri
 KLTH0G03850g Lthermotolerans
+Kpol_1004.25 Vpolyspora
 ZYRO0D12650g Zrouxii

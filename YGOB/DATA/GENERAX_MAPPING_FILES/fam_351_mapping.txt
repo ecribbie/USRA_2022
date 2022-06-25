@@ -3,9 +3,12 @@ KAFR0B03310 Kafricana
 KLLA0C06996g Klactis
 KNAG0G02920 Knaganishii
 KNAG0J02100 Knaganishii
-NCAS0C00950 Ncastallii
+NCAS0C00950 Ncastellii
 NDAI0K00970 Ndairenensis
 YMR222C Scerevisiae
+Skud_13.391 Skudriavzevii
+Smik_13.430 Smikitae
+Smik_13.430 Suvarum
 TBLA0B03420 Tblattae
 TBLA0D01080 Tblattae
 TDEL0B03680 Tdelbrueckii

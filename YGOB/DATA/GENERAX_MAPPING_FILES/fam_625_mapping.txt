@@ -4,9 +4,13 @@ AFR184C Egossypii
 KAFR0B02480 Kafricana
 KNAG0G01780 Knaganishii
 SAKL0H18018g Lkluyveri
-NCAS0A03710 Ncastallii
+NCAS0A03710 Ncastellii
 NDAI0C06070 Ndairenensis
 YER163C Scerevisiae
+Skud_5.302 Skudriavzevii
+Smik_5.335 Smikitae
+Smik_5.335 Suvarum
 TBLA0E04170 Tblattae
 TPHA0B03440 Tphaffii
+Kpol_1025.3 Vpolyspora
 ZYRO0B11594g Zrouxii

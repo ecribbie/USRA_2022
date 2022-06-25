@@ -2,7 +2,8 @@ CAGL0B01595g Cglabrata
 KAFR0B05660 Kafricana
 KLLA0E12035g Klactis
 KNAG0I00960 Knaganishii
-NCAS0B03510 Ncastallii
+NCAS0B03510 Ncastellii
 NDAI0J01080 Ndairenensis
 TDEL0F04340 Tdelbrueckii
+Kpol_543.57 Vpolyspora
 ZYRO0D06050g Zrouxii

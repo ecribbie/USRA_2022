@@ -3,6 +3,7 @@ AFR147C Egossypii
 KLLA0E02817g Klactis
 SAKL0G03124g Lkluyveri
 KLTH0F15422g Lthermotolerans
+Kwal_55.21338 Lwaltii
 TDEL0A03240 Tdelbrueckii
 TPHA0J02710 Tphaffii
 ZYRO0B02354g Zrouxii

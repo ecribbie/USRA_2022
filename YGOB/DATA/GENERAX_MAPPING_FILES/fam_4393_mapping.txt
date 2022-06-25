@@ -2,9 +2,10 @@ CAGL0A00583g Cglabrata
 KNAG0D03450 Knaganishii
 SAKL0H22374g Lkluyveri
 KLTH0E08140g Lthermotolerans
-NCAS0A06490 Ncastallii
+NCAS0A06490 Ncastellii
 NDAI0D03480 Ndairenensis
 TBLA0C04000 Tblattae
 TDEL0F02240 Tdelbrueckii
 TPHA0F00780 Tphaffii
+Kpol_1061.37 Vpolyspora
 ZYRO0G10450g Zrouxii

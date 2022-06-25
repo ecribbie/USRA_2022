@@ -3,7 +3,9 @@ AEL042C Egossypii
 KLLA0A11110g Klactis
 SAKL0D10450g Lkluyveri
 KLTH0H13728g Lthermotolerans
+Kwal_34.16190 Lwaltii
 TBLA0C01090 Tblattae
 TPHA0B03900 Tphaffii
 TPHA0O00950 Tphaffii
+Kpol_1046.1 Vpolyspora
 ZYRO0E03916g Zrouxii

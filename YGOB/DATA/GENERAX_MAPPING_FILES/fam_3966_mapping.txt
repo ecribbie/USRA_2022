@@ -1,2 +1,5 @@
-NCAS0C01990 Ncastallii
+NCAS0C01990 Ncastellii
 YPL088W Scerevisiae
+Skud_16.195 Skudriavzevii
+Smik_16.149 Smikitae
+Smik_16.149 Suvarum

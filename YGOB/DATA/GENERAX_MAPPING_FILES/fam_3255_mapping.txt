@@ -4,8 +4,12 @@ Klac_YGOB_YNL146W Klactis
 KNAG0F01560 Knaganishii
 Sklu_YGOB_YNL146W Lkluyveri
 Kthe_YGOB_YNL146W Lthermotolerans
-NCAS0G02190 Ncastallii
+NCAS0G02190 Ncastellii
 NDAI0F03090 Ndairenensis
 YNL146W Scerevisiae
+Skud_14.186 Skudriavzevii
+Smik_14.181 Smikitae
+Smik_14.181 Suvarum
 TDEL0B04790 Tdelbrueckii
+Kpol_1048.0 Vpolyspora
 Zrou_YGOB_YNL146W Zrouxii

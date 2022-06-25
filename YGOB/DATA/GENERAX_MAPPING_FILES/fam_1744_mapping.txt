@@ -1,6 +1,9 @@
 CAGL0I05934g Cglabrata
 KAFR0F01920 Kafricana
 KNAG0C02580 Knaganishii
-NCAS0I02700 Ncastallii
+NCAS0I02700 Ncastellii
 YJL144W Scerevisiae
+Skud_10.71 Skudriavzevii
+Smik_10.89 Smikitae
+Smik_10.89 Suvarum
 TBLA0B06520 Tblattae

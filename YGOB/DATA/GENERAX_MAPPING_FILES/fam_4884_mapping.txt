@@ -3,7 +3,11 @@ ABL097C Egossypii
 SAKL0D03718g Lkluyveri
 KLTH0C07612g Lthermotolerans
 YDR031W Scerevisiae
+Skud_4.284 Skudriavzevii
+Smik_4.266 Smikitae
+Smik_4.266 Suvarum
 TBLA0G03090 Tblattae
 TDEL0D03650 Tdelbrueckii
 TPHA0M01000 Tphaffii
+Kpol_1061.7 Vpolyspora
 ZYRO0A03212g Zrouxii

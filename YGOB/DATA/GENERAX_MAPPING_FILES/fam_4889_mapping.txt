@@ -3,7 +3,8 @@ KAFR0C01810 Kafricana
 KAFR0D04710 Kafricana
 KNAG0B04540 Knaganishii
 KNAG0C05460 Knaganishii
-NCAS0F02900 Ncastallii
-NCAS0H01590 Ncastallii
+NCAS0F02900 Ncastellii
+NCAS0H01590 Ncastellii
 NDAI0C01930 Ndairenensis
 TBLA0H01930 Tblattae
+Kpol_364.5 Vpolyspora

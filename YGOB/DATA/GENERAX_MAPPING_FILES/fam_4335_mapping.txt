@@ -1,3 +1,4 @@
 KAFR0D00520 Kafricana
 KLTH0F01606g Lthermotolerans
+Kwal_33.13215 Lwaltii
 TBLA0A05190 Tblattae

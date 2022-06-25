@@ -3,3 +3,4 @@ SAKL0H15356g Lkluyveri
 KLTH0G12122g Lthermotolerans
 TBLA0A04020 Tblattae
 TPHA0C00760 Tphaffii
+Kpol_1036.74 Vpolyspora

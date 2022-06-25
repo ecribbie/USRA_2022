@@ -3,9 +3,13 @@ AGR002W Egossypii
 KAFR0B01850 Kafricana
 KLLA0E14235g Klactis
 KNAG0D02450 Knaganishii
-NCAS0B04750 Ncastallii
+NCAS0B04750 Ncastellii
 NDAI0B02160 Ndairenensis
 YPR001W Scerevisiae
+Skud_16.283 Skudriavzevii
+Smik_16.236 Smikitae
+Smik_16.236 Suvarum
 TDEL0C01210 Tdelbrueckii
 TPHA0P00500 Tphaffii
+Kpol_354.6 Vpolyspora
 ZYRO0F04444g Zrouxii

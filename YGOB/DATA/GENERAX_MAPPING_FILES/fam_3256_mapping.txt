@@ -1,9 +1,13 @@
 KAFR0F00580 Kafricana
 KNAG0F01550 Knaganishii
-NCAS0B07140 Ncastallii
-NCAS0G02180 Ncastallii
+NCAS0B07140 Ncastellii
+NCAS0G02180 Ncastellii
 NDAI0K01170 Ndairenensis
 YNL145W Scerevisiae
+Skud_14.187 Skudriavzevii
+Smik_14.182 Smikitae
+Smik_14.182 Suvarum
 TDEL0B04780 Tdelbrueckii
 TPHA0I01280 Tphaffii
+Kpol_1039.70a Vpolyspora
 Zrou_YGOB_MFA1 Zrouxii

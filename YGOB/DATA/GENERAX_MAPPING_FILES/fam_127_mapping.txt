@@ -4,10 +4,15 @@ ADR418C Egossypii
 KLLA0F00462g Klactis
 SAKL0D14828g Lkluyveri
 KLTH0D00660g Lthermotolerans
+Kwal_26.6748 Lwaltii
 YAL058W Scerevisiae
+Skud_1.5 Skudriavzevii
+Smik_1.8 Smikitae
+Smik_1.8 Suvarum
 TBLA0A04310 Tblattae
 TBLA0F01810 Tblattae
 TDEL0H02040 Tdelbrueckii
 TPHA0H03080 Tphaffii
 TPHA0N00170 Tphaffii
+Kpol_1049.16 Vpolyspora
 ZYRO0C00462g Zrouxii

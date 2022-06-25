@@ -5,7 +5,8 @@ KLLA0C11913g Klactis
 KNAG0G01820 Knaganishii
 SAKL0H18260g Lkluyveri
 KLTH0G14718g Lthermotolerans
-NCAS0A03750 Ncastallii
+NCAS0A03750 Ncastellii
 NDAI0C06030 Ndairenensis
 TDEL0A01440 Tdelbrueckii
 TPHA0B03510 Tphaffii
+Kpol_1055.41 Vpolyspora

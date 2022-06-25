@@ -5,4 +5,5 @@ KLTH0E16302g Lthermotolerans
 TBLA0G03640 Tblattae
 TDEL0B00390 Tdelbrueckii
 TPHA0C04920 Tphaffii
+Kpol_455.4 Vpolyspora
 ZYRO0A00638g Zrouxii

@@ -2,3 +2,4 @@ ACL133W Egossypii
 SAKL0G14872g Lkluyveri
 KLTH0B01210g Lthermotolerans
 TDEL0E05070 Tdelbrueckii
+Kpol_1010.45 Vpolyspora

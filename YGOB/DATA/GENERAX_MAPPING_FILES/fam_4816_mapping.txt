@@ -1,5 +1,6 @@
 KAFR0G03150 Kafricana
-NCAS0A02420 Ncastallii
+NCAS0A02420 Ncastellii
 NDAI0D04450 Ndairenensis
 TPHA0B02330 Tphaffii
+Kpol_414.6 Vpolyspora
 ZYRO0B07172g Zrouxii

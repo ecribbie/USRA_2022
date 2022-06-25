@@ -3,9 +3,12 @@ Agos_YGOB_YDR374W-A Egossypii
 KLLA0E02465g Klactis
 Sklu_YGOB_YDR374W-A Lkluyveri
 Kthe_YGOB_YDR374W-A Lthermotolerans
-NCAS0A11780 Ncastallii
+NCAS0A11780 Ncastellii
 NDAI0A04510 Ndairenensis
 YDR374W-A Scerevisiae
+Skud_4.644 Skudriavzevii
+Smik_4.642 Smikitae
+Smik_4.642 Suvarum
 TDEL0D02540 Tdelbrueckii
 TPHA0E01670 Tphaffii
 ZYRO0G01694g Zrouxii

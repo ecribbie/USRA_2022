@@ -2,4 +2,5 @@ KAFR0G00420 Kafricana
 NDAI0K00260 Ndairenensis
 TDEL0B00290 Tdelbrueckii
 TPHA0I00170 Tphaffii
+Kpol_309.3 Vpolyspora
 ZYRO0A00858g Zrouxii

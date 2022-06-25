@@ -1,3 +1,7 @@
 CAGL0A02277g Cglabrata
-NCAS0D04160 Ncastallii
+NCAS0D04160 Ncastellii
 NDAI0K01650 Ndairenensis
+Skud_3.14 Skudriavzevii
+Smik_3.26 Smikitae
+Smik_3.26 Suvarum
+Kpol_449.2 Vpolyspora

@@ -3,8 +3,11 @@ Ecym_2134 Ecymbalariae
 AFL165W Egossypii
 Sklu_YGOB_Anc_6.284 Lkluyveri
 KLTH0H02552g Lthermotolerans
-NCAS0D04240 Ncastallii
+NCAS0D04240 Ncastellii
 NDAI0I00690 Ndairenensis
 YMR194C-B Scerevisiae
+Skud_13.362 Skudriavzevii
+Smik_13.400 Smikitae
+Smik_13.400 Suvarum
 TDEL0A06980 Tdelbrueckii
 ZYRO0C05830g Zrouxii

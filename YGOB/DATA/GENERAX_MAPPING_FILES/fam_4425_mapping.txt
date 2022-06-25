@@ -3,6 +3,8 @@ AGR360C Egossypii
 KLLA0D13068g Klactis
 SAKL0G08646g Lkluyveri
 KLTH0E04026g Lthermotolerans
+Kwal_55.20261 Lwaltii
 TBLA0A10340 Tblattae
 TPHA0H01440 Tphaffii
+Kpol_380.14 Vpolyspora
 ZYRO0D10670g Zrouxii

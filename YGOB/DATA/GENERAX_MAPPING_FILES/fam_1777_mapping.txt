@@ -6,5 +6,8 @@ KNAG0B01650 Knaganishii
 SAKL0D05082g Lkluyveri
 KLTH0E15356g Lthermotolerans
 YJL108C Scerevisiae
+Skud_10.106 Skudriavzevii
+Smik_10.130 Smikitae
+Smik_10.130 Suvarum
 TDEL0D01230 Tdelbrueckii
 ZYRO0G17116g Zrouxii

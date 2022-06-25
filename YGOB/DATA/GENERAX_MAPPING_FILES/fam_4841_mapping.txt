@@ -4,10 +4,14 @@ ADR316W Egossypii
 KLLA0C03850g Klactis
 SAKL0C07370g Lkluyveri
 KLTH0F06490g Lthermotolerans
-NCAS0C03550 Ncastallii
+NCAS0C03550 Ncastellii
 NDAI0G02900 Ndairenensis
 YDL029W Scerevisiae
+Skud_4.222 Skudriavzevii
+Smik_4.206 Smikitae
+Smik_4.206 Suvarum
 TBLA0F00870 Tblattae
 TDEL0D04610 Tdelbrueckii
 TPHA0A00920 Tphaffii
+Kpol_479.25 Vpolyspora
 ZYRO0B04928g Zrouxii

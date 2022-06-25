@@ -1,5 +1,8 @@
 CAGL0E04092g Cglabrata
 KLTH0G00198g Lthermotolerans
-NCAS0I00110 Ncastallii
+NCAS0I00110 Ncastellii
 NDAI0H00140 Ndairenensis
 YHL040C Scerevisiae
+Skud_8.3 Skudriavzevii
+Smik_8.1 Smikitae
+Smik_8.1 Suvarum

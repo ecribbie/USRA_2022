@@ -5,8 +5,14 @@ KAFR0G03090 Kafricana
 KNAG0B05930 Knaganishii
 KNAG0D04250 Knaganishii
 SAKL0H03916g Lkluyveri
-NCAS0A02350 Ncastallii
-NCAS0J01290 Ncastallii
+NCAS0A02350 Ncastellii
+NCAS0J01290 Ncastellii
 NDAI0J02050 Ndairenensis
 YGR071C Scerevisiae
 YLR373C Scerevisiae
+Skud_7.368 Skudriavzevii
+Skud_12.458 Skudriavzevii
+Smik_6.154 Smikitae
+Smik_12.460 Smikitae
+Smik_6.154 Suvarum
+Smik_12.460 Suvarum

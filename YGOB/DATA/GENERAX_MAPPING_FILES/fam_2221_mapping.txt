@@ -5,6 +5,10 @@ SAKL0C07260g Lkluyveri
 KLTH0F06446g Lthermotolerans
 NDAI0B05230 Ndairenensis
 YKR041W Scerevisiae
+Skud_11.278 Skudriavzevii
+Smik_11.304 Smikitae
+Smik_11.304 Suvarum
 TDEL0H01260 Tdelbrueckii
 TPHA0B01080 Tphaffii
+Kpol_448.1 Vpolyspora
 ZYRO0D03718g Zrouxii
