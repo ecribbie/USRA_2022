@@ -47,7 +47,7 @@ print("length of families is:",len(families))
 g=open('../DATA/desired_pillar.txt','w')
 
 for fam in families:
-	g.write(" ".join(pillars[fam]['genes']))
+	g.write(" ".join(families[fam]['genes']))
 	g.write("\n")
 
 g.close()

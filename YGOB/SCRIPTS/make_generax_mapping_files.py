@@ -1,6 +1,6 @@
 import sys
 import re
-
+import os
 
 
 f=open(sys.argv[1])
@@ -47,4 +47,5 @@ for line in mapping:
 
 
 for i in range(len(fam_files)):
+	globals()["".join(["file_",str(i)])].truncate(f.tell - len(os.linesep))
 	globals()["".join(["file_",str(i)])].close()
