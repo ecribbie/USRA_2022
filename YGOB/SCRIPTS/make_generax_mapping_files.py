@@ -47,5 +47,5 @@ for line in mapping:
 
 
 for i in range(len(fam_files)):
-	globals()["".join(["file_",str(i)])].truncate(f.tell - len(os.linesep))
+	globals()["".join(["file_",str(i)])].truncate(globals()["".join(["file_",str(i)])].tell() - len(os.linesep))
 	globals()["".join(["file_",str(i)])].close()
