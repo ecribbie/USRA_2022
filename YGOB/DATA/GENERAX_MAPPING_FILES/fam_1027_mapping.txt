@@ -1,14 +1,6 @@
 CAGL0G01122g Cglabrata
 NCAS0A02080 Ncastellii
 YGR035C Scerevisiae
-YLR346C Scerevisiae
-Skud_7.330 Skudriavzevii
-Skud_12.432 Skudriavzevii
-Smik_6.113 Smikitae
-Smik_12.435 Smikitae
-Smik_6.113 Suvarum
-Smik_12.435 Suvarum
 TDEL0D02720 Tdelbrueckii
 TPHA0K01230 Tphaffii
-Kpol_YGOB_YLR346C Vpolyspora
 Zrou_YGOB_YLR346C Zrouxii

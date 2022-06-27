@@ -1,13 +1,9 @@
 CAGL0I03212g Cglabrata
 KAFR0E00610 Kafricana
 KNAG0G00590 Knaganishii
-SAKL0D11308g Lkluyveri
 NCAS0C03610 Ncastellii
 NDAI0I01200 Ndairenensis
 YEL025C Scerevisiae
-Skud_5.70 Skudriavzevii
-Smik_5.79 Smikitae
-Smik_5.79 Suvarum
 TDEL0B05370 Tdelbrueckii
 TPHA0O00340 Tphaffii
 ZYRO0E03080g Zrouxii

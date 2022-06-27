@@ -3,8 +3,5 @@ KLLA0D05511g Klactis
 SAKL0B00814g Lkluyveri
 NCAS0J00300 Ncastellii
 YLR070C Scerevisiae
-Smik_6.35 Smikitae
-Smik_6.35 Suvarum
 TDEL0C00390 Tdelbrueckii
-Kpol_1058.11 Vpolyspora
 ZYRO0F02552g Zrouxii

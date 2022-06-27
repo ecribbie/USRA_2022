@@ -1,9 +1,5 @@
 CAGL0F00187g Cglabrata
 KLLA0E14499g Klactis
-SAKL0B00308g Lkluyveri
 NCAS0A05270 Ncastellii
 YMR319C Scerevisiae
-Skud_13.495 Skudriavzevii
-Smik_13.536 Smikitae
-Smik_13.536 Suvarum
 ZYRO0F18678g Zrouxii

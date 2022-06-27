@@ -10,9 +10,5 @@ NCAS0B03580 Ncastellii
 NCAS0C03250 Ncastellii
 NDAI0J01010 Ndairenensis
 YLR130C Scerevisiae
-Skud_12.199 Skudriavzevii
-Smik_12.193 Smikitae
-Smik_12.193 Suvarum
 TBLA0H01270 Tblattae
 TPHA0A01550 Tphaffii
-Kpol_543.64 Vpolyspora

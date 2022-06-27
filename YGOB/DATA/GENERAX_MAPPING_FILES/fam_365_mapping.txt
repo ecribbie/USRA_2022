@@ -1,9 +1,5 @@
 KLLA0B03927g Klactis
 SAKL0G18612g Lkluyveri
-Kthe_YGOB_YHR199C-A Lthermotolerans
 YHR199C-A Scerevisiae
-Skud_8.266 Skudriavzevii
-Smik_8.289 Smikitae
-Smik_8.289 Suvarum
 TPHA0L00190 Tphaffii
 ZYRO0B08690g Zrouxii

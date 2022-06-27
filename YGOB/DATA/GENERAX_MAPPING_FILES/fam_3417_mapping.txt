@@ -1,7 +1,3 @@
 KLLA0B00407g Klactis
 SAKL0H11506g Lkluyveri
-KLTH0E00594g Lthermotolerans
 YNR057C Scerevisiae
-Skud_14.393 Skudriavzevii
-Smik_14.391 Smikitae
-Smik_14.391 Suvarum

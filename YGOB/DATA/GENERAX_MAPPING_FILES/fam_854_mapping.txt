@@ -1,12 +1,7 @@
 Ecym_2731 Ecymbalariae
 KLLA0F22968g Klactis
-KLTH0H11594g Lthermotolerans
 NCAS0D00670 Ncastellii
 YGL159W Scerevisiae
-Skud_7.111 Skudriavzevii
-Smik_7.111 Smikitae
-Smik_7.111 Suvarum
 TDEL0B06250 Tdelbrueckii
 TPHA0B03620 Tphaffii
-Kpol_1061.25 Vpolyspora
 ZYRO0E05390g Zrouxii

@@ -2,8 +2,6 @@ CAGL0B00264g Cglabrata
 Ecym_1002 Ecymbalariae
 KLLA0C00374g Klactis
 KNAG0C00160 Knaganishii
-KLTH0F00396g Lthermotolerans
-Kwal_YGOB_HMalpha2 Lwaltii
 NCAS0B09140 Ncastellii
 NDAI0A00110 Ndairenensis
 YCL067C Scerevisiae

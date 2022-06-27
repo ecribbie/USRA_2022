@@ -3,10 +3,6 @@ ADL036WA Egossypii
 KAFR0I01320 Kafricana
 KLLA0C17237g Klactis
 SAKL0H24134g Lkluyveri
-Kthe_YGOB_YLR307C-A Lthermotolerans
 YLR307C-A Scerevisiae
-Skud_12.391 Skudriavzevii
-Smik_12.391 Smikitae
-Smik_12.391 Suvarum
 TDEL0E05550 Tdelbrueckii
 Zrou_YGOB_YLR307C-A Zrouxii

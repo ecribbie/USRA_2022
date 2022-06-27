@@ -1,5 +1,2 @@
 KNAG0I00900 Knaganishii
 YLR121C Scerevisiae
-Skud_12.193 Skudriavzevii
-Smik_12.187 Smikitae
-Smik_12.187 Suvarum

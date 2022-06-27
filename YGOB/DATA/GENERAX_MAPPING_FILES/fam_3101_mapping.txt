@@ -6,10 +6,6 @@ KLLA0E20945g Klactis
 NCAS0E01350 Ncastellii
 NDAI0G01520 Ndairenensis
 YNL318C Scerevisiae
-Skud_14.21 Skudriavzevii
-Smik_14.13 Smikitae
-Smik_14.13 Suvarum
 TBLA0A07710 Tblattae
 TDEL0A00420 Tdelbrueckii
-Kpol_1014.21 Vpolyspora
 ZYRO0C03168g Zrouxii

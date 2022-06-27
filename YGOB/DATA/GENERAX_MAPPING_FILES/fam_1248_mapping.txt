@@ -11,14 +11,8 @@ NDAI0A07270 Ndairenensis
 NDAI0G01860 Ndairenensis
 YBR020W Scerevisiae
 YDR009W Scerevisiae
-Smik_2.139 Smikitae
-Smik_4.243 Smikitae
-Smik_2.139 Suvarum
-Smik_4.243 Suvarum
 TBLA0G02800 Tblattae
 TBLA0I01750 Tblattae
 TDEL0E00140 Tdelbrueckii
 TPHA0A04230 Tphaffii
-TPHA0M00650 Tphaffii
-Kpol_1037.46 Vpolyspora
 ZYRO0A04136g Zrouxii

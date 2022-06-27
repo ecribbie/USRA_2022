@@ -1,5 +1,3 @@
 KNAG0G00550 Knaganishii
 SAKL0D11528g Lkluyveri
-KLTH0G19646g Lthermotolerans
 NCAS0G04050 Ncastellii
-Kpol_480.1 Vpolyspora

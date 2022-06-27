@@ -1,8 +1,6 @@
 Ecym_1121 Ecymbalariae
 AFR649W Egossypii
 SAKL0C03234g Lkluyveri
-KLTH0F02838g Lthermotolerans
 TDEL0C05990 Tdelbrueckii
 TPHA0B04300 Tphaffii
-Kpol_2000.44 Vpolyspora
 ZYRO0F16214g Zrouxii

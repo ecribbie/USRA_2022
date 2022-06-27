@@ -3,9 +3,7 @@ AER456W Egossypii
 KLLA0B14553g Klactis
 KNAG0C01625 Knaganishii
 KLTH0F00242g Lthermotolerans
-Kwal_YGOB_HMa1 Lwaltii
 NCAS0A15350 Ncastellii
 YCR097W Scerevisiae
 TBLA0G01060 Tblattae
-Kpol_1058.2 Vpolyspora
 ZYRO0C18348g Zrouxii

@@ -6,11 +6,7 @@ KNAG0K01560 Knaganishii
 SAKL0C11594g Lkluyveri
 NCAS0A10210 Ncastellii
 NDAI0A07260 Ndairenensis
-Skud_2.134 Skudriavzevii
-Smik_2.140 Smikitae
-Smik_2.140 Suvarum
 TBLA0G02830 Tblattae
 TDEL0D04030 Tdelbrueckii
 TPHA0M00630 Tphaffii
-Kpol_1036.33 Vpolyspora
 ZYRO0A04092g Zrouxii

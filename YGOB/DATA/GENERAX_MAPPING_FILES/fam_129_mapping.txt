@@ -4,12 +4,7 @@ AAL122C Egossypii
 KAFR0E01530 Kafricana
 KLLA0C11165g Klactis
 SAKL0G10582g Lkluyveri
-KLTH0G06622g Lthermotolerans
 YDR282C Scerevisiae
-Skud_4.545 Skudriavzevii
-Smik_4.531 Smikitae
-Smik_4.531 Suvarum
 TDEL0E03360 Tdelbrueckii
 TPHA0D01710 Tphaffii
-Kpol_1033.6 Vpolyspora
 ZYRO0G16478g Zrouxii

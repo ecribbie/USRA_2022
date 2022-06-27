@@ -4,11 +4,7 @@ KAFR0E01100 Kafricana
 KLLA0B07040g Klactis
 KNAG0H01430 Knaganishii
 SAKL0D04378g Lkluyveri
-Kwal_56.22910 Lwaltii
 NCAS0A10360 Ncastellii
 NDAI0A05930 Ndairenensis
-Smik_4.248 Smikitae
-Smik_4.248 Suvarum
 TBLA0G02960 Tblattae
 TPHA0M00830 Tphaffii
-Kpol_1036.10 Vpolyspora

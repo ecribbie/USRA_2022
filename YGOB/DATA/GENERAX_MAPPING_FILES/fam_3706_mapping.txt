@@ -3,6 +3,3 @@ KNAG0A03070 Knaganishii
 NCAS0B01440 Ncastellii
 NDAI0E01320 Ndairenensis
 YOR230W Scerevisiae
-Skud_15.396 Skudriavzevii
-Smik_15.414 Smikitae
-Smik_15.414 Suvarum

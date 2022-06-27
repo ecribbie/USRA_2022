@@ -7,11 +7,7 @@ KNAG0E04170 Knaganishii
 NCAS0A07630 Ncastellii
 NDAI0H02010 Ndairenensis
 YAL054C Scerevisiae
-Skud_1.8 Skudriavzevii
-Smik_1.11 Smikitae
-Smik_1.11 Suvarum
 TBLA0E00720 Tblattae
 TDEL0H04360 Tdelbrueckii
 TPHA0N00220 Tphaffii
-Kpol_538.43 Vpolyspora
 ZYRO0C00682g Zrouxii

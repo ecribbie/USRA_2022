@@ -3,9 +3,6 @@ AFR121W Egossypii
 KLLA0F22902g Klactis
 SAKL0D07986g Lkluyveri
 KLTH0H11682g Lthermotolerans
-Kwal_14.2625 Lwaltii
 TDEL0B06220 Tdelbrueckii
-TPHA0B03590 Tphaffii
 TPHA0O00620 Tphaffii
-Kpol_1061.23 Vpolyspora
 ZYRO0E05302g Zrouxii

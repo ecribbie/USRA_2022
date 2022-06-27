@@ -4,11 +4,9 @@ AGL163W Egossypii
 KLLA0D17006g Klactis
 KNAG0A02860 Knaganishii
 SAKL0H14916g Lkluyveri
-KLTH0G11572g Lthermotolerans
 NCAS0C03140 Ncastellii
 NDAI0G02450 Ndairenensis
 TBLA0A04120 Tblattae
 TDEL0F04740 Tdelbrueckii
 TPHA0C00640 Tphaffii
-Kpol_1036.87 Vpolyspora
 ZYRO0F14036g Zrouxii

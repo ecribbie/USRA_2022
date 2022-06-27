@@ -2,10 +2,6 @@ CAGL0F06259g Cglabrata
 NCAS0A12960 Ncastellii
 NDAI0B01290 Ndairenensis
 YMR042W Scerevisiae
-Skud_13.199 Skudriavzevii
-Smik_13.213 Smikitae
-Smik_13.213 Suvarum
 TDEL0B07000 Tdelbrueckii
 TPHA0C02540 Tphaffii
-Kpol_1073.27 Vpolyspora
 ZYRO0F00748g Zrouxii

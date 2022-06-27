@@ -8,11 +8,7 @@ SAKL0H21186g Lkluyveri
 NCAS0A01780 Ncastellii
 NDAI0D03710 Ndairenensis
 YGL030W Scerevisiae
-Skud_7.257 Skudriavzevii
-Smik_7.257 Smikitae
-Smik_7.257 Suvarum
 TBLA0C04220 Tblattae
 TDEL0F02630 Tdelbrueckii
 TPHA0K01740 Tphaffii
-Kpol_1026.5 Vpolyspora
 ZYRO0G09548g Zrouxii

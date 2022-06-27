@@ -1,7 +1,5 @@
 Ecym_5064 Ecymbalariae
 SAKL0B10340g Lkluyveri
-KLTH0D02002g Lthermotolerans
-Kwal_26.7050 Lwaltii
 TDEL0H03860 Tdelbrueckii
 TPHA0N00520 Tphaffii
 ZYRO0D04224g Zrouxii

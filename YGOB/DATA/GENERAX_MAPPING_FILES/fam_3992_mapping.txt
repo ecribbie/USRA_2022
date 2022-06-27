@@ -5,15 +5,10 @@ Klac_YGOB_OAZ1 Klactis
 KNAG0A02130 Knaganishii
 Sklu_YGOB_H11022 Lkluyveri
 Kthe_YGOB_KLTHE11704g Lthermotolerans
-Kwal_YGOB_11879 Lwaltii
 NCAS0C02310 Ncastellii
 NDAI0E03000 Ndairenensis
 YPL052W Scerevisiae
-Skud_16.230 Skudriavzevii
-Smik_16.184 Smikitae
-Smik_16.184 Suvarum
 TBLA0A00460 Tblattae
 TDEL0B01330 Tdelbrueckii
 TPHA0C01650 Tphaffii
-Kpol_YGOB_OAZ1 Vpolyspora
 Zrou_YGOB_F08580 Zrouxii

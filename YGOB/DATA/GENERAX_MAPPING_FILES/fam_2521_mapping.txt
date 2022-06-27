@@ -3,12 +3,8 @@ AFR118W Egossypii
 KAFR0I02040 Kafricana
 KNAG0I01430 Knaganishii
 SAKL0D07920g Lkluyveri
-KLTH0H11616g Lthermotolerans
 NCAS0A08860 Ncastellii
 NDAI0G05280 Ndairenensis
 YLR254C Scerevisiae
-Skud_12.334 Skudriavzevii
-Smik_12.326 Smikitae
-Smik_12.326 Suvarum
 TPHA0B03610 Tphaffii
 ZYRO0E05368g Zrouxii

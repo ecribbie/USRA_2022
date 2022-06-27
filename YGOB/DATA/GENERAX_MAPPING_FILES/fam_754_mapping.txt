@@ -4,8 +4,4 @@ KAFR0G03675 Kafricana
 NCAS0F03520 Ncastellii
 NDAI0B05820 Ndairenensis
 YPR145C-A Scerevisiae
-Skud_16.440 Skudriavzevii
-Smik_16.397 Smikitae
-Smik_16.397 Suvarum
 TPHA0D04205 Tphaffii
-Kpol_YGOB_YPR145C-A Vpolyspora

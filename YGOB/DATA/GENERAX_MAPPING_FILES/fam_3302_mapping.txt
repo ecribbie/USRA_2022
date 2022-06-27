@@ -3,8 +3,5 @@ ACL085C Egossypii
 KLLA0C13750g Klactis
 KNAG0M01850 Knaganishii
 YNL092W Scerevisiae
-Skud_14.239 Skudriavzevii
-Smik_14.235 Smikitae
-Smik_14.235 Suvarum
 TPHA0P00940 Tphaffii
 ZYRO0C15532g Zrouxii

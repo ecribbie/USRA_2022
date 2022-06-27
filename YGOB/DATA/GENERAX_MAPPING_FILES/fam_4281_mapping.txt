@@ -1,6 +1,5 @@
 CAGL0K03245g Cglabrata
 KLLA0F25410g Klactis
 SAKL0D13134g Lkluyveri
-KLTH0D07524g Lthermotolerans
 TDEL0B06440 Tdelbrueckii
 ZYRO0E05896g Zrouxii

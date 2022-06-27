@@ -1,11 +1,7 @@
-Agos_YGOB_YKL065W-A Egossypii
 KLLA0F26818g Klactis
 KNAG0H00500 Knaganishii
 NCAS0H03120 Ncastellii
 YKL065W-A Scerevisiae
-Skud_11.163 Skudriavzevii
-Smik_11.182 Smikitae
-Smik_11.182 Suvarum
 TDEL0B06980 Tdelbrueckii
 TPHA0N01510 Tphaffii
 ZYRO0F00836g Zrouxii

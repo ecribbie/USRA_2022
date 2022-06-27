@@ -1,5 +1,2 @@
 NCAS0A09820 Ncastellii
 NDAI0C02350 Ndairenensis
-Skud_16.497 Skudriavzevii
-Smik_16.457 Smikitae
-Smik_16.457 Suvarum

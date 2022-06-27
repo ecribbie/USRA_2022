@@ -2,7 +2,4 @@ KLLA0D13926g Klactis
 KNAG0L00740 Knaganishii
 SAKL0F04928g Lkluyveri
 YEL004W Scerevisiae
-Skud_5.96 Skudriavzevii
-Smik_5.109 Smikitae
-Smik_5.109 Suvarum
 TDEL0H03010 Tdelbrueckii

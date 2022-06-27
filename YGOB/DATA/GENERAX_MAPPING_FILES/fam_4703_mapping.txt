@@ -11,14 +11,6 @@ NCAS0D04250 Ncastellii
 NDAI0I00680 Ndairenensis
 YMR195W Scerevisiae
 YPL250C Scerevisiae
-Skud_13.363 Skudriavzevii
-Skud_16.28 Skudriavzevii
-Smik_6.455 Smikitae
-Smik_13.403 Smikitae
-Smik_6.455 Suvarum
-Smik_13.403 Suvarum
 TDEL0A06990 Tdelbrueckii
-TPHA0D03630 Tphaffii
 TPHA0H02020 Tphaffii
-Kpol_1060.20 Vpolyspora
 ZYRO0C05808g Zrouxii

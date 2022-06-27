@@ -1,4 +1,3 @@
 NCAS0I00670 Ncastellii
 NDAI0A08370 Ndairenensis
 YOR011W Scerevisiae
-Skud_15.175 Skudriavzevii

@@ -4,12 +4,8 @@ AFR608W Egossypii
 KLLA0F02255g Klactis
 KNAG0C01920 Knaganishii
 SAKL0D07568g Lkluyveri
-KLTH0H11286g Lthermotolerans
 NCAS0B07290 Ncastellii
 NDAI0B04620 Ndairenensis
 YFR029W Scerevisiae
-Skud_6.117 Skudriavzevii
-Smik_7.344 Smikitae
-Smik_7.344 Suvarum
 TDEL0D02160 Tdelbrueckii
 ZYRO0B08910g Zrouxii

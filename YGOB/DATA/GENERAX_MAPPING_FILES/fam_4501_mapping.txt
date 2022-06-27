@@ -3,8 +3,6 @@ Ecym_4062 Ecymbalariae
 ADR197W Egossypii
 KLLA0A01694g Klactis
 SAKL0G04994g Lkluyveri
-KLTH0G03828g Lthermotolerans
 TDEL0A03940 Tdelbrueckii
 TPHA0D02360 Tphaffii
-Kpol_1004.24 Vpolyspora
 ZYRO0D12628g Zrouxii

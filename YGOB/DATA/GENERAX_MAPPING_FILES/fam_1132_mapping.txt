@@ -4,14 +4,9 @@ AAL137W Egossypii
 KNAG0E03150 Knaganishii
 SAKL0G13398g Lkluyveri
 KLTH0B03916g Lthermotolerans
-Kwal_33.15013 Lwaltii
 NCAS0D01750 Ncastellii
 NDAI0C02860 Ndairenensis
 YGR144W Scerevisiae
-Skud_7.466 Skudriavzevii
-Smik_6.247 Smikitae
-Smik_6.247 Suvarum
 TDEL0H00200 Tdelbrueckii
 TPHA0A04790 Tphaffii
-Kpol_1050.31 Vpolyspora
 ZYRO0G11726g Zrouxii

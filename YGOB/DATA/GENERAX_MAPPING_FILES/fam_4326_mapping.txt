@@ -2,9 +2,6 @@ AEL057C Egossypii
 NCAS0G03970 Ncastellii
 NDAI0G00490 Ndairenensis
 YCR023C Scerevisiae
-Skud_3.97 Skudriavzevii
-Smik_3.120 Smikitae
-Smik_3.120 Suvarum
 TBLA0A01420 Tblattae
 TPHA0O00800 Tphaffii
 ZYRO0E03410g Zrouxii

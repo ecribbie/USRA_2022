@@ -2,10 +2,6 @@ CAGL0H07293g Cglabrata
 KAFR0K02230 Kafricana
 KNAG0B02010 Knaganishii
 YDR314C Scerevisiae
-Skud_4.577 Skudriavzevii
-Smik_4.567 Smikitae
-Smik_4.567 Suvarum
 TBLA0C03520 Tblattae
 TPHA0E01170 Tphaffii
-Kpol_339.7 Vpolyspora
 ZYRO0C14300g Zrouxii

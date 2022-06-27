@@ -4,14 +4,9 @@ AAR015C Egossypii
 KLLA0B11770g Klactis
 KNAG0D04580 Knaganishii
 Sklu_YGOB_Anc_7.117 Lkluyveri
-KLTH0F13640g Lthermotolerans
-Kwal_55.21008 Lwaltii
 NCAS0F01010 Ncastellii
 NDAI0H01500 Ndairenensis
 YIR014W Scerevisiae
-Skud_9.192 Skudriavzevii
-Smik_9.214 Smikitae
-Smik_9.214 Suvarum
 TBLA0J01960 Tblattae
 TDEL0H03330 Tdelbrueckii
 ZYRO0G04202g Zrouxii

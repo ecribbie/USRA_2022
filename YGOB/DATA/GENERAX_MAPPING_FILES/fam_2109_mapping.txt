@@ -8,17 +8,10 @@ KNAG0A06590 Knaganishii
 KNAG0C05710 Knaganishii
 SAKL0E02574g Lkluyveri
 KLTH0D05764g Lthermotolerans
-Kwal_26.7826 Lwaltii
 NCAS0A05330 Ncastellii
 NCAS0A07740 Ncastellii
 NDAI0K02180 Ndairenensis
 YKL093W Scerevisiae
 YMR081C Scerevisiae
-Skud_11.135 Skudriavzevii
-Skud_13.238 Skudriavzevii
-Smik_11.147 Smikitae
-Smik_13.264 Smikitae
-Smik_11.147 Suvarum
-Smik_13.264 Suvarum
 TBLA0I01120 Tblattae
 ZYRO0G03718g Zrouxii

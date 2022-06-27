@@ -3,9 +3,5 @@ AER405C Egossypii
 KLLA0B06776g Klactis
 SAKL0D04048g Lkluyveri
 KLTH0C08052g Lthermotolerans
-Kwal_56.22951 Lwaltii
 NCAS0J00130 Ncastellii
-Skud_16.3 Skudriavzevii
-Smik_6.483 Smikitae
-Smik_6.483 Suvarum
 ZYRO0D17952g Zrouxii

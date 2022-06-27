@@ -4,15 +4,10 @@ ABL083W Egossypii
 KAFR0B06930 Kafricana
 KLLA0B03806g Klactis
 SAKL0G18744g Lkluyveri
-KLTH0D17380g Lthermotolerans
 NCAS0A06380 Ncastellii
 NDAI0D03370 Ndairenensis
 YHR201C Scerevisiae
-Skud_8.268 Skudriavzevii
-Smik_8.291 Smikitae
-Smik_8.291 Suvarum
 TBLA0E04930 Tblattae
 TDEL0D00400 Tdelbrueckii
 TPHA0B00310 Tphaffii
-Kpol_1000.20 Vpolyspora
 ZYRO0B08822g Zrouxii

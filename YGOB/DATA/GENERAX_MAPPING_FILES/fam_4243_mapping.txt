@@ -1,6 +1,5 @@
 KLLA0D07568g Klactis
 SAKL0B02200g Lkluyveri
-KLTH0A02772g Lthermotolerans
 NCAS0J00530 Ncastellii
 NDAI0C06370 Ndairenensis
 TDEL0C00920 Tdelbrueckii

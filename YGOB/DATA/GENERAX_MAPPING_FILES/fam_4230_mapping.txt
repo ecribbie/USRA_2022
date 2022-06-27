@@ -1,6 +1,5 @@
 Ecym_3372 Ecymbalariae
 KLLA0E14763g Klactis
 SAKL0E06512g Lkluyveri
-KLTH0F09526g Lthermotolerans
 TDEL0G02630 Tdelbrueckii
 ZYRO0A07084g Zrouxii

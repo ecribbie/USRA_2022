@@ -5,5 +5,4 @@ NCAS0I01160 Ncastellii
 NDAI0A07840 Ndairenensis
 TBLA0B02460 Tblattae
 TDEL0C04880 Tdelbrueckii
-Kpol_1065.27 Vpolyspora
 ZYRO0C16038g Zrouxii

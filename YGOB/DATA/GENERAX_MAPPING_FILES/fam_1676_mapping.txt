@@ -3,12 +3,8 @@ AER218C Egossypii
 KLLA0C04301g Klactis
 SAKL0C07832g Lkluyveri
 KLTH0E16016g Lthermotolerans
-Kwal_27.9796 Lwaltii
 NCAS0D04910 Ncastellii
 NDAI0F00970 Ndairenensis
 YIR027C Scerevisiae
-Skud_9.208 Skudriavzevii
-Smik_9.231 Smikitae
-Smik_9.231 Suvarum
 TDEL0D04410 Tdelbrueckii
 ZYRO0A05104g Zrouxii

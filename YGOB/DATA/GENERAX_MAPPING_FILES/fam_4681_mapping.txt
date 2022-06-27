@@ -6,5 +6,4 @@ KNAG0A05840 Knaganishii
 NCAS0A03940 Ncastellii
 TBLA0B08900 Tblattae
 TDEL0G03130 Tdelbrueckii
-Kpol_1041.34 Vpolyspora
 ZYRO0A08250g Zrouxii

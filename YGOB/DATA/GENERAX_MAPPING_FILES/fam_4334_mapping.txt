@@ -2,6 +2,5 @@ Ecym_1054 Ecymbalariae
 AFR700W Egossypii
 KLLA0C01496g Klactis
 SAKL0C01540g Lkluyveri
-KLTH0F01518g Lthermotolerans
 TDEL0C06540 Tdelbrueckii
 ZYRO0F17512g Zrouxii

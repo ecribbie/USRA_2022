@@ -1,6 +1,3 @@
 CAGL0F06919g Cglabrata
 YIR036C Scerevisiae
-Skud_9.217 Skudriavzevii
-Smik_9.240 Smikitae
-Smik_9.240 Suvarum
 TPHA0N01910 Tphaffii

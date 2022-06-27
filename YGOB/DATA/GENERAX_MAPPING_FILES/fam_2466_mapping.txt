@@ -3,15 +3,10 @@ Ecym_1072 Ecymbalariae
 AFR683C Egossypii
 KLLA0C01991g Klactis
 SAKL0C02244g Lkluyveri
-KLTH0F02024g Lthermotolerans
 NCAS0B08700 Ncastellii
 NDAI0A00560 Ndairenensis
 YLR188W Scerevisiae
-Skud_12.253 Skudriavzevii
-Smik_12.248 Smikitae
-Smik_12.248 Suvarum
 TBLA0A05300 Tblattae
 TDEL0C06350 Tdelbrueckii
 TPHA0B04620 Tphaffii
-Kpol_2000.79 Vpolyspora
 ZYRO0F17050g Zrouxii

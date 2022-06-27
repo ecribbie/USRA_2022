@@ -4,15 +4,10 @@ AEL296W Egossypii
 KAFR0C03250 Kafricana
 KNAG0E03470 Knaganishii
 SAKL0B03366g Lkluyveri
-KLTH0G17006g Lthermotolerans
 NCAS0A05120 Ncastellii
 NDAI0K02520 Ndairenensis
 YGL164C Scerevisiae
-Skud_7.106 Skudriavzevii
-Smik_7.106 Smikitae
-Smik_7.106 Suvarum
 TBLA0C00150 Tblattae
 TDEL0C01360 Tdelbrueckii
 TPHA0H00570 Tphaffii
-Kpol_467.4 Vpolyspora
 ZYRO0F04884g Zrouxii

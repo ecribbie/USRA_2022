@@ -1,6 +1,2 @@
 NCAS0D02350 Ncastellii
 NDAI0I02650 Ndairenensis
-Skud_5.24 Skudriavzevii
-Smik_5.22 Smikitae
-Smik_5.22 Suvarum
-Kpol_358.4 Vpolyspora

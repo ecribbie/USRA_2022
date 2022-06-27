@@ -8,11 +8,5 @@ NCAS0I00660 Ncastellii
 NDAI0H01290 Ndairenensis
 YIL011W Scerevisiae
 YOR010C Scerevisiae
-Skud_9.161 Skudriavzevii
-Skud_15.172 Skudriavzevii
-Smik_9.183 Smikitae
-Smik_15.184 Smikitae
-Smik_9.183 Suvarum
-Smik_15.184 Suvarum
 TBLA0A01140 Tblattae
 TPHA0L00800 Tphaffii

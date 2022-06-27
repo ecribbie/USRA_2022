@@ -3,15 +3,10 @@ KAFR0A06670 Kafricana
 KLLA0C18161g Klactis
 KNAG0C05960 Knaganishii
 SAKL0H22990g Lkluyveri
-KLTH0E08690g Lthermotolerans
 NCAS0J00920 Ncastellii
 NDAI0J01700 Ndairenensis
 YLR326W Scerevisiae
-Skud_12.409 Skudriavzevii
-Smik_12.410 Smikitae
-Smik_12.410 Suvarum
 TBLA0E01260 Tblattae
 TDEL0D03080 Tdelbrueckii
 TPHA0F00870 Tphaffii
-Kpol_1025.29 Vpolyspora
 ZYRO0G11066g Zrouxii

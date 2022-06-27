@@ -4,13 +4,8 @@ AGL290C Egossypii
 KAFR0K01970 Kafricana
 KLLA0E07041g Klactis
 SAKL0F13024g Lkluyveri
-KLTH0C06116g Lthermotolerans
 NCAS0A14540 Ncastellii
 YER115C Scerevisiae
-Skud_5.264 Skudriavzevii
-Smik_5.260 Smikitae
-Smik_5.260 Suvarum
 TBLA0I01060 Tblattae
 TDEL0C02760 Tdelbrueckii
-Kpol_1045.25 Vpolyspora
 ZYRO0B03916g Zrouxii

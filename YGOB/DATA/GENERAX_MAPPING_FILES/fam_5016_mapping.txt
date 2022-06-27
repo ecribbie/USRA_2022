@@ -3,13 +3,8 @@ Ecym_7342 Ecymbalariae
 KLLA0F09339g Klactis
 SAKL0H23342g Lkluyveri
 KLTH0D04114g Lthermotolerans
-Kwal_26.7519 Lwaltii
 NCAS0A05850 Ncastellii
 NDAI0D02780 Ndairenensis
-Skud_7.242 Skudriavzevii
-Smik_7.241 Smikitae
-Smik_7.241 Suvarum
 TDEL0F02820 Tdelbrueckii
 TPHA0K01850 Tphaffii
-Kpol_1026.14 Vpolyspora
 ZYRO0G07150g Zrouxii

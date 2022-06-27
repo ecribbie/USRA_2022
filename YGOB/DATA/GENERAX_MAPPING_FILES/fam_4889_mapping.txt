@@ -7,4 +7,3 @@ NCAS0F02900 Ncastellii
 NCAS0H01590 Ncastellii
 NDAI0C01930 Ndairenensis
 TBLA0H01930 Tblattae
-Kpol_364.5 Vpolyspora

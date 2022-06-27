@@ -4,15 +4,10 @@ ADR152CA Egossypii
 KAFR0C03950 Kafricana
 KLLA0F25938g Klactis
 SAKL0G19162g Lkluyveri
-KLTH0C01144g Lthermotolerans
 NCAS0H03330 Ncastellii
 NDAI0C00330 Ndairenensis
 YKL086W Scerevisiae
-Skud_11.142 Skudriavzevii
-Smik_11.154 Smikitae
-Smik_11.154 Suvarum
 TBLA0A00770 Tblattae
 TDEL0B07360 Tdelbrueckii
 TPHA0L02000 Tphaffii
-Kpol_1073.6 Vpolyspora
 ZYRO0E00858g Zrouxii

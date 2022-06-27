@@ -4,13 +4,9 @@ AFR725C Egossypii
 KAFR0G01190 Kafricana
 KNAG0F00160 Knaganishii
 SAKL0C00924g Lkluyveri
-KLTH0F00924g Lthermotolerans
 NCAS0A00270 Ncastellii
 NDAI0F04530 Ndairenensis
 YDR524C Scerevisiae
-Skud_4.798 Skudriavzevii
-Smik_4.804 Smikitae
-Smik_4.804 Suvarum
 TBLA0A07450 Tblattae
 TDEL0C06790 Tdelbrueckii
 ZYRO0F18084g Zrouxii

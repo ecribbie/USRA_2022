@@ -1,3 +1,2 @@
 NCAS0A03050 Ncastellii
 YPR201W Scerevisiae
-Kpol_462.10 Vpolyspora

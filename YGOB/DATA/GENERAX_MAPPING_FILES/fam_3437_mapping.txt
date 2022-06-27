@@ -4,15 +4,10 @@ ADL183C Egossypii
 KLLA0E07107g Klactis
 KNAG0A01260 Knaganishii
 SAKL0C13244g Lkluyveri
-KLTH0F19272g Lthermotolerans
 NCAS0C04460 Ncastellii
 NDAI0G03840 Ndairenensis
 YOL136C Scerevisiae
-Skud_15.18 Skudriavzevii
-Smik_15.18 Smikitae
-Smik_15.18 Suvarum
 TBLA0A07930 Tblattae
 TDEL0A00450 Tdelbrueckii
 TPHA0A00390 Tphaffii
-Kpol_1039.1 Vpolyspora
 ZYRO0C03102g Zrouxii

@@ -1,9 +1,5 @@
 KNAG0C00570 Knaganishii
 NCAS0B08780 Ncastellii
 NDAI0A00490 Ndairenensis
-Skud_3.36 Skudriavzevii
-Smik_3.51 Smikitae
-Smik_3.51 Suvarum
 TBLA0A05160 Tblattae
 TPHA0B04770 Tphaffii
-Kpol_2000.94 Vpolyspora

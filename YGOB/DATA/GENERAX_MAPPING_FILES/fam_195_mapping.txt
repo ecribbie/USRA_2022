@@ -5,17 +5,10 @@ AFL205C Egossypii
 KNAG0C05190 Knaganishii
 SAKL0G07656g Lkluyveri
 KLTH0E02750g Lthermotolerans
-Kwal_55.20068 Lwaltii
 NCAS0F03100 Ncastellii
 NCAS0H01880 Ncastellii
 NDAI0C01750 Ndairenensis
 YDR343C Scerevisiae
 YHR094C Scerevisiae
-Skud_4.613 Skudriavzevii
-Skud_8.157 Skudriavzevii
-Smik_4.607 Smikitae
-Smik_8.172 Smikitae
-Smik_4.607 Suvarum
-Smik_8.172 Suvarum
 TBLA0A03410 Tblattae
 TDEL0E02300 Tdelbrueckii

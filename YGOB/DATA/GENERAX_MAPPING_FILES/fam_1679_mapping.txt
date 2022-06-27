@@ -2,12 +2,8 @@ Ecym_1027 Ecymbalariae
 KLLA0B10670g Klactis
 KNAG0D03100 Knaganishii
 SAKL0C00880g Lkluyveri
-KLTH0F00902g Lthermotolerans
 NCAS0D04900 Ncastellii
 NDAI0F00980 Ndairenensis
 YIR030C Scerevisiae
-Skud_9.211 Skudriavzevii
-Smik_9.234 Smikitae
-Smik_9.234 Suvarum
 TDEL0C06810 Tdelbrueckii
 ZYRO0F18128g Zrouxii

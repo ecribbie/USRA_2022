@@ -2,10 +2,6 @@ Ecym_4506 Ecymbalariae
 ACL172C Egossypii
 KLLA0B06798g Klactis
 SAKL0D04070g Lkluyveri
-KLTH0C08074g Lthermotolerans
 YBR043C Scerevisiae
-Skud_2.155 Skudriavzevii
-Smik_2.161 Smikitae
-Smik_2.161 Suvarum
 TDEL0D03800 Tdelbrueckii
 ZYRO0A03564g Zrouxii

@@ -1,9 +1,5 @@
 SAKL0G16038g Lkluyveri
-KLTH0D15004g Lthermotolerans
 NCAS0J01670 Ncastellii
 NDAI0J02430 Ndairenensis
 YLR411W Scerevisiae
-Skud_12.495 Skudriavzevii
-Smik_12.497 Smikitae
-Smik_12.497 Suvarum
 TDEL0E00930 Tdelbrueckii

@@ -7,9 +7,6 @@ KNAG0C06290 Knaganishii
 NCAS0C05380 Ncastellii
 NDAI0H00730 Ndairenensis
 YKL162C Scerevisiae
-Skud_11.66 Skudriavzevii
-Smik_11.74 Smikitae
-Smik_11.74 Suvarum
 TBLA0A09470 Tblattae
 TDEL0B02770 Tdelbrueckii
 TPHA0C00200 Tphaffii

@@ -8,10 +8,4 @@ SAKL0F04312g Lkluyveri
 NCAS0F00790 Ncastellii
 NDAI0H01280 Ndairenensis
 YIL013C Scerevisiae
-Skud_9.159 Skudriavzevii
-Skud_15.174 Skudriavzevii
-Smik_9.181 Smikitae
-Smik_15.185 Smikitae
-Smik_9.181 Suvarum
-Smik_15.185 Suvarum
 TPHA0L00810 Tphaffii

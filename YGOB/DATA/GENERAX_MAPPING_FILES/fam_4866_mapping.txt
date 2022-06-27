@@ -1,6 +1,3 @@
 CAGL0F01485g Cglabrata
 KAFR0K01210 Kafricana
 YOR009W Scerevisiae
-Skud_15.171 Skudriavzevii
-Smik_15.183 Smikitae
-Smik_15.183 Suvarum

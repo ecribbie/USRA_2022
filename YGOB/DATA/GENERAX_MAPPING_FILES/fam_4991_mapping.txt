@@ -5,5 +5,4 @@ KNAG0I00960 Knaganishii
 NCAS0B03510 Ncastellii
 NDAI0J01080 Ndairenensis
 TDEL0F04340 Tdelbrueckii
-Kpol_543.57 Vpolyspora
 ZYRO0D06050g Zrouxii

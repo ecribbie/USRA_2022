@@ -4,10 +4,6 @@ ADR318W Egossypii
 KAFR0H01770 Kafricana
 KNAG0A02530 Knaganishii
 SAKL0C07172g Lkluyveri
-KLTH0F06336g Lthermotolerans
 YLR224W Scerevisiae
-Skud_12.288 Skudriavzevii
-Smik_12.282 Smikitae
-Smik_12.282 Suvarum
 TDEL0B02030 Tdelbrueckii
 ZYRO0A09592g Zrouxii

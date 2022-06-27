@@ -1,6 +1,3 @@
 KNAG0D03090 Knaganishii
 NCAS0D04920 Ncastellii
 NDAI0F00960 Ndairenensis
-Skud_9.209 Skudriavzevii
-Smik_9.232 Smikitae
-Smik_9.232 Suvarum
