@@ -70,39 +70,74 @@ The First step was to create sequence alignments. This was done with two differe
 import `pillars.txt` file from YGOB into `DATA`
 
 `mkdir DATA/species_genome_tabs`
+
 import `AA.fsa` and `NT.fsa` from YGOB into `DATA`
+
 from `DATA` `grep ">" AA.fsa > AA_genes.txt`
+
 from `DATA` `grep ">" NT.fsa > NT_genes.txt`
+
 import all species tabs into `DATA/species_genome_tabs` from YGOB
+
 make `gene_species_mapping_output.txt` (done in data_exploration.ipynb, use gene_species_mapping function in functions)
+
 `run_get_desired_pillars.sh`
+
 `mkdir DATA/PILLARS_AA_FILES`
+
 `mkdir DATA/PILLARS_NT_FILES`
+
 `run_AA_get_family_files`
+
 `run_NT_get_family_files`
+
 from `DATA/PILLARS_AA_FILES` `printf '%s\n' * > file_names.txt`
+
 from `DATA/PILLARS_NT_FILES` `printf '%s\n' * > file_names.txt`
+
 `mkdir EXP`
+
 `mkdir EXP/MUSCLE_AA`
+
 `mkdir EXP/MACSE_AA`
+
 `mkdir EXP/MACSE_NT`
+
 `mkdir SCRIPTS/log`
+
 `run_muscle.sh` (module load muscle)
+
 `run_macse.sh`  (module load java)
+
 from `EXP/MUSCLE_AA` `printf '%s\n' * > file_names.txt`
+
 from `EXP/MACSE_AA` `printf '%s\n' * > file_names.txt`
+
 from `EXP/MACSE_NT` `printf '%s\n' * > file_names.txt`
+
 if not all files created properly do the following
+
 for both/either of `MUSCLE_AA` or `MACSE_NT`
+
 `run_find_missing_file.sh`
+
 then edit the following script based on the amount of lines in the output file and run it
+
 either/both of following
+
 `run_muscle_err1.sh`
+
 `run_macse_err1.sh`
+
 from `EXP/MUSCLE_AA` `printf '%s\n' * > file_names.txt`
+
 from `EXP/MACSE_AA` `printf '%s\n' * > file_names.txt`
+
 from `EXP/MACSE_NT` `printf '%s\n' * > file_names.txt`
+
 repeat the previous steps as necessary until all files are made
+
+
 
 NOT DONE, TO ADD GENERAX PREP/RUN
 
