@@ -68,6 +68,7 @@ The First step was to create sequence alignments. This was done with two differe
 ##### Note:all scripts are run from `SCRIPTS` and all output files should go in `DATA` other than `MUSCLE`  `MACSE` and `GENERAX` ouput which goes in `EXP` and is not found in github due to size limitations. Should be run with python/3.10
 
 import `pillars.txt` file from YGOB into `DATA`
+
 `mkdir DATA/species_genome_tabs`
 import `AA.fsa` and `NT.fsa` from YGOB into `DATA`
 from `DATA` `grep ">" AA.fsa > AA_genes.txt`
