@@ -3,3 +3,4 @@ KAFR0J00420 Kafricana
 NCAS0A01280 Ncastellii
 NDAI0C02100 Ndairenensis
 YHR043C Scerevisiae
+TPHA0E02150 Tphaffii

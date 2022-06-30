@@ -4,6 +4,7 @@ AEL124W Egossypii
 KAFR0G00400 Kafricana
 KLLA0A06688g Klactis
 KNAG0C00990 Knaganishii
+KLTH0F04598g Lthermotolerans
 NCAS0B08340 Ncastellii
 NDAI0A00900 Ndairenensis
 YKL173W Scerevisiae

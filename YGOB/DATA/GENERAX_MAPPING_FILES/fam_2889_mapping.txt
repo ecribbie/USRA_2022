@@ -10,3 +10,4 @@ YMR110C Scerevisiae
 TBLA0I00650 Tblattae
 TDEL0A02140 Tdelbrueckii
 TPHA0G02420 Tphaffii
+TPHA0G02875 Tphaffii

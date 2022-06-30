@@ -1,6 +1,7 @@
 Ecym_3479 Ecymbalariae
 ADL324W Egossypii
 KLLA0B08547g Klactis
+Sklu_YGOB_Anc_3.346 Lkluyveri
 NCAS0I01160 Ncastellii
 NDAI0A07840 Ndairenensis
 TBLA0B02460 Tblattae

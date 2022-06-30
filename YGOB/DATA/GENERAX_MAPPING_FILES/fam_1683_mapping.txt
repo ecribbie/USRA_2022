@@ -3,6 +3,7 @@ Ecym_5636 Ecymbalariae
 ACR167C Egossypii
 KAFR0A00160 Kafricana
 KLLA0E07987g Klactis
+KNAG0H00170 Knaganishii
 KNAG0M02400 Knaganishii
 SAKL0G19690g Lkluyveri
 KLTH0C00594g Lthermotolerans

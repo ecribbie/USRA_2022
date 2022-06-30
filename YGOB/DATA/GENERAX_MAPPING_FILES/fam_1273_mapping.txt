@@ -10,6 +10,7 @@ SAKL0H25960g Lkluyveri
 KLTH0E05632g Lthermotolerans
 NCAS0A03010 Ncastellii
 NCAS0C05910 Ncastellii
+NDAI0D04980 Ndairenensis
 NDAI0H00210 Ndairenensis
 YHL033C Scerevisiae
 YLL045C Scerevisiae

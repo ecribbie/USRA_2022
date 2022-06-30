@@ -1,4 +1,5 @@
 CAGL0I04312g Cglabrata
+CAGL0J01870g Cglabrata
 Ecym_6112 Ecymbalariae
 AEL301W Egossypii
 KAFR0B01960 Kafricana

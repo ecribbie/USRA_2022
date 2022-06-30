@@ -1,4 +1,5 @@
 CAGL0B00990g Cglabrata
+CAGL0H06831g Cglabrata
 KAFR0D00490 Kafricana
 KLLA0C01562g Klactis
 KNAG0C00580 Knaganishii

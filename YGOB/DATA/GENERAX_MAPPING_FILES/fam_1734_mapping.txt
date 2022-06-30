@@ -4,6 +4,7 @@ AEL105W Egossypii
 KLLA0B07491g Klactis
 KNAG0C02500 Knaganishii
 SAKL0C05720g Lkluyveri
+KLTH0F05104g Lthermotolerans
 NCAS0I02780 Ncastellii
 NDAI0B00150 Ndairenensis
 YJL156C Scerevisiae

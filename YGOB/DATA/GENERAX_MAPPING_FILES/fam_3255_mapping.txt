@@ -3,6 +3,7 @@ Agos_YGOB_YNL146W Egossypii
 Klac_YGOB_YNL146W Klactis
 KNAG0F01560 Knaganishii
 Sklu_YGOB_YNL146W Lkluyveri
+Kthe_YGOB_YNL146W Lthermotolerans
 NCAS0G02190 Ncastellii
 NDAI0F03090 Ndairenensis
 YNL146W Scerevisiae

@@ -1,2 +1,3 @@
 KLTH0E00528g Lthermotolerans
+NCAS0A03120 Ncastellii
 ZYRO0B16808g Zrouxii

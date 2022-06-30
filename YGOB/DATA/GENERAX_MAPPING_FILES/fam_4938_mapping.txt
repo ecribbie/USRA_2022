@@ -10,6 +10,7 @@ Kthe_YGOB_YDR524C-B Lthermotolerans
 NCAS0A00260 Ncastellii
 NCAS0B08990 Ncastellii
 NDAI0A00260 Ndairenensis
+NDAI0F04560 Ndairenensis
 YCL048W-A Scerevisiae
 YDR524C-B Scerevisiae
 TBLA0A05035 Tblattae

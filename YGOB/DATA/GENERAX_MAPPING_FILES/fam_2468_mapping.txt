@@ -14,5 +14,6 @@ YLR190W Scerevisiae
 TBLA0A07620 Tblattae
 TBLA0C05060 Tblattae
 TDEL0C01810 Tdelbrueckii
+TPHA0E01060 Tphaffii
 TPHA0F03110 Tphaffii
 ZYRO0B02728g Zrouxii

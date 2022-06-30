@@ -1,3 +1,4 @@
 KNAG0D03110 Knaganishii
 NCAS0D04890 Ncastellii
 NDAI0F00990 Ndairenensis
+YIR031C Scerevisiae

@@ -1,4 +1,5 @@
 CAGL0E02255g Cglabrata
 SAKL0C12034g Lkluyveri
+KLTH0A01650g Lthermotolerans
 YOL109W Scerevisiae
 TDEL0E00800 Tdelbrueckii

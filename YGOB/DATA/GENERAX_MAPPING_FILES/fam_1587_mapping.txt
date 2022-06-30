@@ -4,6 +4,7 @@ AGR391W Egossypii
 KAFR0H03260 Kafricana
 KLLA0E08757g Klactis
 KNAG0A05310 Knaganishii
+KNAG0H01950 Knaganishii
 SAKL0E07172g Lkluyveri
 KLTH0G10846g Lthermotolerans
 NCAS0B06150 Ncastellii

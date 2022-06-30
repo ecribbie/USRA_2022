@@ -4,6 +4,7 @@ ADL183C Egossypii
 KLLA0E07107g Klactis
 KNAG0A01260 Knaganishii
 SAKL0C13244g Lkluyveri
+KLTH0F19272g Lthermotolerans
 NCAS0C04460 Ncastellii
 NDAI0G03840 Ndairenensis
 YOL136C Scerevisiae

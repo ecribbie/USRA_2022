@@ -1,5 +1,6 @@
 CAGL0J09768g Cglabrata
 KAFR0H01690 Kafricana
+KLLA0E01761g Klactis
 KNAG0A02460 Knaganishii
 NCAS0C02640 Ncastellii
 NDAI0E03340 Ndairenensis

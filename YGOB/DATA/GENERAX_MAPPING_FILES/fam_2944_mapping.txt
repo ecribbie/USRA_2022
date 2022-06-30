@@ -1,5 +1,6 @@
 KNAG0F01790 Knaganishii
 Sklu_YGOB_PAI3 Lkluyveri
+KLTH0H03454g Lthermotolerans
 NCAS0D04000 Ncastellii
 YMR174C Scerevisiae
 TDEL0F01920 Tdelbrueckii

@@ -1,3 +1,4 @@
 CAGL0F06919g Cglabrata
 YIR036C Scerevisiae
+TDEL0B07640 Tdelbrueckii
 TPHA0N01910 Tphaffii

@@ -4,6 +4,7 @@ AEL106W Egossypii
 KAFR0F01850 Kafricana
 KLLA0B07513g Klactis
 KNAG0C01120 Knaganishii
+KNAG0C02510 Knaganishii
 SAKL0C05742g Lkluyveri
 KLTH0F05126g Lthermotolerans
 NCAS0I02770 Ncastellii

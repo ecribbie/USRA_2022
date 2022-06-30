@@ -1,5 +1,6 @@
 KLLA0A11330g Klactis
 SAKL0D10780g Lkluyveri
+KLTH0H13970g Lthermotolerans
 NCAS0A08470 Ncastellii
 NDAI0G04930 Ndairenensis
 YCR027C Scerevisiae

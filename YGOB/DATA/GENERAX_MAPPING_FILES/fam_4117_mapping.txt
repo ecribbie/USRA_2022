@@ -4,6 +4,7 @@ AEL330C Egossypii
 KAFR0D04250 Kafricana
 KNAG0A07560 Knaganishii
 SAKL0B09350g Lkluyveri
+KLTH0D02970g Lthermotolerans
 NDAI0A04810 Ndairenensis
 YPR106W Scerevisiae
 TBLA0F01730 Tblattae

@@ -9,6 +9,7 @@ KNAG0I00520 Knaganishii
 SAKL0D10384g Lkluyveri
 KLTH0H13640g Lthermotolerans
 NCAS0A08560 Ncastellii
+NCAS0G03180 Ncastellii
 NDAI0G05010 Ndairenensis
 YCR012W Scerevisiae
 TBLA0D04360 Tblattae

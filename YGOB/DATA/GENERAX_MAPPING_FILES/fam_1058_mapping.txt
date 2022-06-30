@@ -7,6 +7,7 @@ KNAG0D04250 Knaganishii
 SAKL0H03916g Lkluyveri
 NCAS0A02350 Ncastellii
 NCAS0J01290 Ncastellii
+NDAI0D04520 Ndairenensis
 NDAI0J02050 Ndairenensis
 YGR071C Scerevisiae
 YLR373C Scerevisiae

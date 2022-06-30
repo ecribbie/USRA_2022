@@ -2,6 +2,7 @@ CAGL0M05401g Cglabrata
 Agos_YGOB_YBR201C-A Egossypii
 KLLA0E23211g Klactis
 KNAG0A02030 Knaganishii
+KNAG0A03740 Knaganishii
 Sklu_YGOB_YBR201C-A Lkluyveri
 Kthe_YGOB_YBR201C-A Lthermotolerans
 NCAS0C02160 Ncastellii

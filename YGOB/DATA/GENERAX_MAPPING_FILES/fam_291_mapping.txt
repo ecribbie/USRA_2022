@@ -5,6 +5,7 @@ AER325W Egossypii
 KAFR0C05550 Kafricana
 KLLA0B01309g Klactis
 KNAG0B03520 Knaganishii
+KNAG0C03060 Knaganishii
 SAKL0G05588g Lkluyveri
 KLTH0G04444g Lthermotolerans
 NCAS0H02720 Ncastellii

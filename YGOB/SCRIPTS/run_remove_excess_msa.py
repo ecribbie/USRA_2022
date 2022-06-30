@@ -4,4 +4,4 @@
 
 
 
-python remove_excess_msa.py ../EXP/MACSE_NT/file_names.txt ../EXP/MACSE_NT_FIXED
+python remove_excess_msa.py ../EXP/MUSCLE_AA/file_names.txt ../EXP/MUSCLE_AA_FIXED

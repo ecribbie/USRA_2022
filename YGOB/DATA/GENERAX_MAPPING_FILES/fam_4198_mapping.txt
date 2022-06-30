@@ -4,6 +4,7 @@ AFR701C Egossypii
 KAFR0D00440 Kafricana
 SAKL0C01518g Lkluyveri
 KLTH0F01496g Lthermotolerans
+NCAS0B08800 Ncastellii
 NDAI0A00470 Ndairenensis
 YCL028W Scerevisiae
 TBLA0A07310 Tblattae

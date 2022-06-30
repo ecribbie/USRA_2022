@@ -2,6 +2,7 @@ CAGL0K12958g Cglabrata
 Ecym_5674 Ecymbalariae
 AGL360W Egossypii
 KAFR0C03710 Kafricana
+KAFR0D00770 Kafricana
 NCAS0J00190 Ncastellii
 NDAI0D05080 Ndairenensis
 YML131W Scerevisiae

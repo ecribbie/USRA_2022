@@ -3,5 +3,6 @@ KAFR0D00690 Kafricana
 KLLA0C02233g Klactis
 KNAG0C00770 Knaganishii
 SAKL0C02486g Lkluyveri
+KLTH0F02266g Lthermotolerans
 TDEL0C06240 Tdelbrueckii
 ZYRO0F16786g Zrouxii

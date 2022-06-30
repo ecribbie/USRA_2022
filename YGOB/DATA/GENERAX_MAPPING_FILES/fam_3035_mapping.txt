@@ -5,6 +5,7 @@ KAFR0B03770 Kafricana
 KLLA0E11287g Klactis
 KNAG0J00430 Knaganishii
 SAKL0D02178g Lkluyveri
+KLTH0C04510g Lthermotolerans
 NCAS0C00590 Ncastellii
 NDAI0K00590 Ndairenensis
 YMR260C Scerevisiae

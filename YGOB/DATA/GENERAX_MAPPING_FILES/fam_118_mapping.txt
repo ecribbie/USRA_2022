@@ -16,5 +16,6 @@ YER120W Scerevisiae
 TBLA0F01430 Tblattae
 TBLA0I01030 Tblattae
 TDEL0C02850 Tdelbrueckii
+TPHA0E00700 Tphaffii
 TPHA0K00640 Tphaffii
 ZYRO0B04092g Zrouxii

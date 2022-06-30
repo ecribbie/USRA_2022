@@ -4,3 +4,4 @@ KNAG0C02580 Knaganishii
 NCAS0I02700 Ncastellii
 YJL144W Scerevisiae
 TBLA0B06520 Tblattae
+TDEL0H00870 Tdelbrueckii

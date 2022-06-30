@@ -2,6 +2,7 @@ CAGL0E03355g Cglabrata
 KAFR0I01300 Kafricana
 KLLA0D04059g Klactis
 KNAG0J02730 Knaganishii
+SAKL0H23958g Lkluyveri
 YLL015W Scerevisiae
 TDEL0E05610 Tdelbrueckii
 TPHA0F00410 Tphaffii

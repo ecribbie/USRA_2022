@@ -3,6 +3,7 @@ Ecym_1059 Ecymbalariae
 KAFR0D04080 Kafricana
 KLLA0C01694g Klactis
 KNAG0F00310 Knaganishii
+KLTH0F01694g Lthermotolerans
 YDR506C Scerevisiae
 TDEL0C06470 Tdelbrueckii
 TPHA0B04730 Tphaffii

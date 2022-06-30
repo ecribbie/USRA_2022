@@ -3,6 +3,7 @@ Ecym_5578 Ecymbalariae
 AEL220C Egossypii
 KAFR0C05910 Kafricana
 KNAG0B03180 Knaganishii
+SAKL0G07172g Lkluyveri
 NCAS0A08000 Ncastellii
 NDAI0H00880 Ndairenensis
 YDR261C Scerevisiae

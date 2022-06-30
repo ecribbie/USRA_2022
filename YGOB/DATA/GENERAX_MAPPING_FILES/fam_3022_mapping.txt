@@ -4,6 +4,7 @@ AAR151W Egossypii
 KAFR0G02320 Kafricana
 KLLA0C05522g Klactis
 SAKL0A07370g Lkluyveri
+KLTH0H06842g Lthermotolerans
 YBR212W Scerevisiae
 TBLA0A09920 Tblattae
 TDEL0G03670 Tdelbrueckii

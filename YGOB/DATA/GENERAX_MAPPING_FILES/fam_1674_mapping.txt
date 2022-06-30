@@ -1,5 +1,6 @@
 Ecym_2664 Ecymbalariae
 AGR040C Egossypii
+KNAG0J02210 Knaganishii
 SAKL0D02926g Lkluyveri
 NCAS0I01520 Ncastellii
 NDAI0A07500 Ndairenensis

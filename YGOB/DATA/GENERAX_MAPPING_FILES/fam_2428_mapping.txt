@@ -8,6 +8,7 @@ KNAG0G02460 Knaganishii
 SAKL0H15510g Lkluyveri
 NCAS0B03580 Ncastellii
 NCAS0C03250 Ncastellii
+NDAI0G02570 Ndairenensis
 NDAI0J01010 Ndairenensis
 YLR130C Scerevisiae
 TBLA0H01270 Tblattae

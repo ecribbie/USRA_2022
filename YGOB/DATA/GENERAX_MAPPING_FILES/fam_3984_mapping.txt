@@ -2,6 +2,7 @@ Ecym_1176 Ecymbalariae
 ADR044C Egossypii
 KAFR0E01010 Kafricana
 SAKL0H10318g Lkluyveri
+KLTH0E12276g Lthermotolerans
 NCAS0C02200 Ncastellii
 NDAI0E02920 Ndairenensis
 YPL064C Scerevisiae

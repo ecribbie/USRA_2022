@@ -1,5 +1,6 @@
 KLLA0D13926g Klactis
 KNAG0L00740 Knaganishii
 SAKL0F04928g Lkluyveri
+KLTH0F12914g Lthermotolerans
 YEL004W Scerevisiae
 TDEL0H03010 Tdelbrueckii

@@ -10,3 +10,4 @@ YPL272C Scerevisiae
 TBLA0A07220 Tblattae
 TDEL0G04630 Tdelbrueckii
 TPHA0J00260 Tphaffii
+TPHA0M00180 Tphaffii

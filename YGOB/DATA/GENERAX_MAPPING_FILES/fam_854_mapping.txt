@@ -1,5 +1,6 @@
 Ecym_2731 Ecymbalariae
 KLLA0F22968g Klactis
+KLTH0H11594g Lthermotolerans
 NCAS0D00670 Ncastellii
 YGL159W Scerevisiae
 TDEL0B06250 Tdelbrueckii

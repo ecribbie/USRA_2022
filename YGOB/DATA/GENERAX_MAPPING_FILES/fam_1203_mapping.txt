@@ -1,2 +1,3 @@
 CAGL0B02079g Cglabrata
 NCAS0C03460 Ncastellii
+YGR224W Scerevisiae

@@ -11,4 +11,5 @@ YOR320C Scerevisiae
 TBLA0B02720 Tblattae
 TDEL0B01000 Tdelbrueckii
 TPHA0G01070 Tphaffii
+TPHA0I00600 Tphaffii
 ZYRO0F12738g Zrouxii

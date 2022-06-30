@@ -2,6 +2,7 @@ CAGL0B03883g Cglabrata
 Ecym_4781 Ecymbalariae
 KLLA0E09703g Klactis
 SAKL0G14234g Lkluyveri
+KLTH0B01804g Lthermotolerans
 TDEL0E04810 Tdelbrueckii
 TPHA0A04750 Tphaffii
 ZYRO0G11880g Zrouxii

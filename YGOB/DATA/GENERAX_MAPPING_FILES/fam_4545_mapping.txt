@@ -1,6 +1,7 @@
 KAFR0H01700 Kafricana
 KLLA0A03223g Klactis
 SAKL0H12518g Lkluyveri
+KLTH0E10406g Lthermotolerans
 YDL199C Scerevisiae
 TDEL0B01900 Tdelbrueckii
 ZYRO0A09878g Zrouxii

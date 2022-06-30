@@ -1,6 +1,7 @@
 Ecym_3119 Ecymbalariae
 AGR274C Egossypii
 SAKL0A08206g Lkluyveri
+KLTH0G15334g Lthermotolerans
 YOR177C Scerevisiae
 TDEL0G04560 Tdelbrueckii
 TPHA0K01150 Tphaffii

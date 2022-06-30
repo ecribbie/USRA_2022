@@ -3,5 +3,6 @@ KNAG0M00960 Knaganishii
 NCAS0F00380 Ncastellii
 NDAI0D02720 Ndairenensis
 YOR180C Scerevisiae
+TDEL0G03960 Tdelbrueckii
 TPHA0F02640 Tphaffii
 ZYRO0D14454g Zrouxii

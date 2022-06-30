@@ -2,6 +2,7 @@ Cgla_YGOB_YDR374W-A Cglabrata
 Agos_YGOB_YDR374W-A Egossypii
 KLLA0E02465g Klactis
 Sklu_YGOB_YDR374W-A Lkluyveri
+Kthe_YGOB_YDR374W-A Lthermotolerans
 NCAS0A11780 Ncastellii
 NDAI0A04510 Ndairenensis
 YDR374W-A Scerevisiae

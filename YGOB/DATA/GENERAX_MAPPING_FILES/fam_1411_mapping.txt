@@ -4,6 +4,7 @@ ACL108C Egossypii
 KAFR0D04970 Kafricana
 KNAG0B04290 Knaganishii
 SAKL0G01936g Lkluyveri
+KLTH0F16588g Lthermotolerans
 NCAS0H01970 Ncastellii
 NDAI0C01680 Ndairenensis
 YHR105W Scerevisiae

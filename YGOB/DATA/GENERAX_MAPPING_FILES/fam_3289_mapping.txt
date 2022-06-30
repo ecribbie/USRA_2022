@@ -5,6 +5,7 @@ AFL229W Egossypii
 KAFR0J02010 Kafricana
 KLLA0F23529g Klactis
 KNAG0H03420 Knaganishii
+KNAG0I02000 Knaganishii
 SAKL0E10472g Lkluyveri
 KLTH0D09152g Lthermotolerans
 NCAS0B06900 Ncastellii

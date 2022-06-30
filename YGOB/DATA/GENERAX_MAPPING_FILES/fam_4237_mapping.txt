@@ -4,6 +4,7 @@ AER066W Egossypii
 KAFR0G03280 Kafricana
 KLLA0B03212g Klactis
 SAKL0H02728g Lkluyveri
+KLTH0D14608g Lthermotolerans
 NCAS0A02590 Ncastellii
 YDL069C Scerevisiae
 TBLA0A06370 Tblattae

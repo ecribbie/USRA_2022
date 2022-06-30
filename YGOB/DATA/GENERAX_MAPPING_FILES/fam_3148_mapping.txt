@@ -4,6 +4,7 @@ AFR667C Egossypii
 KLLA0C02365g Klactis
 KNAG0F00480 Knaganishii
 SAKL0C02728g Lkluyveri
+KLTH0F02420g Lthermotolerans
 NCAS0A00610 Ncastellii
 NDAI0F04190 Ndairenensis
 YNL268W Scerevisiae

@@ -2,5 +2,6 @@ Ecym_3605 Ecymbalariae
 ABR126W Egossypii
 KAFR0C00820 Kafricana
 KLLA0D03476g Klactis
+SAKL0C11704g Lkluyveri
 NCAS0E01640 Ncastellii
 NDAI0G01850 Ndairenensis

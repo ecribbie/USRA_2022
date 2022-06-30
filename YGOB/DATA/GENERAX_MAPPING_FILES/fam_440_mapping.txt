@@ -17,4 +17,5 @@ YER093C-A Scerevisiae
 TBLA0C05180 Tblattae
 TDEL0C01660 Tdelbrueckii
 TPHA0A00950 Tphaffii
+TPHA0E00950 Tphaffii
 ZYRO0B03102g Zrouxii

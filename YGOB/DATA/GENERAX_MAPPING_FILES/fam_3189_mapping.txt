@@ -4,6 +4,7 @@ ABL195C Egossypii
 KAFR0A07960 Kafricana
 KLLA0D19624g Klactis
 KNAG0E02940 Knaganishii
+KNAG0F00850 Knaganishii
 SAKL0E14256g Lkluyveri
 KLTH0B08360g Lthermotolerans
 NCAS0G01350 Ncastellii

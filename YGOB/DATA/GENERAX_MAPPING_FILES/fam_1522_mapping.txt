@@ -10,4 +10,5 @@ YBR054W Scerevisiae
 YDR033W Scerevisiae
 TDEL0D03620 Tdelbrueckii
 TPHA0A04060 Tphaffii
+TPHA0M01030 Tphaffii
 ZYRO0A03168g Zrouxii

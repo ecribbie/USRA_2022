@@ -3,6 +3,7 @@ Ecym_6004 Ecymbalariae
 KAFR0J02950 Kafricana
 KLLA0D11462g Klactis
 KNAG0I00150 Knaganishii
+SAKL0F00528g Lkluyveri
 NCAS0E00200 Ncastellii
 NDAI0I03300 Ndairenensis
 YGL251C Scerevisiae

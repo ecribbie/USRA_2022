@@ -4,6 +4,7 @@ AFR226C Egossypii
 KAFR0F02630 Kafricana
 KLLA0F17347g Klactis
 KNAG0A05990 Knaganishii
+SAKL0E04620g Lkluyveri
 NCAS0A04070 Ncastellii
 NDAI0E01800 Ndairenensis
 YLR035C Scerevisiae

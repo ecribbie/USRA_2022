@@ -1,6 +1,7 @@
 Agos_YGOB_18260 Egossypii
 Klac_YGOB_18260 Klactis
 Sklu_YGOB_Kwal_14.1254 Lkluyveri
+KLTH0G18260g Lthermotolerans
 NCAS0J00440 Ncastellii
 NDAI0C06440 Ndairenensis
 TDEL0C00650 Tdelbrueckii

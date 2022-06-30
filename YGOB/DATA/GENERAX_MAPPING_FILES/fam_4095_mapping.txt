@@ -1,4 +1,5 @@
 KAFR0H00820 Kafricana
 NCAS0A11250 Ncastellii
 YPR078C Scerevisiae
+TPHA0A03475 Tphaffii
 ZYRO0C16720g Zrouxii

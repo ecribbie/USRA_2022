@@ -1,4 +1,5 @@
 Ecym_4480 Ecymbalariae
 KLLA0D13706g Klactis
 SAKL0F04708g Lkluyveri
+KLTH0F13156g Lthermotolerans
 TPHA0I02260 Tphaffii

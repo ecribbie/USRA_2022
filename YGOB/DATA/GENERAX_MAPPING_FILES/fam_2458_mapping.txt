@@ -2,6 +2,7 @@ CAGL0B04895g Cglabrata
 CAGL0H03751g Cglabrata
 AAL010W Egossypii
 KAFR0H03130 Kafricana
+KAFR0I02180 Kafricana
 KLLA0D04862g Klactis
 KNAG0I01300 Knaganishii
 SAKL0D08734g Lkluyveri

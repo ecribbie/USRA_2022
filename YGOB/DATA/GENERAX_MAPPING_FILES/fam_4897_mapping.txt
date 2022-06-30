@@ -2,6 +2,7 @@ CAGL0E04158g Cglabrata
 CAGL0H08305g Cglabrata
 KAFR0H01300 Kafricana
 KLLA0F18810g Klactis
+KNAG0H01080 Knaganishii
 KNAG0J02220 Knaganishii
 SAKL0D02882g Lkluyveri
 KLTH0C05126g Lthermotolerans

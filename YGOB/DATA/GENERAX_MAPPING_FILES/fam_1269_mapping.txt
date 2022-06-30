@@ -3,6 +3,7 @@ Ecym_8420 Ecymbalariae
 KAFR0I01540 Kafricana
 KNAG0J02950 Knaganishii
 SAKL0H26070g Lkluyveri
+KLTH0H16060g Lthermotolerans
 NCAS0C05950 Ncastellii
 NDAI0H00170 Ndairenensis
 YHL038C Scerevisiae

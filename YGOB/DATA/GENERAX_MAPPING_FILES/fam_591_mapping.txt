@@ -2,5 +2,6 @@ SAKL0F01232g Lkluyveri
 KLTH0G01078g Lthermotolerans
 NCAS0E00360 Ncastellii
 NDAI0I03140 Ndairenensis
+YGL230C Scerevisiae
 TDEL0D06190 Tdelbrueckii
 ZYRO0E09174g Zrouxii

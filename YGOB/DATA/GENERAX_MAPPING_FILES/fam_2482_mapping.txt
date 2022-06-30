@@ -8,4 +8,5 @@ SAKL0F11264g Lkluyveri
 KLTH0H01364g Lthermotolerans
 NDAI0E04490 Ndairenensis
 YLR204W Scerevisiae
+TPHA0D04575 Tphaffii
 Zrou_YGOB_Anc_7.345 Zrouxii

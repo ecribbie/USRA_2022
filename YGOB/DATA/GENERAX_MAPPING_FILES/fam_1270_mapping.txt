@@ -2,6 +2,7 @@ CAGL0E04004g Cglabrata
 Ecym_8419 Ecymbalariae
 ACL073W Egossypii
 KLLA0E00507g Klactis
+SAKL0H26048g Lkluyveri
 NCAS0C05940 Ncastellii
 NDAI0H00180 Ndairenensis
 YHL036W Scerevisiae

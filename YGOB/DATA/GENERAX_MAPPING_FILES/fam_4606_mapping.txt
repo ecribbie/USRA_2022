@@ -4,6 +4,7 @@ AGR175C Egossypii
 KAFR0E02560 Kafricana
 KLLA0F13112g Klactis
 KNAG0A04440 Knaganishii
+SAKL0H12892g Lkluyveri
 NCAS0B02820 Ncastellii
 NDAI0C04880 Ndairenensis
 YDR218C Scerevisiae

@@ -2,3 +2,4 @@ Ecym_6115 Ecymbalariae
 AEL294C Egossypii
 KLLA0A03025g Klactis
 SAKL0B03322g Lkluyveri
+KLTH0G16940g Lthermotolerans

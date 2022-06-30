@@ -3,6 +3,7 @@ Ecym_3199 Ecymbalariae
 AAL058C Egossypii
 KLLA0C10230g Klactis
 SAKL0G09790g Lkluyveri
+KLTH0G05940g Lthermotolerans
 TBLA0C03380 Tblattae
 TDEL0E03060 Tdelbrueckii
 TPHA0E01300 Tphaffii

@@ -2,6 +2,7 @@ CAGL0H01749g Cglabrata
 Ecym_3156 Ecymbalariae
 KAFR0D03660 Kafricana
 KNAG0B00200 Knaganishii
+SAKL0D12738g Lkluyveri
 NCAS0A12240 Ncastellii
 NDAI0A04000 Ndairenensis
 TBLA0D03710 Tblattae

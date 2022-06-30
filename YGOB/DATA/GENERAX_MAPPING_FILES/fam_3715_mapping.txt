@@ -14,4 +14,5 @@ TBLA0B03890 Tblattae
 TBLA0C01800 Tblattae
 TDEL0A06110 Tdelbrueckii
 TPHA0D01190 Tphaffii
+TPHA0G01650 Tphaffii
 Zrou_YGOB_Anc_8.665 Zrouxii

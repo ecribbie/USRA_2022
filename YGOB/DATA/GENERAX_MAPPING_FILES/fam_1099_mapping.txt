@@ -18,5 +18,6 @@ YPR120C Scerevisiae
 TBLA0C02670 Tblattae
 TBLA0E00530 Tblattae
 TDEL0F03360 Tdelbrueckii
+TPHA0D03080 Tphaffii
 TPHA0D04050 Tphaffii
 ZYRO0C06160g Zrouxii

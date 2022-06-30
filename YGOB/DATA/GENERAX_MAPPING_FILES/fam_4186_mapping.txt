@@ -1,2 +1,3 @@
 NCAS0A09820 Ncastellii
 NDAI0C02350 Ndairenensis
+YPR193C Scerevisiae

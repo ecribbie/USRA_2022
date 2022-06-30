@@ -1,2 +1,3 @@
 KNAG0L00110 Knaganishii
 NCAS0J00140 Ncastellii
+YFL055W Scerevisiae

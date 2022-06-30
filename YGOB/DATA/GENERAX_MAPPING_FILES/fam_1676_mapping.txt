@@ -1,6 +1,7 @@
 Ecym_5256 Ecymbalariae
 AER218C Egossypii
 KLLA0C04301g Klactis
+KNAG0D03080 Knaganishii
 SAKL0C07832g Lkluyveri
 KLTH0E16016g Lthermotolerans
 NCAS0D04910 Ncastellii

@@ -1,6 +1,7 @@
 Ecym_3364 Ecymbalariae
 AFR349W Egossypii
 KAFR0A08220 Kafricana
+KAFR0C01500 Kafricana
 KLLA0C12177g Klactis
 KNAG0K00610 Knaganishii
 SAKL0C09086g Lkluyveri

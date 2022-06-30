@@ -1,4 +1,3 @@
-CAGL0F01419g Cglabrata
 Ecym_1222 Ecymbalariae
 AFR326W Egossypii
 KAFR0G03010 Kafricana
@@ -8,4 +7,5 @@ SAKL0F04312g Lkluyveri
 NCAS0F00790 Ncastellii
 NDAI0H01280 Ndairenensis
 YIL013C Scerevisiae
+TBLA0A01150 Tblattae
 TPHA0L00810 Tphaffii

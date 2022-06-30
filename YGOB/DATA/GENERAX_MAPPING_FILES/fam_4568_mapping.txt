@@ -4,6 +4,7 @@ ACL023C Egossypii
 KAFR0L01150 Kafricana
 KLLA0F05819g Klactis
 KNAG0B02970 Knaganishii
+SAKL0F09702g Lkluyveri
 NCAS0E03530 Ncastellii
 YDL176W Scerevisiae
 TBLA0J00630 Tblattae

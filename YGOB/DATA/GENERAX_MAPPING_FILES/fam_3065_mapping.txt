@@ -18,5 +18,6 @@ YGL060W Scerevisiae
 TBLA0A09970 Tblattae
 TBLA0F02460 Tblattae
 TDEL0G03580 Tdelbrueckii
+TPHA0B02670 Tphaffii
 TPHA0J01770 Tphaffii
 ZYRO0C04884g Zrouxii

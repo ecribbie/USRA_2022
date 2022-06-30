@@ -1,4 +1,5 @@
 CAGL0F02513g Cglabrata
+KAFR0F01495 Kafricana
 Klac_YGOB_NCE101 Klactis
 KNAG0I00570 Knaganishii
 Sklu_YGOB_NCE101 Lkluyveri

@@ -4,6 +4,7 @@ ACL169W Egossypii
 KLLA0E02267g Klactis
 KNAG0C04880 Knaganishii
 SAKL0G02618g Lkluyveri
+KLTH0F15972g Lthermotolerans
 NCAS0F03410 Ncastellii
 NDAI0B05700 Ndairenensis
 TDEL0D02630 Tdelbrueckii

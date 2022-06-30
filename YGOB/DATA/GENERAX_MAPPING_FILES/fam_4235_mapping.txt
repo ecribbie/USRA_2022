@@ -1,5 +1,6 @@
 KLLA0B09108g Klactis
 SAKL0B08140g Lkluyveri
+KLTH0F11792g Lthermotolerans
 TDEL0C05160 Tdelbrueckii
 TPHA0A02420 Tphaffii
 ZYRO0C16676g Zrouxii

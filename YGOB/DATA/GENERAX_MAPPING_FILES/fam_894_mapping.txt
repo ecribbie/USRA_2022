@@ -7,6 +7,7 @@ KLLA0B00495g Klactis
 KNAG0F02430 Knaganishii
 SAKL0A06578g Lkluyveri
 NCAS0D03320 Ncastellii
+NCAS0H01340 Ncastellii
 NDAI0I01530 Ndairenensis
 YGL117W Scerevisiae
 TBLA0D03460 Tblattae

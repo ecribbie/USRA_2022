@@ -13,4 +13,5 @@ YDR276C Scerevisiae
 TBLA0A09500 Tblattae
 TBLA0J00880 Tblattae
 TDEL0B02810 Tdelbrueckii
+TPHA0C00230 Tphaffii
 TPHA0J01220 Tphaffii

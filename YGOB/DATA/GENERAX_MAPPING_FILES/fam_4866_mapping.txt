@@ -1,3 +1,4 @@
 CAGL0F01485g Cglabrata
 KAFR0K01210 Kafricana
+NDAI0H01300 Ndairenensis
 YOR009W Scerevisiae

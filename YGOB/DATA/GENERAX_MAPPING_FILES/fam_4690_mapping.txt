@@ -9,6 +9,7 @@ KLTH0A05368g Lthermotolerans
 NCAS0E03600 Ncastellii
 NDAI0A03020 Ndairenensis
 YDL128W Scerevisiae
+TBLA0F02010 Tblattae
 TBLA0J00660 Tblattae
 TDEL0H01540 Tdelbrueckii
 TPHA0P00820 Tphaffii

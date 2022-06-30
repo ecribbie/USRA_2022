@@ -2,6 +2,7 @@ CAGL0K09856g Cglabrata
 ACL085C Egossypii
 KLLA0C13750g Klactis
 KNAG0M01850 Knaganishii
+SAKL0E09900g Lkluyveri
 YNL092W Scerevisiae
 TPHA0P00940 Tphaffii
 ZYRO0C15532g Zrouxii

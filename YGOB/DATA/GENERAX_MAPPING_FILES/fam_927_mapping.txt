@@ -4,6 +4,7 @@ AFL072C Egossypii
 KLLA0E19295g Klactis
 KNAG0F02070 Knaganishii
 SAKL0A04950g Lkluyveri
+KLTH0H04620g Lthermotolerans
 NCAS0D03710 Ncastellii
 YGL081W Scerevisiae
 TDEL0G01500 Tdelbrueckii

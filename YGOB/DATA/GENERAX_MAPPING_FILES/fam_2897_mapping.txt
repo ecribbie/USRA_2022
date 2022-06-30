@@ -4,6 +4,7 @@ AFR215W Egossypii
 KAFR0A00460 Kafricana
 KLLA0F17589g Klactis
 KNAG0E02260 Knaganishii
+KLTH0E09064g Lthermotolerans
 NCAS0F01890 Ncastellii
 NDAI0H02840 Ndairenensis
 YMR122W-A Scerevisiae

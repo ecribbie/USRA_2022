@@ -12,4 +12,5 @@ YGL200C Scerevisiae
 TBLA0A08830 Tblattae
 TDEL0B04520 Tdelbrueckii
 TPHA0D01080 Tphaffii
+TPHA0H00270 Tphaffii
 ZYRO0G19514g Zrouxii

@@ -4,6 +4,7 @@ ADR408W Egossypii
 KAFR0I00210 Kafricana
 KLLA0A03333g Klactis
 KNAG0E04170 Knaganishii
+SAKL0D14608g Lkluyveri
 NCAS0A07630 Ncastellii
 NDAI0H02010 Ndairenensis
 YAL054C Scerevisiae

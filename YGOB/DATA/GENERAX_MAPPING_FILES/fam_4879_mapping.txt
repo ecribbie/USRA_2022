@@ -4,6 +4,7 @@ AER409C Egossypii
 KLLA0A10637g Klactis
 KNAG0H01360 Knaganishii
 SAKL0D03938g Lkluyveri
+KLTH0C07942g Lthermotolerans
 NCAS0A10440 Ncastellii
 NDAI0A05850 Ndairenensis
 YDR022C Scerevisiae

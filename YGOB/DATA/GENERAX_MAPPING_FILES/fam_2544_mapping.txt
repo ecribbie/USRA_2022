@@ -16,5 +16,6 @@ YLR278C Scerevisiae
 TBLA0A09760 Tblattae
 TBLA0E01110 Tblattae
 TDEL0G03970 Tdelbrueckii
+TPHA0F02630 Tphaffii
 TPHA0K01100 Tphaffii
 ZYRO0D14432g Zrouxii

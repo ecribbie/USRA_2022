@@ -1,4 +1,5 @@
 CAGL0B01265g Cglabrata
+Ecym_1115 Ecymbalariae
 KAFR0D00720 Kafricana
 YCR039C Scerevisiae
 TBLA0A07050 Tblattae

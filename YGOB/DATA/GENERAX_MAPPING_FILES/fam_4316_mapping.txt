@@ -4,6 +4,7 @@ AGL163W Egossypii
 KLLA0D17006g Klactis
 KNAG0A02860 Knaganishii
 SAKL0H14916g Lkluyveri
+KLTH0G11572g Lthermotolerans
 NCAS0C03140 Ncastellii
 NDAI0G02450 Ndairenensis
 TBLA0A04120 Tblattae

@@ -2,6 +2,7 @@ CAGL0L08514g Cglabrata
 Ecym_1241 Ecymbalariae
 AFR306C Egossypii
 SAKL0F02860g Lkluyveri
+KLTH0F14740g Lthermotolerans
 NCAS0F03530 Ncastellii
 NDAI0B05830 Ndairenensis
 YPR147C Scerevisiae

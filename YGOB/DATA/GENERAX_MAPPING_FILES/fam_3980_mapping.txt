@@ -4,6 +4,7 @@ KLLA0E23233g Klactis
 KNAG0A02020 Knaganishii
 SAKL0H10230g Lkluyveri
 KLTH0E12364g Lthermotolerans
+NDAI0E02870 Ndairenensis
 YPL067C Scerevisiae
 TBLA0H03560 Tblattae
 TDEL0B03130 Tdelbrueckii

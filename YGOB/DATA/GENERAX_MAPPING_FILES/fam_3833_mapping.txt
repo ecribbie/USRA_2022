@@ -1,6 +1,7 @@
 CAGL0A01193g Cglabrata
 Ecym_3004 Ecymbalariae
 ACR025W Egossypii
+KAFR0L00310 Kafricana
 KLLA0D00616g Klactis
 SAKL0E00682g Lkluyveri
 KLTH0C11682g Lthermotolerans

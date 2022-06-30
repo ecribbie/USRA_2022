@@ -2,6 +2,7 @@ CAGL0H01199g Cglabrata
 AAL083W Egossypii
 KAFR0E01490 Kafricana
 KLLA0C10802g Klactis
+KNAG0F03410 Knaganishii
 SAKL0G10384g Lkluyveri
 KLTH0G06468g Lthermotolerans
 NCAS0F02520 Ncastellii

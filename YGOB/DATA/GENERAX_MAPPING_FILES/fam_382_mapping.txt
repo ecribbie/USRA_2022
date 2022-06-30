@@ -3,6 +3,7 @@ Ecym_4687 Ecymbalariae
 AGR368W Egossypii
 KLLA0E20285g Klactis
 SAKL0F12320g Lkluyveri
+KLTH0C06798g Lthermotolerans
 NCAS0E02630 Ncastellii
 NDAI0E04200 Ndairenensis
 YBL064C Scerevisiae

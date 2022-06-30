@@ -14,6 +14,7 @@ NDAI0B02250 Ndairenensis
 YDR096W Scerevisiae
 YER169W Scerevisiae
 TBLA0E04220 Tblattae
+TBLA0F03830 Tblattae
 TDEL0A01300 Tdelbrueckii
 TPHA0A01940 Tphaffii
 ZYRO0B11770g Zrouxii

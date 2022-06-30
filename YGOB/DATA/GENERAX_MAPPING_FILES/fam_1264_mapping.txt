@@ -1,6 +1,7 @@
 KLLA0A05863g Klactis
 KNAG0K00320 Knaganishii
 SAKL0C06182g Lkluyveri
+KLTH0F05456g Lthermotolerans
 NCAS0C04410 Ncastellii
 YGR286C Scerevisiae
 TBLA0B10120 Tblattae

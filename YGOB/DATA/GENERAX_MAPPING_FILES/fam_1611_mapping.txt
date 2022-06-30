@@ -4,6 +4,7 @@ ADL084W Egossypii
 KAFR0I01910 Kafricana
 KAFR0L00790 Kafricana
 KLLA0F27555g Klactis
+KNAG0D01730 Knaganishii
 KNAG0L01380 Knaganishii
 SAKL0F08338g Lkluyveri
 KLTH0A04048g Lthermotolerans

@@ -2,7 +2,7 @@
 
 #SBATCH --time=00:30:00
 #SBATCH --account=def-chauvec
-#SBATCH --array=1-470
+#SBATCH --array=1-491
 #SBATCH --output=log/macse_%a.log
 #SBATCH --error=log/macse_%a.err
 #SBATCH --mem=512M

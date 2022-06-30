@@ -4,6 +4,7 @@ AAR193C Egossypii
 KAFR0E01060 Kafricana
 KLLA0B07161g Klactis
 SAKL0D04532g Lkluyveri
+KLTH0E15664g Lthermotolerans
 NCAS0A10310 Ncastellii
 NDAI0A05980 Ndairenensis
 YBR030W Scerevisiae

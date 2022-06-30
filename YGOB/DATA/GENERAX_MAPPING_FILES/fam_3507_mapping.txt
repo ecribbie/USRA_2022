@@ -9,6 +9,7 @@ KNAG0L01000 Knaganishii
 SAKL0F04246g Lkluyveri
 KLTH0F13552g Lthermotolerans
 NCAS0F00760 Ncastellii
+NCAS0I00680 Ncastellii
 NDAI0A08360 Ndairenensis
 YIR016W Scerevisiae
 YOL036W Scerevisiae

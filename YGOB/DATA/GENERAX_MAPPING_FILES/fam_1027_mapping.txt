@@ -1,6 +1,7 @@
 CAGL0G01122g Cglabrata
 NCAS0A02080 Ncastellii
 YGR035C Scerevisiae
+YLR346C Scerevisiae
 TDEL0D02720 Tdelbrueckii
 TPHA0K01230 Tphaffii
 Zrou_YGOB_YLR346C Zrouxii

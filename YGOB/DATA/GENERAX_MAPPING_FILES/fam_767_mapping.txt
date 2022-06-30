@@ -1,6 +1,7 @@
 Ecym_2592 Ecymbalariae
 AFR271W Egossypii
 SAKL0F00924g Lkluyveri
+KLTH0G00814g Lthermotolerans
 NDAI0G00870 Ndairenensis
 YFR047C Scerevisiae
 TDEL0D06310 Tdelbrueckii

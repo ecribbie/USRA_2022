@@ -10,4 +10,5 @@ KLTH0C04884g Lthermotolerans
 NCAS0I01460 Ncastellii
 NDAI0A07540 Ndairenensis
 TBLA0G03240 Tblattae
+TBLA0I02060 Tblattae
 TPHA0A03910 Tphaffii

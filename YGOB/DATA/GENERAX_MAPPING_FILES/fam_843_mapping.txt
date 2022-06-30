@@ -8,6 +8,7 @@ SAKL0H20218g Lkluyveri
 KLTH0H08646g Lthermotolerans
 NCAS0B04630 Ncastellii
 YGL171W Scerevisiae
+TBLA0C00640 Tblattae
 TDEL0F01090 Tdelbrueckii
 TPHA0D00940 Tphaffii
 ZYRO0E02530g Zrouxii

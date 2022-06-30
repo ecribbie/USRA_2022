@@ -16,3 +16,4 @@ YMR182C Scerevisiae
 YPL230W Scerevisiae
 TBLA0C01990 Tblattae
 TPHA0E02650 Tphaffii
+TPHA0H01850 Tphaffii

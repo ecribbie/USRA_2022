@@ -1,6 +1,7 @@
 CAGL0B01875g Cglabrata
 Ecym_4297 Ecymbalariae
 KAFR0B02760 Kafricana
+KAFR0B05440 Kafricana
 KLLA0F19371g Klactis
 KNAG0H03170 Knaganishii
 SAKL0H16786g Lkluyveri

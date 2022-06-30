@@ -10,5 +10,6 @@ NCAS0C00720 Ncastellii
 NDAI0E00490 Ndairenensis
 NDAI0K00760 Ndairenensis
 TBLA0B02770 Tblattae
+TBLA0D00670 Tblattae
 TDEL0B01040 Tdelbrueckii
 ZYRO0F12650g Zrouxii

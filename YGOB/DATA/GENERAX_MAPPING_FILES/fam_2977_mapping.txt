@@ -17,5 +17,6 @@ YOR324C Scerevisiae
 TBLA0A04610 Tblattae
 TBLA0E02400 Tblattae
 TDEL0H03820 Tdelbrueckii
+TPHA0H02730 Tphaffii
 TPHA0L00380 Tphaffii
 ZYRO0D05104g Zrouxii

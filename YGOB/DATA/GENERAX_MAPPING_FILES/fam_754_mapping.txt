@@ -1,6 +1,7 @@
 Cgla_YGOB_Anc_3.484 Cglabrata
 Agos_YGOB_YPR145C-A Egossypii
 KAFR0G03675 Kafricana
+KNAG0A07925 Knaganishii
 NCAS0F03520 Ncastellii
 NDAI0B05820 Ndairenensis
 YPR145C-A Scerevisiae

@@ -4,6 +4,7 @@ AER299C Egossypii
 KAFR0B04460 Kafricana
 KAFR0E02270 Kafricana
 KLLA0A05159g Klactis
+KNAG0E00710 Knaganishii
 KNAG0K00420 Knaganishii
 SAKL0H02134g Lkluyveri
 KLTH0H00594g Lthermotolerans

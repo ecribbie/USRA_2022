@@ -4,6 +4,7 @@ KLLA0B14553g Klactis
 KNAG0C01625 Knaganishii
 KLTH0F00242g Lthermotolerans
 NCAS0A15350 Ncastellii
+NDAI0H00100 Ndairenensis
 YCR097W Scerevisiae
 TBLA0G01060 Tblattae
 ZYRO0C18348g Zrouxii

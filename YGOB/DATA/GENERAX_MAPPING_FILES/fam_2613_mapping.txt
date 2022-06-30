@@ -5,6 +5,7 @@ AFR593C Egossypii
 KAFR0A06100 Kafricana
 KLLA0E01211g Klactis
 KNAG0B05960 Knaganishii
+KNAG0D04280 Knaganishii
 SAKL0H03740g Lkluyveri
 KLTH0D13794g Lthermotolerans
 NCAS0J01330 Ncastellii

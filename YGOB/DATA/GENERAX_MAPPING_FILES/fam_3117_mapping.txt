@@ -16,4 +16,5 @@ YOL121C Scerevisiae
 TBLA0A07820 Tblattae
 TDEL0E00610 Tdelbrueckii
 TPHA0A00470 Tphaffii
+TPHA0P01300 Tphaffii
 ZYRO0C02530g Zrouxii

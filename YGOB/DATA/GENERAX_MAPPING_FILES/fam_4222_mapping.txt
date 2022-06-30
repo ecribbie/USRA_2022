@@ -11,6 +11,7 @@ SAKL0D08558g Lkluyveri
 NCAS0C04830 Ncastellii
 NCAS0G04280 Ncastellii
 NDAI0G00180 Ndairenensis
+NDAI0G04190 Ndairenensis
 YCL011C Scerevisiae
 YNL004W Scerevisiae
 TBLA0D04850 Tblattae

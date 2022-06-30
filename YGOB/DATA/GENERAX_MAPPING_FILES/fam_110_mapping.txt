@@ -16,3 +16,4 @@ YOR028C Scerevisiae
 TBLA0E03280 Tblattae
 TBLA0J00790 Tblattae
 TPHA0C00500 Tphaffii
+TPHA0D02900 Tphaffii

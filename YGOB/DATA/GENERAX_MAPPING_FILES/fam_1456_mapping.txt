@@ -2,6 +2,7 @@ CAGL0I01936g Cglabrata
 KAFR0E02130 Kafricana
 KLLA0E15665g Klactis
 KNAG0E00560 Knaganishii
+SAKL0G15576g Lkluyveri
 NCAS0D01520 Ncastellii
 YHR153C Scerevisiae
 TBLA0C06480 Tblattae

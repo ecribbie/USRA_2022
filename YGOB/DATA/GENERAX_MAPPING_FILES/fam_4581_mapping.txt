@@ -7,6 +7,7 @@ KNAG0A04320 Knaganishii
 NCAS0B02720 Ncastellii
 NCAS0C02660 Ncastellii
 NDAI0C04970 Ndairenensis
+NDAI0E03400 Ndairenensis
 YDL197C Scerevisiae
 TDEL0B01930 Tdelbrueckii
 ZYRO0A09812g Zrouxii

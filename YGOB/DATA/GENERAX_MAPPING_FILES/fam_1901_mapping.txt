@@ -4,6 +4,7 @@ AFR363W Egossypii
 KAFR0I02800 Kafricana
 KLLA0F16841g Klactis
 SAKL0D11968g Lkluyveri
+KLTH0C03256g Lthermotolerans
 NCAS0A13020 Ncastellii
 NDAI0B01220 Ndairenensis
 YJR050W Scerevisiae

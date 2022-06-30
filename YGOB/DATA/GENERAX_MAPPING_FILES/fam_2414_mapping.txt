@@ -2,6 +2,7 @@ CAGL0M11704g Cglabrata
 KAFR0B02960 Kafricana
 KLLA0F20009g Klactis
 KNAG0G02280 Knaganishii
+SAKL0H16082g Lkluyveri
 NCAS0C03400 Ncastellii
 NDAI0G02730 Ndairenensis
 YLR109W Scerevisiae

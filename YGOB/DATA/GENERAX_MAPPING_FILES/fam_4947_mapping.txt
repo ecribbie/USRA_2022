@@ -18,4 +18,5 @@ YER174C Scerevisiae
 TBLA0F03860 Tblattae
 TDEL0A01240 Tdelbrueckii
 TPHA0A01910 Tphaffii
+TPHA0B03340 Tphaffii
 ZYRO0B11902g Zrouxii

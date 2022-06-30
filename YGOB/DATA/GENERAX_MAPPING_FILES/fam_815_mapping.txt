@@ -10,6 +10,7 @@ NCAS0F03680 Ncastellii
 NDAI0B05990 Ndairenensis
 YGL206C Scerevisiae
 TBLA0C04870 Tblattae
+TBLA0I03250 Tblattae
 TDEL0D05830 Tdelbrueckii
 TPHA0D03380 Tphaffii
 ZYRO0E08360g Zrouxii

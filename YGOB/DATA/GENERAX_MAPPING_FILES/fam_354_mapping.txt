@@ -5,6 +5,7 @@ KAFR0K01830 Kafricana
 KAFR0L01760 Kafricana
 KLLA0E20417g Klactis
 KNAG0B02350 Knaganishii
+KNAG0C03560 Knaganishii
 SAKL0F12496g Lkluyveri
 KLTH0C06666g Lthermotolerans
 NCAS0A14400 Ncastellii

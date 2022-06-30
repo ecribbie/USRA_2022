@@ -1,3 +1,4 @@
 CAGL0H07557g Cglabrata
 NCAS0E00170 Ncastellii
 NDAI0I03330 Ndairenensis
+YGL254W Scerevisiae

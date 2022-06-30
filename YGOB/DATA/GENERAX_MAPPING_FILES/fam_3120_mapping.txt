@@ -1,6 +1,7 @@
 CAGL0M03773g Cglabrata
 KLLA0A07315g Klactis
 SAKL0C12474g Lkluyveri
+KLTH0A01232g Lthermotolerans
 NCAS0A09980 Ncastellii
 YNL300W Scerevisiae
 TBLA0B08550 Tblattae

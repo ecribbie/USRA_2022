@@ -3,6 +3,7 @@ AER235C Egossypii
 KAFR0D05020 Kafricana
 KLLA0F21824g Klactis
 SAKL0G10912g Lkluyveri
+KLTH0G06908g Lthermotolerans
 NCAS0A06640 Ncastellii
 NDAI0D01580 Ndairenensis
 TDEL0E03490 Tdelbrueckii

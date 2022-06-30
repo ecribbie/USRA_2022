@@ -4,6 +4,7 @@ Ecym_1317 Ecymbalariae
 AFL207C Egossypii
 KAFR0A05550 Kafricana
 KNAG0B04370 Knaganishii
+KNAG0C05250 Knaganishii
 SAKL0G07678g Lkluyveri
 KLTH0E02772g Lthermotolerans
 YDR342C Scerevisiae

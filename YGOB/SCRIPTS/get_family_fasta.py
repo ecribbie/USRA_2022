@@ -15,7 +15,7 @@ d2={}
 
 for fam in range(0,len(pillars)):
     
-    genes=pillars[fam].split(" ")
+    genes=pillars[fam].removesuffix('\n').split(" ")
     
     for gene in genes:
         d1[gene]=fam
