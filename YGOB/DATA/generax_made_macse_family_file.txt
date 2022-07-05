@@ -20111,6 +20111,3 @@ subst_model = GTR+G
 alignment = /project/6069942/ecribbie/USRA_2022/YGOB/EXP/MACSE_NT/NT_4838.fsa
 mapping = /project/6069942/ecribbie/USRA_2022/YGOB/DATA/GENERAX_MAPPING_FILES/fam_4838_mapping.txt
 subst_model = GTR+G
-- 
-alignment = /project/6069942/ecribbie/USRA_2022/YGOB/EXP/MACSE_NT/file_names.txt
-subst_model = GTR+G

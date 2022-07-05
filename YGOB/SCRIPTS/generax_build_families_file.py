@@ -33,6 +33,8 @@ def build_families(alignments_dir, trees_dir, mappings_dir, model, output_file):
       family_names[get_family(mapping)] = True
   if (alignments_dir != "NONE") :
     for alignment in os.listdir(alignments_dir):
+      if alignment == "file_names.txt":
+        continue
       alignments[get_family(alignment)] = join_abs(alignments_dir, alignment)
       family_names[get_family(alignment)] = True
   for family in family_names:
