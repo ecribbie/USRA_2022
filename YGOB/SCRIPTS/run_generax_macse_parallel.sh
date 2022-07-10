@@ -1,9 +1,9 @@
 #!/bin/bash
-#SBATCH --time=04:00:00
+#SBATCH --time=05:00:00
 #SBATCH --account=def-chauvec
 #SBATCH --ntasks=50
 #SBATCH --output=log/generax_macse_parallel_%a.log
-#SBATCH --array=1-8
+#SBATCH --array=4-4
 
 mod=$(( $SLURM_ARRAY_TASK_ID % 2 ))
 

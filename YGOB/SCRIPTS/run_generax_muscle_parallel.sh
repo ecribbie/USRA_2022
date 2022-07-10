@@ -3,7 +3,7 @@
 #SBATCH --account=def-chauvec
 #SBATCH --ntasks=50
 #SBATCH --output=log/generax_muscle_parallel_%a.log
-#SBATCH --array=5-5
+#SBATCH --array=1-1
 
 mod=$(( $SLURM_ARRAY_TASK_ID % 2 ))
 
