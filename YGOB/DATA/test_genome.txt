@@ -1,0 +1,20 @@
+CAGL0A00165g    0       18037   18876   ON      1       A00165  complement(18037..18876)        some similarities with KLLA0E10593g Kluyveromyces lactis
+CAGL0A00187g    0       19487   21757   ON      1       A00187  complement(19487..21757)        weakly similar to uniprot|P53191 Saccharomyces cerevisiae YGL023c PIB2 phosphatidylinositol 3-phosphate binding
+CAGL0A00209g    1       22260   24440   ON      1       A00209  (22260..24440)  highly similar to uniprot|P39007 Saccharomyces cerevisiae YGL022w STT3
+CAGL0A00231g    1       25241   27622   ON      1       A00231  (25241..27622)  similar to uniprot|P43633 Saccharomyces cerevisiae YGL021w ALK1 DNA damage-responsive protein
+CAGL0A00253g    0       27915   28586   ON      1       A00253  complement(27915..28586)        similar to uniprot|P53192 Saccharomyces cerevisiae YGL020c
+CAGL0A00275g    1       29069   29869   ON      1       A00275  (29069..29869)  highly similar to uniprot|P43639 Saccharomyces cerevisiae YGL019w CKB1
+CAGL0A00297g    0       30179   30775   ON      1       A00297  complement(30179..30775)        similar to uniprot|P53193 Saccharomyces cerevisiae YGL018c JAC1 molecular chaperone
+CAGL0A00319g    1       30978   32507   ON      1       A00319  (30978..32507)  similar to uniprot|P16639 Saccharomyces cerevisiae YGL017w ATE1 arginyl tRNA transferase
+CAGL0A00341g    1       33056   33625   ON      1       A00341  (33056..33625)  similar to uniprot|P25338 Saccharomyces cerevisiae YGL010w
+CAGL0A00363g    0       33995   36349   ON      1       A00363  complement(33995..36349)        highly similar to uniprot|P07264 Saccharomyces cerevisiae YGL009c LEU1 3-isopropylmalate dehydratase
+CAGL0A00385g    0       37162   40371   ON      1       A00385  complement(37162..40371)        similar to uniprot|P32767 Saccharomyces cerevisiae YGL016w PDR6
+CAGL0A00407g    1       41556   42320   ON      1       A00407  (41556..42320)  highly similar to uniprot|P21243 Saccharomyces cerevisiae YGL011c SCL1
+CAGL0A00429g    0       42636   44030   ON      1       A00429  complement(42636..44030)        highly similar to uniprot|P25340 Saccharomyces cerevisiae YGL012w ERG4 sterol C-24 reductase
+CAGL0A00451g    1       47557   50880   ON      1       A00451  (47557..50880)  similar to uniprot|P12383 Saccharomyces cerevisiae YGL013c PDR1 transcription factor
+CAGL0A00473g    0       51137   53497   ON      1       A00473  complement(51137..53497)        similar to uniprot|P25339 Saccharomyces cerevisiae YGL014w
+CAGL0A00495g    0       55014   57722   ON      1       A00495  complement(55014..57722)        highly similar to uniprot|P05030 Saccharomyces cerevisiae YGL008c PMA1 or uniprot|P19657 Saccharomyces cerevisiae YPL036w PMA2
+CAGL0A00517g    1       58830   62198   ON      1       A00517  (58830..62198)  similar to uniprot|P38929 Saccharomyces cerevisiae YGL006w PMC1
+CAGL0A00539g    0       62416   63225   ON      1       A00539  complement(62416..63225)        similar to uniprot|P53195 Saccharomyces cerevisiae YGL005c
+CAGL0A00561g    0       63710   64948   ON      1       A00561  complement(63710..64948)        similar to uniprot|P53196 Saccharomyces cerevisiae YGL004c
+CAGL0A00583g    1       65286   67226   ON      1       A00583  (65286..67226)  weakly similar to uniprot|Q06149 Saccharomyces cerevisiae YLR266c

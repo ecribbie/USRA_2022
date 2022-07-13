@@ -1,9 +1,8 @@
 #!/bin/bash
-#SBATCH --time=05:00:00
+#SBATCH --time=03:00:00
 #SBATCH --account=def-chauvec
-#SBATCH --ntasks=50
-#SBATCH --output=log/generax_macse_parallel_%a.log
-#SBATCH --array=1-3
+#SBATCH --output=log/generax_macse_test.log
+#SBATCH --array=1-1
 
 mod=$(( $SLURM_ARRAY_TASK_ID % 2 ))
 
@@ -35,5 +34,5 @@ echo "$seed"
 echo "$strat"
 echo "$model"
 
-mpiexec -np 50 ../../../TOOLS/GeneRax/build/bin/generax -f ../DATA/generax_made_macse_family_file.txt -s ../DATA/species_tree.tree -p ../EXP/GENERAX/MACSE_PARALLEL/$SLURM_ARRAY_TASK_ID --per-family-rates --seed ${seed} --rec-model ${model} --strategy ${strat}
+../../../TOOLS/GeneRax/build/bin/generax -f ../DATA/generax_test_bad_macse_family_file.txt -s ../DATA/species_tree.tree -p ../EXP/GENERAX/test --per-family-rates --seed ${seed} --rec-model ${model} --strategy ${strat}
 

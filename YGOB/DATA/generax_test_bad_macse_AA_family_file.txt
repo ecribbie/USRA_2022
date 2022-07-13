@@ -1,0 +1,29 @@
+[FAMILIES]
+- 5005
+alignment = /project/6069942/ecribbie/USRA_2022/YGOB/EXP/MACSE_AA/AA_5005.fsa
+mapping = /project/6069942/ecribbie/USRA_2022/YGOB/DATA/GENERAX_MAPPING_FILES/fam_5005_mapping.txt
+subst_model = LG+G
+- 3719
+alignment = /project/6069942/ecribbie/USRA_2022/YGOB/EXP/MACSE_AA/AA_3719.fsa
+mapping = /project/6069942/ecribbie/USRA_2022/YGOB/DATA/GENERAX_MAPPING_FILES/fam_3719_mapping.txt
+subst_model = LG+G
+- 4904
+alignment = /project/6069942/ecribbie/USRA_2022/YGOB/EXP/MACSE_AA/AA_4904.fsa
+mapping = /project/6069942/ecribbie/USRA_2022/YGOB/DATA/GENERAX_MAPPING_FILES/fam_4904_mapping.txt
+subst_model = LG+G
+- 4142
+alignment = /project/6069942/ecribbie/USRA_2022/YGOB/EXP/MACSE_AA/AA_4142.fsa
+mapping = /project/6069942/ecribbie/USRA_2022/YGOB/DATA/GENERAX_MAPPING_FILES/fam_4142_mapping.txt
+subst_model = LG+G
+- 4134
+alignment = /project/6069942/ecribbie/USRA_2022/YGOB/EXP/MACSE_AA/AA_4134.fsa
+mapping = /project/6069942/ecribbie/USRA_2022/YGOB/DATA/GENERAX_MAPPING_FILES/fam_4134_mapping.txt
+subst_model = LG+G
+- 4959
+alignment = /project/6069942/ecribbie/USRA_2022/YGOB/EXP/MACSE_AA/AA_4959.fsa
+mapping = /project/6069942/ecribbie/USRA_2022/YGOB/DATA/GENERAX_MAPPING_FILES/fam_4959_mapping.txt
+subst_model = LG+G
+- 3006
+alignment = /project/6069942/ecribbie/USRA_2022/YGOB/EXP/MACSE_AA/AA_3006.fsa
+mapping = /project/6069942/ecribbie/USRA_2022/YGOB/DATA/GENERAX_MAPPING_FILES/fam_3006_mapping.txt
+subst_model = LG+G
