@@ -27,8 +27,8 @@ def write_adjacencies(file):
 	g=open(file)
 	data=g.readlines()
 	g.close()
-	while "\n" in data:
-		data.remove("\n")
+	while len(data[-1])<5:
+		data=data[:-1]
 	for i in range(len(data)-1):
 		line=data[i]
 		next=data[i+1]
@@ -48,7 +48,7 @@ def write_adjacencies(file):
 	                                                	f.write(" overlap")
 							f.write("\n")
 						break
-					if i+j==len(data):
+					if i+j+1==len(data):
 						break
 
 
