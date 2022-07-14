@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --time=00:50:00
+#SBATCH --time=00:20:00
 #SBATCH --account=def-chauvec
 
 module load python/3.10

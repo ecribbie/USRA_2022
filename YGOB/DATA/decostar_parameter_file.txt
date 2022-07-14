@@ -1,0 +1,4 @@
+species.file=../DATA/species_tree.tree
+adjacencies.file=../DATA/adjacency.txt
+gene.distribution.file=../DATA/generax_muscle_1_xml_files.txt
+output.dir=../EXP/DECOSTAR/MUSCLE/1

@@ -35,7 +35,15 @@ def write_adjacencies(file):
 		if line.split()[0] in genes:
 			if next.split()[0] in genes:
 				if line.split()[5]==next.split()[5]:
-					f.write(' '.join([line.split()[0],next.split()[0]]))
+					if line.split()[1]=="0":
+						first_dir="+"
+					else:
+						first_dir="-"
+					if next.split()[1]=="0":
+						second_dir="+"
+					else:
+						second_dir="-"
+					f.write(' '.join([line.split()[0],next.split()[0],first_dir,second_dir,"1"]))
 					if int(line.split()[3]) > int(next.split()[2]):
 						f.write(" overlap")
 					f.write("\n")
@@ -43,8 +51,17 @@ def write_adjacencies(file):
 				for j in range(1,100):
 					if data[i+j].split()[0] in genes:
 						if line.split()[5]==data[i+j].split()[5]:
-							f.write(' '.join([line.split()[0],data[i+j].split()[0]]))
-							if int(line.split()[3]) > int(next.split()[2]):
+							if line.split()[1]=="0":
+		                                                first_dir="+"
+							else:
+								first_dir="-"
+							if data[i+j].split()[1]=="0":
+								second_dir="+"
+							else:
+								second_dir="-"
+							f.write(' '.join([line.split()[0],data[i+j].split()[0],first_dir,second_dir,"1"]))
+
+							if int(line.split()[3]) > int(data[i+j].split()[2]):
 	                                                	f.write(" overlap")
 							f.write("\n")
 						break
