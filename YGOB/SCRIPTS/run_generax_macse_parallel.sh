@@ -3,7 +3,7 @@
 #SBATCH --account=def-chauvec
 #SBATCH --ntasks=50
 #SBATCH --output=log/generax_macse_parallel_%a.log
-#SBATCH --array=1-3
+#SBATCH --array=1-4
 
 mod=$(( $SLURM_ARRAY_TASK_ID % 2 ))
 
@@ -15,12 +15,7 @@ else
 fi
 
 
-if [ ${SLURM_ARRAY_TASK_ID} -gt "4" ]
-then
-        strat="EVAL"
-else
-        strat="SPR"
-fi
+strat="SPR"
 
 
 if [ ${SLURM_ARRAY_TASK_ID} -eq "1" ] || [ ${SLURM_ARRAY_TASK_ID} -eq "2" ] || [ ${SLURM_ARRAY_TASK_ID} -eq "5" ] || [ ${SLURM_ARRAY_TASK_ID} -eq "6" ]

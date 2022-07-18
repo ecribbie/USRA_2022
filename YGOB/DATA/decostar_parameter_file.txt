@@ -1,4 +1,6 @@
-species.file=../DATA/species_tree.tree
+species.file=../EXP/GENERAX/MUSCLE_PARALLEL/1/species_trees/inferred_species_tree.newick
 adjacencies.file=../DATA/adjacency.txt
 gene.distribution.file=../DATA/generax_muscle_1_xml_files.txt
 output.dir=../EXP/DECOSTAR/MUSCLE/1
+already.reconciled=true
+dated.species.tree=0

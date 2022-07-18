@@ -7,8 +7,6 @@ f.close()
 
 path='/'.join(sys.argv[1].split('/')[:-1])
 
-out_path=sys.argv[2]
-
 
 for file_n in files:
 	file=file_n.removesuffix("\n")
@@ -16,7 +14,7 @@ for file_n in files:
 	msa=g.readlines()
 	g.close()
 	
-	w=open('/'.join([out_path,file]),'w')
+	w=open('/'.join([path,file]),'w')
 
 		
 	for line in msa:
