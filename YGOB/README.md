@@ -137,7 +137,25 @@ from `EXP/MACSE_NT` `printf '%s\n' * > file_names.txt`
 
 repeat the previous steps as necessary until all files are made
 
+`run_remove_excess_msa.sh`
 
+`run_fix_macse_alignments.sh`
 
-NOT DONE, TO ADD GENERAX PREP/RUN
+`mkdir ../EXP/GENERAX`
+
+`mkdir ../EXP/GENERAX/MUSCLE_PARALLEL`
+
+`mkdir ../EXP/GENERAX/MACSE_PARALLEL`
+
+create `../DATA/species_tree.tree` with species tree in newick format
+
+`run_make_generax_mapping_files.sh`
+
+`run_generax_script_script_muscle.sh`
+
+`run_generax_script_script_macse.sh`
+
+`run_generax_muscle_parallel.sh`
+
+`run_generax_macse_parallel.sh`
 
