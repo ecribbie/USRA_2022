@@ -25,6 +25,7 @@ def read_xml_to_dict(xmlf,dict):
 				dict[name]={}
 				dict[name]['event']=[]
 				dict[name]['kids']=[]
+				dict[name]['species']=[line.split('"')[1]]
 			dict[name]['event'].append("speciation")
 			leveldown=0
 			for k in range(j,len(xml)):
@@ -41,6 +42,7 @@ def read_xml_to_dict(xmlf,dict):
 							dict[str(nextid)]={}
 							dict[str(nextid)]['event']=[]
 							dict[str(nextid)]['kids']=[]
+							dict[str(nextid)]['species']=[line.split('"')[1]]
 							change=line.split('"')
 							change[1]=str(nextid)
 							xml[k]='"'.join(change)
@@ -56,6 +58,7 @@ def read_xml_to_dict(xmlf,dict):
 							dict[str(nextid)]={}
 							dict[str(nextid)]['event']=[]
 							dict[str(nextid)]['kids']=[]
+							dict[str(nextid)]['species']=[line.split('"')[1]]
 							change=line.split('"')
 							change[1]=str(nextid)
 							xml[k]='"'.join(change)
@@ -89,6 +92,7 @@ def read_xml_to_dict(xmlf,dict):
 				dict[name]={}
 				dict[name]['event']=[]
 				dict[name]['kids']=[]
+				dict[name]['species']=[line.split('"')[1]]
 			dict[name]['event'].append("duplication")
 			leveldown=0
 			for k in range(j,len(xml)):
@@ -105,6 +109,7 @@ def read_xml_to_dict(xmlf,dict):
 							dict[str(nextid)]={}
 							dict[str(nextid)]['event']=[]
 							dict[str(nextid)]['kids']=[]
+							dict[str(nextid)]['species']=[line.split('"')[1]]
 							change=line.split('"')
 							change[1]=str(nextid)
 							xml[k]='"'.join(change)
@@ -119,6 +124,7 @@ def read_xml_to_dict(xmlf,dict):
 							dict[str(nextid)]={}
 							dict[str(nextid)]['event']=[]
 							dict[str(nextid)]['kids']=[]
+							dict[str(nextid)]['species']=[line.split('"')[1]]
 							change=line.split('"')
 							change[1]=str(nextid)
 							xml[k]='"'.join(change)
