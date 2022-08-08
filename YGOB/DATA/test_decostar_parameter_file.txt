@@ -1,0 +1,7 @@
+species.file=../EXP/GENERAX/MUSCLE_top_10/1/species_trees/inferred_species_tree.newick
+adjacencies.file=../DATA/adjacency.txt
+gene.distribution.file=../DATA/test_generax_muscle_1_xml_files.txt
+output.dir=../EXP/DECOSTAR/MUSCLE_test/1
+dated.species.tree=0
+already.reconciled=true
+verbose=3

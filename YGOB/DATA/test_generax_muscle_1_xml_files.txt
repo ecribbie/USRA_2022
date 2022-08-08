@@ -1,0 +1,10 @@
+../EXP/GENERAX/MUSCLE_top_10/1/reconciliations/3968_reconciliated.nhx
+../EXP/GENERAX/MUSCLE_top_10/1/reconciliations/161_reconciliated.nhx
+../EXP/GENERAX/MUSCLE_top_10/1/reconciliations/2684_reconciliated.nhx
+../EXP/GENERAX/MUSCLE_top_10/1/reconciliations/596_reconciliated.nhx
+../EXP/GENERAX/MUSCLE_top_10/1/reconciliations/2320_reconciliated.nhx
+../EXP/GENERAX/MUSCLE_top_10/1/reconciliations/2395_reconciliated.nhx
+../EXP/GENERAX/MUSCLE_top_10/1/reconciliations/2284_reconciliated.nhx
+../EXP/GENERAX/MUSCLE_top_10/1/reconciliations/5009_reconciliated.nhx
+../EXP/GENERAX/MUSCLE_top_10/1/reconciliations/2412_reconciliated.nhx
+../EXP/GENERAX/MUSCLE_top_10/1/reconciliations/2230_reconciliated.nhx

@@ -1,0 +1,346 @@
+<recPhylo 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.recg.org ./recGeneTreeXML.xsd"
+	xmlns="http://www.recg.org">
+<spTree>
+<phylogeny>
+<clade>
+		<name>node_13</name>
+	<clade>
+			<name>node_0</name>
+		<clade>
+				<name>node_1</name>
+			<clade>
+					<name>Lthermotolerans</name>
+			</clade>
+			<clade>
+					<name>Lkluyveri</name>
+			</clade>
+		</clade>
+		<clade>
+				<name>node_2</name>
+			<clade>
+					<name>node_3</name>
+				<clade>
+						<name>Ecymbalariae</name>
+				</clade>
+				<clade>
+						<name>Egossypii</name>
+				</clade>
+			</clade>
+			<clade>
+					<name>Klactis</name>
+			</clade>
+		</clade>
+	</clade>
+	<clade>
+			<name>node_4</name>
+		<clade>
+				<name>node_5</name>
+			<clade>
+					<name>Zrouxii</name>
+			</clade>
+			<clade>
+					<name>Tdelbrueckii</name>
+			</clade>
+		</clade>
+		<clade>
+				<name>node_6</name>
+			<clade>
+					<name>node_7</name>
+				<clade>
+						<name>node_8</name>
+					<clade>
+							<name>Cglabrata</name>
+					</clade>
+					<clade>
+							<name>Scerevisiae</name>
+					</clade>
+				</clade>
+				<clade>
+						<name>node_9</name>
+					<clade>
+							<name>node_10</name>
+						<clade>
+								<name>Kafricana</name>
+						</clade>
+						<clade>
+								<name>Knaganishii</name>
+						</clade>
+					</clade>
+					<clade>
+							<name>node_11</name>
+						<clade>
+								<name>Ncastellii</name>
+						</clade>
+						<clade>
+								<name>Ndairenensis</name>
+						</clade>
+					</clade>
+				</clade>
+			</clade>
+			<clade>
+					<name>node_12</name>
+				<clade>
+						<name>Tphaffii</name>
+				</clade>
+				<clade>
+						<name>Tblattae</name>
+				</clade>
+			</clade>
+		</clade>
+	</clade>
+</clade>
+</phylogeny>
+</spTree>
+<recGeneTree>
+<phylogeny rooted="true">
+<clade>
+	<name></name>
+	<eventsRec>
+		<speciation speciesLocation="node_13"/>
+	</eventsRec>
+	<clade>
+		<name></name>
+		<eventsRec>
+			<speciation speciesLocation="node_0"/>
+		</eventsRec>
+		<clade>
+			<name></name>
+			<eventsRec>
+				<speciation speciesLocation="node_1"/>
+			</eventsRec>
+			<clade>
+				<name>KLTH0D00638g</name>
+				<eventsRec>
+					<leaf speciesLocation="Lthermotolerans"/>
+				</eventsRec>
+			</clade>
+			<clade>
+				<name>SAKL0D14850g</name>
+				<eventsRec>
+					<leaf speciesLocation="Lkluyveri"/>
+				</eventsRec>
+			</clade>
+		</clade>
+		<clade>
+			<name></name>
+			<eventsRec>
+				<speciation speciesLocation="node_2"/>
+			</eventsRec>
+			<clade>
+				<name></name>
+				<eventsRec>
+					<speciation speciesLocation="node_3"/>
+				</eventsRec>
+				<clade>
+					<name>Ecym_5002</name>
+					<eventsRec>
+						<leaf speciesLocation="Ecymbalariae"/>
+					</eventsRec>
+				</clade>
+				<clade>
+					<name>ADR419C</name>
+					<eventsRec>
+						<leaf speciesLocation="Egossypii"/>
+					</eventsRec>
+				</clade>
+			</clade>
+			<clade>
+				<name>KLLA0F00484g</name>
+				<eventsRec>
+					<leaf speciesLocation="Klactis"/>
+				</eventsRec>
+			</clade>
+		</clade>
+	</clade>
+	<clade>
+		<name></name>
+		<eventsRec>
+			<speciation speciesLocation="node_4"/>
+		</eventsRec>
+		<clade>
+			<name></name>
+			<eventsRec>
+				<speciation speciesLocation="node_5"/>
+			</eventsRec>
+			<clade>
+				<name>ZYRO0C00440g</name>
+				<eventsRec>
+					<leaf speciesLocation="Zrouxii"/>
+				</eventsRec>
+			</clade>
+			<clade>
+				<name>TDEL0H02030</name>
+				<eventsRec>
+					<leaf speciesLocation="Tdelbrueckii"/>
+				</eventsRec>
+			</clade>
+		</clade>
+		<clade>
+			<name></name>
+			<eventsRec>
+				<duplication speciesLocation="node_6"/>
+			</eventsRec>
+			<clade>
+				<name></name>
+				<eventsRec>
+					<speciation speciesLocation="node_6"/>
+				</eventsRec>
+				<clade>
+					<name></name>
+					<eventsRec>
+						<speciation speciesLocation="node_7"/>
+					</eventsRec>
+					<clade>
+						<name></name>
+						<eventsRec>
+							<speciation speciesLocation="node_8"/>
+						</eventsRec>
+						<clade>
+							<name>CAGL0D00220g</name>
+							<eventsRec>
+								<leaf speciesLocation="Cglabrata"/>
+							</eventsRec>
+						</clade>
+						<clade>
+							<name>YAL059W</name>
+							<eventsRec>
+								<leaf speciesLocation="Scerevisiae"/>
+							</eventsRec>
+						</clade>
+					</clade>
+					<clade>
+						<name></name>
+						<eventsRec>
+							<speciation speciesLocation="node_9"/>
+						</eventsRec>
+						<clade>
+							<name></name>
+							<eventsRec>
+								<speciation speciesLocation="node_10"/>
+							</eventsRec>
+								<clade>
+								<name>loss</name>
+								<eventsRec>
+									<loss speciesLocation="Knaganishii"/>
+								</eventsRec>
+							</clade>
+							<clade>
+								<name>KAFR0I00180</name>
+								<eventsRec>
+									<leaf speciesLocation="Kafricana"/>
+								</eventsRec>
+							</clade>
+						</clade>
+						<clade>
+							<name></name>
+							<eventsRec>
+								<speciation speciesLocation="node_11"/>
+							</eventsRec>
+							<clade>
+								<name>NCAS0A07650</name>
+								<eventsRec>
+									<leaf speciesLocation="Ncastellii"/>
+								</eventsRec>
+							</clade>
+							<clade>
+								<name>NDAI0H02030</name>
+								<eventsRec>
+									<leaf speciesLocation="Ndairenensis"/>
+								</eventsRec>
+							</clade>
+						</clade>
+					</clade>
+				</clade>
+				<clade>
+					<name></name>
+					<eventsRec>
+						<speciation speciesLocation="node_12"/>
+					</eventsRec>
+						<clade>
+						<name>loss</name>
+						<eventsRec>
+							<loss speciesLocation="Tphaffii"/>
+						</eventsRec>
+					</clade>
+					<clade>
+						<name>TBLA0A04300</name>
+						<eventsRec>
+							<leaf speciesLocation="Tblattae"/>
+						</eventsRec>
+					</clade>
+				</clade>
+			</clade>
+			<clade>
+				<name></name>
+				<eventsRec>
+					<speciation speciesLocation="node_6"/>
+				</eventsRec>
+				<clade>
+					<name></name>
+					<eventsRec>
+						<speciation speciesLocation="node_7"/>
+					</eventsRec>
+						<clade>
+						<name>loss</name>
+						<eventsRec>
+							<loss speciesLocation="node_8"/>
+						</eventsRec>
+					</clade>
+					<clade>
+						<name></name>
+						<eventsRec>
+							<speciation speciesLocation="node_9"/>
+						</eventsRec>
+							<clade>
+							<name>loss</name>
+							<eventsRec>
+								<loss speciesLocation="node_11"/>
+							</eventsRec>
+						</clade>
+						<clade>
+							<name></name>
+							<eventsRec>
+								<speciation speciesLocation="node_10"/>
+							</eventsRec>
+								<clade>
+								<name>loss</name>
+								<eventsRec>
+									<loss speciesLocation="Kafricana"/>
+								</eventsRec>
+							</clade>
+							<clade>
+								<name>KNAG0E04190</name>
+								<eventsRec>
+									<leaf speciesLocation="Knaganishii"/>
+								</eventsRec>
+							</clade>
+						</clade>
+					</clade>
+				</clade>
+				<clade>
+					<name></name>
+					<eventsRec>
+						<speciation speciesLocation="node_12"/>
+					</eventsRec>
+						<clade>
+						<name>loss</name>
+						<eventsRec>
+							<loss speciesLocation="Tblattae"/>
+						</eventsRec>
+					</clade>
+					<clade>
+						<name>TPHA0H03090</name>
+						<eventsRec>
+							<leaf speciesLocation="Tphaffii"/>
+						</eventsRec>
+					</clade>
+				</clade>
+			</clade>
+		</clade>
+	</clade>
+</clade>
+</phylogeny>
+</recGeneTree>
+</recPhylo>
