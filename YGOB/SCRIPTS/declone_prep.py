@@ -10,10 +10,10 @@ species={}
 nextspecie=0
 nextid=0
 trees=[f1,f2]
-print(len(f1),len(f2))
 trees[0]=f1[0]
 trees[1]=f2[0]
-for tree in trees:
+for k in range(len(trees)):
+	tree=trees[k]
 	pieces=tree.split(":")
 	for i in range(len(pieces)):
 		parts=pieces[i]
@@ -33,6 +33,12 @@ for tree in trees:
 			parts=']'.join(NDparts)
 			nextid+=1
 		pieces[i]=parts
-	tree=':'.join(pieces)
-	print("##################################################################")
-	print(tree)
+	trees[k]=':'.join(pieces)
+
+g=open(''.join([sys.argv[1].split(".")[0],"_declone_ready.nhx"]),'w')
+g.write(trees[0])
+g.close()
+g=open(''.join([sys.argv[2].split(".")[0],"_declone_ready.nhx"]),'w')
+g.write(trees[1])
+g.close()
+
