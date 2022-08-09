@@ -62,7 +62,7 @@ def read_xml_to_dict(xmlf,dict):
 							change=line.split('"')
 							change[1]=str(nextid)
 							xml[k]='"'.join(change)
-							dict[name]['kids'].append(nextid)
+							dict[name]['kids'].append(str(nextid))
 							nextid+=1
 					elif "<leaf" in line:
 						kid=xml[k-2].split("<name>")[1].split("</name>")[0]
@@ -113,7 +113,7 @@ def read_xml_to_dict(xmlf,dict):
 							change=line.split('"')
 							change[1]=str(nextid)
 							xml[k]='"'.join(change)
-							dict[name]['kids'].append(nextid)
+							dict[name]['kids'].append(str(nextid))
 							nextid+=1
 					elif "<loss" in line:
 						dict[name]['kids'].append(line.split('"')[1])
@@ -150,7 +150,37 @@ To do this:
 
 """
 read_xml_to_dict(xml_file,dict)
-print(dict)
-print(len(dict))
+#print(dict)
 
 
+list=[]
+def get_order(dict,list):
+	pardict={}
+	keys=dict.keys()
+	for key1 in keys:
+		for key2 in keys:
+			if dict[key2]['event'][0] not in ['loss','extant']:
+				if key1 in dict[key2]['kids']:
+					pardict[key1]=key2
+		if key1 not in pardict:
+			list.append(key1)
+	for key in pardict:
+		if pardict[key]=='0':
+			list.append(key)
+	
+
+	tree=''.join(["(","*",list[1],"*",",","*",list[2],"*",")"])
+	todo=[list[1],list[2]]
+	while len(todo) != 0:
+		for key in todo:
+			if dict[key]['event'][0] not in ['loss','extant']:
+				tree=tree.replace(''.join(["*",key,"*"]),''.join(["(","*",dict[key]['kids'][0],"*",",","*",dict[key]['kids'][1],"*",")"]))
+				todo.remove(key)
+				if dict[dict[key]['kids'][0]]['event'][0] not in ['loss','extant']:
+					todo.append(dict[key]['kids'][0])
+				if dict[dict[key]['kids'][1]]['event'][0] not in ['loss','extant']:
+					todo.append(dict[key]['kids'][1])
+				
+		print(todo)
+	print(tree)
+get_order(dict,list)
