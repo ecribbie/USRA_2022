@@ -153,7 +153,7 @@ To do this:
 
 """
 read_xml_to_dict(xml_file,dict)
-#print(dict)
+
 
 
 def get_tree(dict):
