@@ -1,6 +1,7 @@
 import sys
 
 xml_file=sys.argv[1]
+outfile=sys.argv[2]
 #output_file=sys.argv[2]
 dict={}
 
@@ -75,6 +76,8 @@ def read_xml_to_dict(xmlf,dict):
 			if name not in dict:
 				dict[name]={}
 				dict[name]['event']=[]
+				dict[name]['species']=[]
+			dict[name]['species'].append(name)
 			dict[name]['event'].append("loss")
 		if "<leaf" in line:
 			name=xml[j-2].split("<name>")[1].split("</name>")[0]
@@ -153,8 +156,8 @@ read_xml_to_dict(xml_file,dict)
 #print(dict)
 
 
-list=[]
-def get_order(dict,list):
+def get_tree(dict):
+	list=[]
 	pardict={}
 	keys=dict.keys()
 	for key1 in keys:
@@ -167,20 +170,37 @@ def get_order(dict,list):
 	for key in pardict:
 		if pardict[key]=='0':
 			list.append(key)
-	
 
-	tree=''.join(["(","*",list[1],"*",",","*",list[2],"*",")"])
+	tree=''.join(["(","*",list[1],"*",",","*",list[2],"*",")",";"])
 	todo=[list[1],list[2]]
 	while len(todo) != 0:
 		for key in todo:
 			if dict[key]['event'][0] not in ['loss','extant']:
-				tree=tree.replace(''.join(["*",key,"*"]),''.join(["(","*",dict[key]['kids'][0],"*",",","*",dict[key]['kids'][1],"*",")"]))
+				tree=tree.replace(''.join(["*",key,"*"]),''.join(["(","*",dict[key]['kids'][0],"*",",","*",dict[key]['kids'][1],"*",")","*",key,"*"]))
 				todo.remove(key)
 				if dict[dict[key]['kids'][0]]['event'][0] not in ['loss','extant']:
 					todo.append(dict[key]['kids'][0])
 				if dict[dict[key]['kids'][1]]['event'][0] not in ['loss','extant']:
 					todo.append(dict[key]['kids'][1])
-				
-		print(todo)
-	print(tree)
-get_order(dict,list)
+	return(tree)
+newtree=get_tree(dict)
+
+
+def add_info(tree,dict):
+	for key in dict:
+		if dict[key]['event'][0] == 'loss':
+			tree=tree.replace(''.join(["*",key,"*"]),''.join(["loss|",dict[key]['species'][0],":1.0","[&&NHX:D=?:Ev=Glos:S=",dict[key]['species'][0],":ND=",key,"]"]))
+		elif dict[key]['event'][0] == 'extant':
+			tree=tree.replace(''.join(["*",key,"*"]),''.join([key,"|",dict[key]['species'][0],":1.0","[&&NHX:D=?:Ev=Extant:S=",dict[key]['species'][0],":ND=",key,"]"]))
+		elif dict[key]['event'][0] == 'speciation':
+			tree=tree.replace(''.join(["*",key,"*"]),''.join([":1.0[&&NHX:D=?:Ev=Spec:S=",dict[key]['species'][0],":ND=",key,"]"]))
+		elif dict[key]['event'][0] == 'duplication':
+			 tree=tree.replace(''.join(["*",key,"*"]),''.join([":1.0[&&NHX:D=y:Ev=GDup:S=",dict[key]['species'][0],":ND=",key,"]"]))
+
+	return(tree)
+fulltree=add_info(newtree,dict)
+
+g=open(outfile,'w')
+g.write(fulltree)
+g.close()
+
