@@ -14,6 +14,9 @@ def read_xml_to_dict(xmlf,dict):
 	while "<recGeneTree>" not in line:
 		i=i+1
 		line=xml[i]
+		if i==len(xml)-1 and "<recGeneTree>" not in line:
+			print("Not appropriate XML format, should have <recGeneTreee> tag in file")
+			quit()
 	xml=xml[i:]
 	for j in range(len(xml)):
 		line=xml[j]
