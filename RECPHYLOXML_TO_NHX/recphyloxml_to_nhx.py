@@ -11,6 +11,7 @@ def read_xml_to_dict(xmlf,dict):
 	nextid=0
 	i=0
 	line=xml[i]
+	#Extract Gene tree portion only, if no section found quit and print reason
 	while "<recGeneTree>" not in line:
 		i=i+1
 		line=xml[i]
@@ -18,6 +19,7 @@ def read_xml_to_dict(xmlf,dict):
 			print("Not appropriate XML format, should have <recGeneTreee> tag in file")
 			quit()
 	xml=xml[i:]
+	#Loop through lines to find events (speciation, loss, duplication, leaf) and create or add to corresponding dictionary for that node
 	for j in range(len(xml)):
 		line=xml[j]
 		if "<speciation" in line:
@@ -149,14 +151,14 @@ To do this:
 -Go through line by line and if line has an event(spec,dup,loss) get name from specieslocation=, If extant get name from name line 2 prior
 -If name not already in dict create new dict with name
 -add according event to dict, store as list so as to append in case of multiple events
--Continue by following clads so that when in one clad get name and repeat for second. If a speciation use location name if leaf use gene name
+-Continue by following clades so that when in one clade down get name and repeat for second. If a speciation use location name if leaf use gene name
 
 
 
 """
 read_xml_to_dict(xml_file,dict)
 
-
+#From above output now create basic (not extended) tree
 
 def get_tree(dict):
 	list=[]
@@ -173,9 +175,7 @@ def get_tree(dict):
 		if pardict[key]=='0':
 			list.append(key)
 
-	#tree=''.join(["(","*",list[1],"*",",","*",list[2],"*",")",";"])
 	tree=''.join(["*",list[0],"*",";"])
-	#todo=[list[1],list[2]]
 	todo=[list[0]]
 	while len(todo) != 0:
 		for key in todo:
@@ -189,6 +189,8 @@ def get_tree(dict):
 	return(tree)
 newtree=get_tree(dict)
 
+
+#Using above tree output add extended information (D= duplication Ev=event S=species ND=node name)
 
 def add_info(tree,dict):
 	for key in dict:
