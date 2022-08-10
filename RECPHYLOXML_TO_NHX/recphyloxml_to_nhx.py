@@ -2,7 +2,6 @@ import sys
 
 xml_file=sys.argv[1]
 outfile=sys.argv[2]
-#output_file=sys.argv[2]
 dict={}
 
 def read_xml_to_dict(xmlf,dict):

@@ -14,26 +14,26 @@ trees[0]=f1[0]
 trees[1]=f2[0]
 for k in range(len(trees)):
 	tree=trees[k]
-	pieces=tree.split(":")
-	for i in range(len(pieces)):
-		parts=pieces[i]
-		if "S=" in parts:
-			specie=parts
+	tree_split=tree.split(":")
+	for i in range(len(tree_split)):
+		section=tree_split[i]
+		if "S=" in section:
+			specie=section
 			if specie.replace("S=",'') in species:
-				parts=''.join(["S=",species[specie.replace("S=",'')]])
+				section=''.join(["S=",species[specie.replace("S=",'')]])
 			else:
-				parts=''.join(["S=",str(nextspecie)])
+				section=''.join(["S=",str(nextspecie)])
 				species[specie.replace("S=",'')]=str(nextspecie)
 				nextspecie+=1
-		if "ND=" in parts:
-			NDparts=parts.split("]")
+		if "ND=" in section:
+			NDparts=section.split("]")
 			NDpart=NDparts[0].split("=")
 			NDpart[1]=str(nextid)
 			NDparts[0]='='.join(NDpart)
-			parts=']'.join(NDparts)
+			section=']'.join(NDparts)
 			nextid+=1
-		pieces[i]=parts
-	trees[k]=':'.join(pieces)
+		tree_split[i]=section
+	trees[k]=':'.join(tree_split)
 
 g=open(''.join([sys.argv[1].split(".")[0],"_declone_ready.nhx"]),'w')
 g.write(trees[0])
