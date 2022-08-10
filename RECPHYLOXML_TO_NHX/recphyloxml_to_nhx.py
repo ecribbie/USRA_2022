@@ -170,8 +170,10 @@ def get_tree(dict):
 		if pardict[key]=='0':
 			list.append(key)
 
-	tree=''.join(["(","*",list[1],"*",",","*",list[2],"*",")",";"])
-	todo=[list[1],list[2]]
+	#tree=''.join(["(","*",list[1],"*",",","*",list[2],"*",")",";"])
+	tree=''.join(["*",list[0],"*",";"])
+	#todo=[list[1],list[2]]
+	todo=[list[0]]
 	while len(todo) != 0:
 		for key in todo:
 			if dict[key]['event'][0] not in ['loss','extant']:
