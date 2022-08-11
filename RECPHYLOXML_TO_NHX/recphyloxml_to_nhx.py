@@ -1,212 +1,246 @@
+#!/usr/bin/env python3
+# coding: utf-8
+
+"""
+Convert a (set of) RecPhyloXml file(s from a directory) into the nhx format
+Usage: recphyloxml_to_nhx input (XML file or directory) output_directory [XML_prefix]
+"""
+
+import argparse
+import inspect
+import os
 import sys
-
-xml_file=sys.argv[1]
-outfile=sys.argv[2]
-dict={}
-
-def read_xml_to_dict(xmlf,dict):
-	f=open(xmlf)
-	xml=f.readlines()
-	f.close()
-	nextid=0
-	i=0
-	line=xml[i]
-	#Extract Gene tree portion only, if no section found quit and print reason
-	while "<recGeneTree>" not in line:
-		i=i+1
-		line=xml[i]
-		if i==len(xml)-1 and "<recGeneTree>" not in line:
-			print("Not appropriate XML format, should have <recGeneTreee> tag in file")
-			quit()
-	xml=xml[i:]
-	#Loop through lines to find events (speciation, loss, duplication, leaf) and create or add to corresponding dictionary for that node
-	for j in range(len(xml)):
-		line=xml[j]
-		if "<speciation" in line:
-			name=line.split('"')[1]
-			if name not in dict:
-				name=str(nextid)
-				nextid+=1
-				dict[name]={}
-				dict[name]['event']=[]
-				dict[name]['kids']=[]
-				dict[name]['species']=[line.split('"')[1]]
-			dict[name]['event'].append("speciation")
-			leveldown=0
-			for k in range(j,len(xml)):
-				line=xml[k]
-				if "<clade>" in line:
-					leveldown=leveldown+1
-				if "</clade>" in line:
-					leveldown=leveldown-1
-				if leveldown == 1:
-					if "<speciation" in line:
-						if line.split('"')[1] in dict:
-							dict[name]['kids'].append(line.split('"')[1])
-						else:
-							dict[str(nextid)]={}
-							dict[str(nextid)]['event']=[]
-							dict[str(nextid)]['kids']=[]
-							dict[str(nextid)]['species']=[line.split('"')[1]]
-							change=line.split('"')
-							change[1]=str(nextid)
-							xml[k]='"'.join(change)
-							line=xml[k]
-							dict[name]['kids'].append(line.split('"')[1])
-							nextid+=1
-					elif "<loss" in line:
-						dict[name]['kids'].append(line.split('"')[1])
-					elif "<duplication" in line:
-						if line.split('"')[1] in dict:
-							dict[name]['kids'].append(line.split('"')[1])
-						else:
-							dict[str(nextid)]={}
-							dict[str(nextid)]['event']=[]
-							dict[str(nextid)]['kids']=[]
-							dict[str(nextid)]['species']=[line.split('"')[1]]
-							change=line.split('"')
-							change[1]=str(nextid)
-							xml[k]='"'.join(change)
-							dict[name]['kids'].append(str(nextid))
-							nextid+=1
-					elif "<leaf" in line:
-						kid=xml[k-2].split("<name>")[1].split("</name>")[0]
-						dict[name]['kids'].append(kid)
-
-				if leveldown<0:
-					break
-		if "<loss" in line:
-			name=line.split('"')[1]
-			if name not in dict:
-				dict[name]={}
-				dict[name]['event']=[]
-				dict[name]['species']=[]
-			dict[name]['species'].append(name)
-			dict[name]['event'].append("loss")
-		if "<leaf" in line:
-			name=xml[j-2].split("<name>")[1].split("</name>")[0]
-			if name not in dict:
-				dict[name]={}
-				dict[name]['species']=[]
-				dict[name]['event']=[]
-			dict[name]['species'].append(line.split('"')[1])
-			dict[name]['event'].append("extant")
-		if "<duplication" in line:
-			name=line.split('"')[1]
-			if name not in dict:
-				name=str(nextid)
-				nextid+=1
-				dict[name]={}
-				dict[name]['event']=[]
-				dict[name]['kids']=[]
-				dict[name]['species']=[line.split('"')[1]]
-			dict[name]['event'].append("duplication")
-			leveldown=0
-			for k in range(j,len(xml)):
-				line=xml[k]
-				if "<clade>" in line:
-					leveldown=leveldown+1
-				if "</clade>" in line:
-					leveldown=leveldown-1
-				if leveldown == 1:
-					if "<speciation" in line:
-						if line.split('"')[1] in dict:
-							dict[name]['kids'].append(line.split('"')[1])
-						else:
-							dict[str(nextid)]={}
-							dict[str(nextid)]['event']=[]
-							dict[str(nextid)]['kids']=[]
-							dict[str(nextid)]['species']=[line.split('"')[1]]
-							change=line.split('"')
-							change[1]=str(nextid)
-							xml[k]='"'.join(change)
-							dict[name]['kids'].append(str(nextid))
-							nextid+=1
-					elif "<loss" in line:
-						dict[name]['kids'].append(line.split('"')[1])
-					elif "<duplication" in line:
-						if line.split('"')[1] in dict:
-							dict[name]['kids'].append(line.split('"')[1])
-						else:
-							dict[str(nextid)]={}
-							dict[str(nextid)]['event']=[]
-							dict[str(nextid)]['kids']=[]
-							dict[str(nextid)]['species']=[line.split('"')[1]]
-							change=line.split('"')
-							change[1]=str(nextid)
-							xml[k]='"'.join(change)
-							dict[name]['kids'].append(nextid)
-							nextid+=1
-					elif "<leaf" in line:
-						kid=xml[k-2].split("<name>")[1].split("</name>")[0]
-						dict[name]['kids'].append(kid)
-
-				if leveldown<0:
-					break
-
-"""
-
-Get info as nodes with their names, events(speciation, duplication) and children node names. If (leaf,loss) instead have name , species and event (Extant,Glos)
-To do this:
--Go through line by line and if line has an event(spec,dup,loss) get name from specieslocation=, If extant get name from name line 2 prior
--If name not already in dict create new dict with name
--add according event to dict, store as list so as to append in case of multiple events
--Continue by following clades so that when in one clade down get name and repeat for second. If a speciation use location name if leaf use gene name
+import xml.etree.ElementTree as ET
 
 
+def find_tag(node, tag):
+    """
+    Input: 
+      - node: xml object
+      - tag: string
+    Output:
+      xml object: First child of node with tag 'tag'
+    """
+    return node.find(f'{XML_PREFIX}{tag}')
 
-"""
-read_xml_to_dict(xml_file,dict)
+def findall_tags(node, tag):
+    """
+    Input: 
+      - node: xml object
+      - tag: string
+    Output:
+      list(xml object): List of all children of node with tag 'tag'
+    """
+    return node.findall(f'{XML_PREFIX}{tag}')
 
-#From above output now create basic (not extended) tree
+def get_tag(node):
+    """
+    Input: 
+      - node: xml object
+    Output:
+      str: xml tag of node
+    """
+    return node.tag.replace(XML_PREFIX, '')
 
-def get_tree(dict):
-	list=[]
-	pardict={}
-	keys=dict.keys()
-	for key1 in keys:
-		for key2 in keys:
-			if dict[key2]['event'][0] not in ['loss','extant']:
-				if key1 in dict[key2]['kids']:
-					pardict[key1]=key2
-		if key1 not in pardict:
-			list.append(key1)
-	for key in pardict:
-		if pardict[key]=='0':
-			list.append(key)
+def get_children(node):
+    """
+    Input: 
+      - node: xml object
+    Output:
+      list(xml object): List of all children of node corresponding to nodes of the tree
+    """
+    return [child for child in node if get_tag(child) == 'clade']
 
-	tree=''.join(["*",list[0],"*",";"])
-	todo=[list[0]]
-	while len(todo) != 0:
-		for key in todo:
-			if dict[key]['event'][0] not in ['loss','extant']:
-				tree=tree.replace(''.join(["*",key,"*"]),''.join(["(","*",dict[key]['kids'][0],"*",",","*",dict[key]['kids'][1],"*",")","*",key,"*"]))
-				todo.remove(key)
-				if dict[dict[key]['kids'][0]]['event'][0] not in ['loss','extant']:
-					todo.append(dict[key]['kids'][0])
-				if dict[dict[key]['kids'][1]]['event'][0] not in ['loss','extant']:
-					todo.append(dict[key]['kids'][1])
-	return(tree)
-newtree=get_tree(dict)
+def get_event_data(event):
+    """
+    Input: 
+      - event: xml object encoding a reconciliation event
+    Output:
+      dict: type and species of the reconciliation event
+    Assumption: 
+      xml tag eventsRec has a single child defining the event type and species
+    """
+    event_type = get_tag(event[0])
+    event_species = event[0].get('speciesLocation')
+    return {'type': event_type, 'species': event_species}
+
+def find_trees(xml_object, tree_type):
+    """
+    Input:
+      - xml_object: xml object obtained from parsing a full XML file
+      - tree_type: str
+    Output:
+      - list(xml object): list of xml object corresponding to the root of
+                          all trees of the given type
+    """
+    trees_aux = findall_tags(xml_object.getroot(), tree_type)
+    trees = []
+    for tree_aux in trees_aux:
+        # RecPhyloXml format: a tree start by a tag describing its type
+        # then a nested phylogeny tag then the first node (if rooted)
+        # or set of nodes if unrooted
+        tree_phyl = find_tag(tree_aux, 'phylogeny')
+        trees.append(findall_tags(tree_phyl, 'clade'))
+    return trees
+
+def check_RecPhyloXml(xml_object):
+    """
+    Input:
+      - xml_object: xml object from parsing an XML file
+    Output:
+      - bool: True if RecPhyloXml file, False otherwise
+    """
+    header_tag = get_tag(xml_object.getroot())
+    if header_tag == 'recPhylo':
+        return True
+    else:
+        return False
+
+def declone_tag(xml_tag):
+    """
+    Input:
+      - xml_tg: str encoding a speciation event in RecPhyloXml
+    Output:
+      - str: correspondign event in DeClone format
+    """
+    XMLTAG_2_DECLONETAG = {
+        'speciation': 'Spec',
+        'duplication': 'GDup',
+        'loss': 'GLos',
+        'leaf': 'Extant'
+    }
+    return XMLTAG_2_DECLONETAG[xml_tag]
 
 
-#Using above tree output add extended information (D= duplication Ev=event S=species ND=node name)
+def read_xml_spTree(xml_tree_root):
+    """
+    Input:
+      - xml_tree_root: xml node corresponding to the root of a species tree
+    Output:
+      - dict: dictionary species name -> species integer ID
+    """
+    def read_xml_spTree_aux(node, species_id_dict, species_id):
+        """
+        Recursive (depth-first) function updating the dictionary 
+        and returning the next available species ID
+        """
+        name = find_tag(node, 'name').text
+        species_id_dict[name] = species_id        
+        children = get_children(node)
+        for child in children:
+            species_id = read_xml_spTree_aux(child, species_id_dict, species_id+1)
+        return species_id
+    
+    species_id_dict = {}
+    _ = read_xml_spTree_aux(xml_tree_root, species_id_dict, 0)
+    return species_id_dict
 
-def add_info(tree,dict):
-	for key in dict:
-		if dict[key]['event'][0] == 'loss':
-			tree=tree.replace(''.join(["*",key,"*"]),''.join(["loss|",dict[key]['species'][0],":1.0","[&&NHX:D=?:Ev=Glos:S=",dict[key]['species'][0],":ND=",key,"]"]))
-		elif dict[key]['event'][0] == 'extant':
-			tree=tree.replace(''.join(["*",key,"*"]),''.join([key,"|",dict[key]['species'][0],":1.0","[&&NHX:D=?:Ev=Extant:S=",dict[key]['species'][0],":ND=",key,"]"]))
-		elif dict[key]['event'][0] == 'speciation':
-			tree=tree.replace(''.join(["*",key,"*"]),''.join([":1.0[&&NHX:D=?:Ev=Spec:S=",dict[key]['species'][0],":ND=",key,"]"]))
-		elif dict[key]['event'][0] == 'duplication':
-			 tree=tree.replace(''.join(["*",key,"*"]),''.join([":1.0[&&NHX:D=y:Ev=GDup:S=",dict[key]['species'][0],":ND=",key,"]"]))
 
-	return(tree)
-fulltree=add_info(newtree,dict)
+def convert_xml_recGeneTree(xml_tree_root, node_id_offset, species_id_dict):
+    """
+    Converting an xml reconciled gene tree into a Newic string
+    Input:
+      - xml_tree_root: xml object encoding the root node of a reconciled gene tree
+      - node_id_offset: (integer) offset to labels the gene tree nodes
+      - species_id_dict: (dict) dictionary species name -> species integer ID
+    Output:
+      - integer, str: next gene tree node ID available, nhx string
+    """
+    def read_xml_recGeneTree_aux(node, nhx_str, node_id):
+        """
+        Recursive (depth-first) function
+        """
+        # Recording reconciliation featues of current node
+        name = find_tag(node, 'name').text
+        event = get_event_data(find_tag(node, 'eventsRec'))
+        event_species, event_type = event['species'], declone_tag(event['type'])
+        if event_type == 'duplication': is_duplication = 'Y'
+        else: is_duplication = '?'
+        event_species_id = species_id_dict[event_species]
+        # Bulding nhx string for current node
+        nhx_tag = f'[&&NHX:D={is_duplication}:Ev={event_type}:S={event_species_id}:ND={node_id}]'
+        nhx_name = f'{name}|{event_species}:1.0'
+        # Recursive calls on children
+        children = get_children(node)
+        nhx_str_subtrees = [] # List of nhx strings of children subtrees
+        for child in children:        
+            node_id, nhx_str_subtree = read_xml_recGeneTree_aux(child, '', node_id+1)
+            nhx_str_subtrees.append(nhx_str_subtree)
+        # Aggregating nhx subtrees strings
+        if len(children) > 0:
+            nhx_str_aux = f'({",".join(nhx_str_subtrees)})'
+        else:
+            nhx_str_aux = ''
+        nhx_str_aux += f'{nhx_name}{nhx_tag}'
+        return node_id, f'{nhx_str}{nhx_str_aux}'
+    
+    next_node_id, nhx_str = read_xml_recGeneTree_aux(xml_tree_root, '', node_id_offset)
+    return f'{nhx_str};', next_node_id
 
-g=open(outfile,'w')
-g.write(fulltree)
-g.close()
+def process_xml_file(input_file, output_dir,offset):
+    """
+    Processing a single xml file F.xml: if valid RecPhyloXml file, it 
+    creates an equivalent output_dir/F.nhx nhx file
+    Input:
+      - input_file: (str) path to input xml file
+      - output_dir: (str) path to output directory
+    """
+    next_node_id=offset
+    # Parsing input file
+    xml_object = ET.parse(input_file)
+    if check_RecPhyloXml(xml_object):
+        # Reading species tree
+        spTrees = find_trees(xml_object, 'spTree')
+        try:
+            spTree = spTrees[0][0]
+            species_id_dict = read_xml_spTree(spTree)
+        except len(spTrees) > 1 or len(spTrees[0]) > 1:
+            print(f'File {input_file} has more than one species tree or an unrooted species tree')
+        # Opening output file
+        input_file_basename = os.path.basename(input_file)
+        output_file_basename = input_file_basename.replace('.xml', '.nhx')
+        output_file = os.path.join(output_dir, output_file_basename)
+        output = open(output_file, 'w')
+        # Reading and converting gene tree(s)
+        recGeneTrees = find_trees(xml_object, 'recGeneTree')
+        for recGeneTree in recGeneTrees:
+            try:
+                nhx_str, next_node_id = convert_xml_recGeneTree(recGeneTree[0], next_node_id, species_id_dict)
+                output.write(f'{nhx_str}\n')
+            except len(recGeneTree) > 1:
+                output.close()
+                print(f'File {input_file} contains unrooted gene tree(s)')
+        output.close()
+        next_node_id=next_node_id+1
+        return(next_node_id)
 
+def main(input: 'Input (RecPhyloXml file or directory containing some RecPhyloXml files)',
+         output_dir: 'Directory where the nhx files are written',
+         xml_prefix: 'Prefix of RecPhyloXml tags'): 
+    """
+    Convert either a RecPhyloXml file or all the RecPhyloXml files in a directory to the nhx format
+    The nhx files have the same basename than the RecPhyloXml files and are written in output_dir
+    xml_prefix: prefix of xml tags (Question: readable from the header?)
+    """
+    # Prefix of all XML tags
+    global XML_PREFIX
+    XML_PREFIX = xml_prefix
+    next_node_id=0
+    if os.path.isfile(input):
+        try:
+            process_xml_file(input, output_dir, next_node_id)
+        except not input.endswith('.xml'):
+            print(f'File {input} does not have suffix .xml')
+            
+    elif os.path.isdir(input):
+        input_files = [input_file for input_file in os.listdir(input) if input_file.endswith('.xml')]
+        for input_file in input_files:
+            next_node_id=process_xml_file(os.path.join(input, input_file), output_dir, next_node_id)
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description=inspect.getdoc(main))
+    parser.add_argument('input', help='Input (RecPhyloXml file or directory containing RecPhyloXml files)')
+    parser.add_argument('output_dir', help='Directory where the nhx files are written')
+    parser.add_argument('--xml_prefix', default='{http://www.recg.org}', help='Prefix of RecPhyloXml tags')
+    args = parser.parse_args()
+    main(** vars(args))       
