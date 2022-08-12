@@ -3,7 +3,16 @@
 
 """
 Convert a (set of) RecPhyloXml file(s from a directory) into the nhx format
-Usage: recphyloxml_to_nhx input (XML file or directory) output_directory [XML_prefix]
+Usage: recphyloxml_to_nhx input output_directory
+- input: (str) path to a file or a directory
+         if directory, all RecPhyloXml files of the directory will be converted
+- output: (str) path to a directory, created if not existing
+
+For every RecPhyloXml file <file_name>.xml that is processed, 
+a NHX file <output>/<file_name>.nhx is created.
+
+This program assumes that each RecPhyloXml file has a single species tree, 
+a single gene tree and that both species and gene trees are rooted.
 """
 
 import argparse
@@ -12,22 +21,17 @@ import os
 import sys
 import xml.etree.ElementTree as ET
 
-def get_prefix(file):
+def get_xml_tag_prefix(xml_object):
     """
     Input:
-      file:xml file
+      xml_object: parsed XML file
     Output:
-      general (root) xml prefix
+      (str) XML tags prefix
     """
-    element=ET.parse(file)
-    root=element.getroot()
-    print(root)
-    if "}" in root.tag:
-        prefix=root.tag.split('}')[0].strip("{")
-    else:
-        prefix=''
-    return(prefix)
-
+    root_tag = xml_object.getroot().tag
+    if '}' in root_tag: prefix = '{'+root_tag.split('}')[0].strip('{')+'}'
+    else: prefix = ''
+    return prefix
 
 def find_tag(node, tag):
     """
@@ -37,7 +41,7 @@ def find_tag(node, tag):
     Output:
       xml object: First child of node with tag 'tag'
     """
-    return node.find(f'{XML_PREFIX}{tag}')
+    return node.find(f'{XML_TAG_PREFIX}{tag}')
 
 def findall_tags(node, tag):
     """
@@ -45,9 +49,9 @@ def findall_tags(node, tag):
       - node: xml object
       - tag: string
     Output:
-      list(xml object): List of all children of node with tag 'tag'
+      list(xml_object): List of all children of node with tag 'tag'
     """
-    return node.findall(f'{XML_PREFIX}{tag}')
+    return node.findall(f'{XML_TAG_PREFIX}{tag}')
 
 def get_tag(node):
     """
@@ -56,7 +60,7 @@ def get_tag(node):
     Output:
       str: xml tag of node
     """
-    return node.tag.replace(XML_PREFIX, '')
+    return node.tag.replace(XML_TAG_PREFIX, '')
 
 def get_children(node):
     """
@@ -99,18 +103,6 @@ def find_trees(xml_object, tree_type):
         trees.append(findall_tags(tree_phyl, 'clade'))
     return trees
 
-def check_RecPhyloXml(xml_object):
-    """
-    Input:
-      - xml_object: xml object from parsing an XML file
-    Output:
-      - bool: True if RecPhyloXml file, False otherwise
-    """
-    header_tag = get_tag(xml_object.getroot())
-    if header_tag == 'recPhylo':
-        return True
-    else:
-        return False
 
 def declone_tag(xml_tag):
     """
@@ -128,7 +120,44 @@ def declone_tag(xml_tag):
     return XMLTAG_2_DECLONETAG[xml_tag]
 
 
-def read_xml_spTree(xml_tree_root):
+def read_file(input_file):
+    """
+    Read input file and if it is a valid RecPhyloXml file with a single rooted species tree
+    and a single reconciled gene tree, returns a pair '',(spTree, recGeneTree) of xml objects 
+    for the root node of each tree.
+    Otherwise returns None and an error message.
+    """
+    global XML_TAG_PREFIX
+    # Checking the file name ends with .xml
+    if not input_file.endswith('.xml'):
+        return f'File {input_file} does not have suffix .xml', None
+    # Parsing the input file
+    try:
+        xml_object = ET.parse(input_file)
+    except ET.ParseError as exception_parsing:
+        return f'File {input_file} is not an XML file', None
+    # Checking the parsed XML object is of type RecPhyloXml
+    XML_TAG_PREFIX = get_xml_tag_prefix(xml_object)
+    if get_tag(xml_object.getroot()) != 'recPhylo': 
+        return f'File {input_file} is not a RecPhyloXml file', None
+    # Parsing the species tree
+    spTrees = find_trees(xml_object, 'spTree')
+    if len(spTrees) > 1:
+        return f'File {input_file} has more than one species tree', None
+    spTree = spTrees[0]
+    if len(spTree) > 1:
+        return f'File {input_file} species tree is unrooted', None
+    # Parsing the gene tree
+    recGeneTrees = find_trees(xml_object, 'recGeneTree')
+    if len(recGeneTrees) > 1:
+        return f'File {input_file} has more than one gene tree', None
+    recGeneTree = recGeneTrees[0]
+    if len(recGeneTree) > 1:
+        return f'File {input_file} gene tree is unrooted', None
+    return f'{input_file} is a valid RecPhyloXml file', (spTree[0], recGeneTree[0])
+        
+
+def read_spTree(xml_tree_root):
     """
     Input:
       - xml_tree_root: xml node corresponding to the root of a species tree
@@ -151,10 +180,9 @@ def read_xml_spTree(xml_tree_root):
     _ = read_xml_spTree_aux(xml_tree_root, species_id_dict, 0)
     return species_id_dict
 
-
-def convert_xml_recGeneTree(xml_tree_root, node_id_offset, species_id_dict):
+def convert_recGeneTree(xml_tree_root, node_id_offset, species_id_dict):
     """
-    Converting an xml reconciled gene tree into a Newic string
+    Converting a RecPhyloXml reconciled gene tree into a Newick string
     Input:
       - xml_tree_root: xml object encoding the root node of a reconciled gene tree
       - node_id_offset: (integer) offset to labels the gene tree nodes
@@ -162,7 +190,7 @@ def convert_xml_recGeneTree(xml_tree_root, node_id_offset, species_id_dict):
     Output:
       - integer, str: next gene tree node ID available, nhx string
     """
-    def read_xml_recGeneTree_aux(node, nhx_str, node_id):
+    def convert_recGeneTree_aux(node, nhx_str, node_id):
         """
         Recursive (depth-first) function
         """
@@ -180,7 +208,7 @@ def convert_xml_recGeneTree(xml_tree_root, node_id_offset, species_id_dict):
         children = get_children(node)
         nhx_str_subtrees = [] # List of nhx strings of children subtrees
         for child in children:        
-            node_id, nhx_str_subtree = read_xml_recGeneTree_aux(child, '', node_id+1)
+            node_id, nhx_str_subtree = convert_recGeneTree_aux(child, '', node_id+1)
             nhx_str_subtrees.append(nhx_str_subtree)
         # Aggregating nhx subtrees strings
         if len(children) > 0:
@@ -190,79 +218,60 @@ def convert_xml_recGeneTree(xml_tree_root, node_id_offset, species_id_dict):
         nhx_str_aux += f'{nhx_name}{nhx_tag}'
         return node_id, f'{nhx_str}{nhx_str_aux}'
     
-    next_node_id, nhx_str = read_xml_recGeneTree_aux(xml_tree_root, '', node_id_offset)
+    next_node_id, nhx_str = convert_recGeneTree_aux(xml_tree_root, '', node_id_offset)
     return f'{nhx_str};', next_node_id
 
-def process_xml_file(input_file, output_dir,offset):
+def process_RecPhyloXml_trees(spTree, recGeneTree, output_file, node_id_offset):
     """
-    Processing a single xml file F.xml: if valid RecPhyloXml file, it 
-    creates an equivalent output_dir/F.nhx nhx file
+    Processing a RecPhyloXml object to write a NHX file
     Input:
-      - input_file: (str) path to input xml file
-      - output_dir: (str) path to output directory
+      - xml_object: parsed RecPhyloXml file
+      - output_file: (str) path to the output NHX file
+      - node_id_offset: (integer) offset to labels the gene tree nodes
     """
-    next_node_id=offset
-    # Parsing input file
-    xml_object = ET.parse(input_file)
-    if check_RecPhyloXml(xml_object):
-        # Reading species tree
-        spTrees = find_trees(xml_object, 'spTree')
-        try:
-            spTree = spTrees[0][0]
-            species_id_dict = read_xml_spTree(spTree)
-        except len(spTrees) > 1 or len(spTrees[0]) > 1:
-            print(f'File {input_file} has more than one species tree or an unrooted species tree')
-        # Opening output file
-        input_file_basename = os.path.basename(input_file)
-        output_file_basename = input_file_basename.replace('.xml', '.nhx')
-        output_file = os.path.join(output_dir, output_file_basename)
-        output = open(output_file, 'w')
-        # Reading and converting gene tree(s)
-        recGeneTrees = find_trees(xml_object, 'recGeneTree')
-        for recGeneTree in recGeneTrees:
-            try:
-                nhx_str, next_node_id = convert_xml_recGeneTree(recGeneTree[0], next_node_id, species_id_dict)
-                output.write(f'{nhx_str}\n')
-            except len(recGeneTree) > 1:
-                output.close()
-                print(f'File {input_file} contains unrooted gene tree(s)')
-        output.close()
-        next_node_id=next_node_id+1
-        return(next_node_id)
+    # Reading species tree to create the dictionary of species ID
+    species_id_dict = read_spTree(spTree)  
+    # Reading and converting gene tree
+    output = open(output_file, 'w')
+    next_node_id = node_id_offset    
+    nhx_str, current_node_id = convert_recGeneTree(recGeneTree, next_node_id, species_id_dict)
+    output.write(f'{nhx_str}')
+    output.close()
+    return current_node_id + 1
+
 
 def main(input: 'Input (RecPhyloXml file or directory containing some RecPhyloXml files)',
-         output_dir: 'Directory where the nhx files are written',
-         xml_prefix: 'Prefix of RecPhyloXml tags'): 
+         output_dir: 'Directory where the nhx files are written'): 
     """
     Convert either a RecPhyloXml file or all the RecPhyloXml files in a directory to the nhx format
     The nhx files have the same basename than the RecPhyloXml files and are written in output_dir
-    xml_prefix: prefix of xml tags (Question: readable from the header?)
     """
-    # Prefix of all XML tags
-    global XML_PREFIX
-    ####XML_PREFIX = xml_prefix
-    try:
-        get_prefix(input)
-    except:
-        print(f"File {input} is not of valid xml format")
-    XML_PREFIX = get_prefix(input)
-    next_node_id=0
-    if os.path.isfile(input):
-        try:
-            process_xml_file(input, output_dir, next_node_id)
-        except not input.endswith('.xml'):
-            print(f'File {input} does not have suffix .xml')
-            
+    input_files = []
+    if os.path.isfile(input): input_files = [input]            
     elif os.path.isdir(input):
-        input_files = [input_file for input_file in os.listdir(input) if input_file.endswith('.xml')]
-        for input_file in input_files:
-            next_node_id=process_xml_file(os.path.join(input, input_file), output_dir, next_node_id)
+        input_files = [os.path.join(input, input_file) for input_file in os.listdir(input) if input_file.endswith('.xml')]
+    else:
+        print('ERROR f{input} is neither a file nor  directory')
+        sys.exit(1)
+
+    next_node_id=0
+    for input_file in input_files:
+        # Reading the file
+        msg, trees = read_file(input_file)
+        if trees is None:
+            print(f'WARNING {msg}')
+        else:
+            (spTree, recGeneTree) = trees
+            input_file_basename = os.path.basename(input_file)
+            output_file_basename = input_file_basename.replace('.xml', '.nhx')
+            output_file = os.path.join(output_dir, output_file_basename)
+            next_node_id = process_RecPhyloXml_trees(spTree, recGeneTree, output_file, next_node_id)
+            
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=inspect.getdoc(main))
     parser.add_argument('input', help='Input (RecPhyloXml file or directory containing RecPhyloXml files)')
     parser.add_argument('output_dir', help='Directory where the nhx files are written')
-    parser.add_argument('--xml_prefix', default='{http://www.recg.org}', help='Prefix of RecPhyloXml tags')
     args = parser.parse_args()
     main(** vars(args))       
 
