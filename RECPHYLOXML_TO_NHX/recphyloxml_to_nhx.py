@@ -21,6 +21,7 @@ def get_prefix(file):
     """
     element=ET.parse(file)
     root=element.getroot()
+    print(root)
     if "}" in root.tag:
         prefix=root.tag.split('}')[0].strip("{")
     else:
