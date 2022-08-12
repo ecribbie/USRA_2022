@@ -12,6 +12,21 @@ import os
 import sys
 import xml.etree.ElementTree as ET
 
+def get_prefix(file):
+    """
+    Input:
+      file:xml file
+    Output:
+      general (root) xml prefix
+    """
+    element=ET.parse(file)
+    root=element.getroot()
+    if "}" in root.tag:
+        prefix=root.tag.split('}')[0].strip("{")
+    else:
+        prefix=''
+    return(prefix)
+
 
 def find_tag(node, tag):
     """
@@ -224,7 +239,12 @@ def main(input: 'Input (RecPhyloXml file or directory containing some RecPhyloXm
     """
     # Prefix of all XML tags
     global XML_PREFIX
-    XML_PREFIX = xml_prefix
+    ####XML_PREFIX = xml_prefix
+    try:
+        get_prefix(input)
+    except:
+        print(f"File {input} is not of valid xml format")
+    XML_PREFIX = get_prefix(input)
     next_node_id=0
     if os.path.isfile(input):
         try:
@@ -244,3 +264,4 @@ if __name__ == "__main__":
     parser.add_argument('--xml_prefix', default='{http://www.recg.org}', help='Prefix of RecPhyloXml tags')
     args = parser.parse_args()
     main(** vars(args))       
+
