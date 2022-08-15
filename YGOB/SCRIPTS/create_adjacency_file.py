@@ -16,6 +16,7 @@ for line in gene_file:
 
 if not os.path.exists(sys.argv[2]):
 	f=open(sys.argv[2],'w')
+	h=open(''.join([sys.argv[2].split(".")[0],"_overlaps.txt"]),'w')
 else:
 	print("give as second argument path to non existent file to write adjacencies to")
 	exit()
@@ -24,6 +25,7 @@ else:
 
 def write_adjacencies(file):
 	global f
+	global h
 	g=open(file)
 	data=g.readlines()
 	g.close()
@@ -43,26 +45,28 @@ def write_adjacencies(file):
 						second_dir="+"
 					else:
 						second_dir="-"
-					f.write(' '.join([line.split()[0],next.split()[0],first_dir,second_dir,"1"]))
+					#f.write(' '.join([line.split()[0],next.split()[0],first_dir,second_dir,"1"]))
+					f.write(' '.join([line.split()[0],next.split()[0]]))
 					if int(line.split()[3]) > int(next.split()[2]):
-						f.write(" overlap")
+						h.write(' '.join([line.split()[0],next.split()[0]]))
+						h.write("\n")
 					f.write("\n")
 			else:
 				for j in range(1,100):
 					if data[i+j].split()[0] in genes:
 						if line.split()[5]==data[i+j].split()[5]:
 							if line.split()[1]=="0":
-		                                                first_dir="+"
+			                                        first_dir="+"
 							else:
 								first_dir="-"
 							if data[i+j].split()[1]=="0":
 								second_dir="+"
 							else:
 								second_dir="-"
-							f.write(' '.join([line.split()[0],data[i+j].split()[0],first_dir,second_dir,"1"]))
-
+							#f.write(' '.join([line.split()[0],data[i+j].split()[0],first_dir,second_dir,"1"]))
+							f.write(' '.join([line.split()[0],data[i+j].split()[0]]))
 							if int(line.split()[3]) > int(data[i+j].split()[2]):
-	                                                	f.write(" overlap")
+	                                                	h.write(' '.join([line.split()[0],data[i+j].split()[0],"\n"]))
 							f.write("\n")
 						break
 					if i+j+1==len(data):
@@ -78,3 +82,4 @@ for i in range(3,num+3):
 
 
 f.close()
+h.close()
