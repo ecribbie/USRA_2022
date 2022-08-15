@@ -3,6 +3,8 @@ import os
 adjacencies_f=sys.argv[1]
 mapping_dir=sys.argv[2]
 output_dir=sys.argv[3]
+script=sys.argv[4]
+family_dir=sys.argv[5]
 def get_family_dict(mapping_dir):
 	dict={}
 	for file in os.listdir(mapping_dir):
@@ -58,8 +60,20 @@ def write_adjacency_files(adj_dict,out_dir):
 		f.close()
 
 
+def create_declone_script(adj_dict,script,fam_dir,out_dir):
+	f=open(script,'w')
+	for pair in adj_dict:
+		fam1=pair.split("_")[0]
+		fam2=pair.split("_")[1]
+		f.write(' '.join([os.path.join(fam_dir,''.join([fam1,"_reconciliated.nhx"])),os.path.join(fam_dir,''.join([fam2,"_reconciliated.nhx"])),os.path.join(out_dir,''.join([pair,".txt"]))]))
+		f.write("\n")
+	f.close()
+
+
 fam_dict=get_family_dict(mapping_dir)
 
 adj_dict=get_adj_dict(adjacencies_f,fam_dict)
 
 write_adjacency_files(adj_dict,output_dir)
+
+create_declone_script(adj_dict,script,family_dir,output_dir)
