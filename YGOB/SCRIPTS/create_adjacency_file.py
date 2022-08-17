@@ -16,7 +16,7 @@ for line in gene_file:
 
 if not os.path.exists(sys.argv[2]):
 	f=open(sys.argv[2],'w')
-	h=open(''.join([sys.argv[2].split(".")[0],"_overlaps.txt"]),'w')
+	h=open(''.join([sys.argv[2].split(".tx")[0],"_overlaps.txt"]),'w')
 else:
 	print("give as second argument path to non existent file to write adjacencies to")
 	exit()
