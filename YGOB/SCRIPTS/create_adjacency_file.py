@@ -45,7 +45,7 @@ def write_adjacencies(file):
 						second_dir="+"
 					else:
 						second_dir="-"
-					#f.write(' '.join([line.split()[0],next.split()[0],first_dir,second_dir,"1"]))
+
 					f.write(' '.join([line.split()[0],next.split()[0]]))
 					if int(line.split()[3]) > int(next.split()[2]):
 						h.write(' '.join([line.split()[0],next.split()[0]]))
@@ -63,7 +63,7 @@ def write_adjacencies(file):
 								second_dir="+"
 							else:
 								second_dir="-"
-							#f.write(' '.join([line.split()[0],data[i+j].split()[0],first_dir,second_dir,"1"]))
+
 							f.write(' '.join([line.split()[0],data[i+j].split()[0]]))
 							if int(line.split()[3]) > int(data[i+j].split()[2]):
 	                                                	h.write(' '.join([line.split()[0],data[i+j].split()[0],"\n"]))

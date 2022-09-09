@@ -26,6 +26,9 @@ def get_family(gene,dict):
 			break
 	return(key)
 
+
+
+
 def get_adj_dict(adjacencies_file,fam_dict):
 	f=open(adjacencies_file)
 	adj=f.readlines()
@@ -43,7 +46,7 @@ def get_adj_dict(adjacencies_file,fam_dict):
 		elif int(fam1)<int(fam2):
 			if '_'.join([fam1,fam2]) not in adj_dict:
 				adj_dict['_'.join([fam1,fam2])]=[]
-				adj_dict['_'.join([fam1,fam2])].append(' '.join([gene1,gene2]))
+			adj_dict['_'.join([fam1,fam2])].append(' '.join([gene1,gene2]))
 		elif int(fam1)>int(fam2):
 			if '_'.join([fam2,fam1]) not in adj_dict:
                                 adj_dict['_'.join([fam2,fam1])]=[]
