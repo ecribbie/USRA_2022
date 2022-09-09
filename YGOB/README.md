@@ -67,6 +67,8 @@ The First step was to create sequence alignments. This was done with two differe
 # Pipeline
 ##### Note:all scripts are run from `SCRIPTS` and all output files should go in `DATA` other than `MUSCLE`  `MACSE` and `GENERAX` ouput which goes in `EXP` and is not found in github due to size limitations. Should be run with python/3.10
 
+## Getting YGOB data
+
 import `pillars.txt` file from YGOB into `DATA`
 
 `mkdir DATA/species_genome_tabs`
@@ -78,6 +80,8 @@ from `DATA` `grep ">" AA.fsa > AA_genes.txt`
 from `DATA` `grep ">" NT.fsa > NT_genes.txt`
 
 import all species tabs into `DATA/species_genome_tabs` from YGOB
+
+## Initial data extraction
 
 make `gene_species_mapping_output.txt` (done in data_exploration.ipynb, use gene_species_mapping function in functions)
 
@@ -95,19 +99,15 @@ from `DATA/PILLARS_AA_FILES` `printf '%s\n' * > file_names.txt`
 
 from `DATA/PILLARS_NT_FILES` `printf '%s\n' * > file_names.txt`
 
-`mkdir EXP`
+create `../DATA/species_tree.tree` with species tree in newick format
 
-`mkdir EXP/MUSCLE_AA`
+## Gene family alignments
 
-`mkdir EXP/MACSE_AA`
+`mkdir EXP EXP/MUSCLE_AA EXP/MACSE_AA EXP/MACSE_NT SCRIPTS/log`
 
-`mkdir EXP/MACSE_NT`
+`run_muscle.sh`
 
-`mkdir SCRIPTS/log`
-
-`run_muscle.sh` (module load muscle)
-
-`run_macse.sh`  (module load java)
+`run_macse.sh`
 
 from `EXP/MUSCLE_AA` `printf '%s\n' * > file_names.txt`
 
@@ -115,9 +115,8 @@ from `EXP/MACSE_AA` `printf '%s\n' * > file_names.txt`
 
 from `EXP/MACSE_NT` `printf '%s\n' * > file_names.txt`
 
-if not all files created properly do the following
-
-for both/either of `MUSCLE_AA` or `MACSE_NT`
+##### Fix missing files
+if not all files created properly do the following for both/either of `MUSCLE_AA` or `MACSE_NT`
 
 `run_find_missing_file.sh`
 
@@ -141,13 +140,10 @@ repeat the previous steps as necessary until all files are made
 
 `run_fix_macse_alignments.sh`
 
-`mkdir ../EXP/GENERAX`
+## Reconciled gene tree inference
+#### This step uses GeneRax to take in 
 
-`mkdir ../EXP/GENERAX/MUSCLE_PARALLEL`
-
-`mkdir ../EXP/GENERAX/MACSE_PARALLEL`
-
-create `../DATA/species_tree.tree` with species tree in newick format
+`mkdir ../EXP/GENERAX ../EXP/GENERAX/MUSCLE_PARALLEL ../EXP/GENERAX/MACSE_PARALLEL`
 
 `run_make_generax_mapping_files.sh`
 
@@ -158,4 +154,16 @@ create `../DATA/species_tree.tree` with species tree in newick format
 `run_generax_muscle_parallel.sh`
 
 `run_generax_macse_parallel.sh`
+
+## Getting adjacencies
+
+`run_create_adjacency_file.sh`
+
+`mkdir ../EXP/DECLONE ../EXP/DECLONE/MUSCLE_1_S ../EXP/DECLONE/MUSCLE_1_I ../EXP/DECLONE/MUSCLE_2_S ../EXP/DECLONE/MUSCLE_2_I ../EXP/DECLONE/MACSE_1_S ../EXP/DECLONE/MACSE_1_I ../EXP/DECLONE/MACSE_2_S ../EXP/DECLONE/MACSE_2_I ../DATA/GENERAX_INTO_NHX_MUSCLE_1 ../DATA/GENERAX_INTO_NHX_MUSCLE_2 ../DATA/GENERAX_INTO_NHX_MACSE_1 ../DATA/GENERAX_INTO_NHX_MACSE_2 ../DATA/DECLONE_MUSCLE_1_ADJ_PAIR_FILES/ ../DATA/DECLONE_MUSCLE_2_ADJ_PAIR_FILES/ ../DATA/DECLONE_MACSE_1_ADJ_PAIR_FILES/ ../DATA/DECLONE_MACSE_1_ADJ_PAIR_FILES/`
+
+`run_get_declone_script.sh` With the desired version (muscle_1, muscle_2, macse_1 or macse_2)
+`run_declone.sh` With the desired version as above
+`run_declone.sh` Run again but will require changing the array range and ID increment to 9999 as the max array size is 9999 and we require more runs than that.
+
+
 
