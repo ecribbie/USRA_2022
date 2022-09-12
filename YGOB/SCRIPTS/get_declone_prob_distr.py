@@ -1,9 +1,13 @@
 import sys
 import os
+import math
 
-
-def get_values(line):
-	return(line.split()[1:])
+def get_values(line,list):
+	for num in line.split()[1:]:
+		list.append(float(num))
+		if math.isnan(float(num)):
+			print(num," returns NaN when converted to float on line ",line," of file ", file, flush=True)
+	return(list)
 
 
 def get_lines(file):
@@ -21,9 +25,15 @@ def get_lines(file):
 file_dir=sys.argv[1]
 values=[]
 for file in os.listdir(file_dir):
-        lines=get_lines(file)
+	file_path=os.path.join(file_dir,file)
+	lines=get_lines(file_path)
 	for line in lines:
-		line_values=get_values(line)
-		values=values+line_values
+		values=get_values(line,values)
 
-print(len(values))
+
+import plotext as plt
+
+plt.hist(values,25)
+plt.title("Frequency Distribution of Deoclone Probabilities")
+plt.show()
+
