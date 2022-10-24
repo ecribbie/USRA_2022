@@ -84,7 +84,7 @@ def get_sister(tree,node):
 			break
 		if tree[i]==",":
 			leave_marker=1
-		if level>0:
+		if level<0:
 			break
 	if prior_marker==1:
 		leave_marker=0
@@ -120,10 +120,10 @@ def get_sister_specie(tree,node):
 			sister_specie=tree[i:].split("S=")[1].split(":")[0]
 			prior_marker=0
 			break
-		if tree[i]==",":
-			leave_marker=1
-		if level>0:
-			break
+		#if tree[i]==",":
+			#leave_marker=1
+		#if level<0:
+			#break
 	if prior_marker==1:
 		leave_marker=0
 		level=0
@@ -137,8 +137,8 @@ def get_sister_specie(tree,node):
 			if level==0 and leave_marker==1 and tree[i-1]!="(" and tree[i-1]!=")":
 				sister_specie=tree[:i].split("S=")[-1].split(":")[0]
 				break
-			if tree[i]==",":
-				leave_marker=1
+			#if tree[i]==",":
+				#leave_marker=1
 
 	return(sister_specie)
 
@@ -163,25 +163,27 @@ def get_new_tree(big_tree,small_tree,node,next_id):
 def run_iteration(tree1,tree2,next_id):
 	sub_tree,node1,node2=get_sub_tree(tree1,tree2)
 	if sub_tree==1:
-		tree1=get_new_tree(tree2,tree1,node1,next_id)
-		tree2=tree2
+		new_tree=get_new_tree(tree2,tree1,node1,next_id)
+		other_tree=tree2
 	elif sub_tree==2:
-		tree1=tree1
-		tree2=get_new_tree(tree1,tree2,node2,next_id)
+		new_tree=get_new_tree(tree1,tree2,node2,next_id)
+		other_tree=tree1
 	else:
 		print("Error did not find subtree")
 		exit()
-	return(tree1,tree2)
+	return(new_tree,other_tree)
 
 
 
 
 count=0
 node1,node2=get_nodes(tree1,tree2)
+new_tree=tree1
+other_tree=tree2
 next_id=-1
 while node1 != node2:
-	tree1,tree2=run_iteration(tree1,tree2,next_id)
-	node1,node2=get_nodes(tree1,tree2)
+	new_tree,other_tree=run_iteration(new_tree,other_tree,next_id)
+	node1,node2=get_nodes(new_tree,other_tree)
 	next_id=next_id-2
 	count=count+1
 	if count>20:
@@ -194,4 +196,4 @@ while node1 != node2:
 #g=open('test2.nhx','w')
 #g.write(other_tree)
 #g.close()
-print(tree1,"~",tree2)
+print(new_tree,"~",other_tree)
