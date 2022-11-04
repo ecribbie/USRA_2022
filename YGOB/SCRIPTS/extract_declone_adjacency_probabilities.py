@@ -10,9 +10,10 @@ def get_gene_specie_map(file,mapping={}):
 	portions=file[0].split("S=")
 	for i in range(1,len(portions)):
 		piece=portions[i]
-		specie_id=piece.split(":")[0]
+		#specie_id=piece.split(":")[0]
+		specie_name=portions[i-1].split("|")[-1].split(":")[0]
 		gene_id=piece.split("ND=")[1].split("]")[0]
-		mapping[gene_id]=specie_id
+		mapping[gene_id]=specie_name
 	return(mapping)
 
 def get_table(file):
@@ -23,10 +24,19 @@ def get_table(file):
 				table.append(line.strip("\n"))
 	return(table)
 
+def fix_orientation_label(orientation):
+	if orientation=="tail":
+		orientation="t"
+	if orientation=="head":
+		orientation="h"
+	return(orientation)
+
 def get_orientation(file_name,script):
 	num=file_name.split(".")[0]
 	orientation1=script[int(num)-1].split(".")[-2].split("_")[-2]
 	orientation2=script[int(num)-1].split(".")[-2].split("_")[-1]
+	orientation1=fix_orientation_label(orientation1)
+	orientation2=fix_orientation_label(orientation2)
 	return(orientation1,orientation2)
 
 def get_col_genes(table):
@@ -46,7 +56,8 @@ def get_weight(table,row,col):
 	return(weight)
 
 def get_mapping(file_path,script,map_path_prefix,map_path_suffix):
-	fam1,fam2=get_family_nums(sys.argv[1],script)
+	file_name=file_path.split("/")[-1]
+	fam1,fam2=get_family_nums(file_name,script)
 	path1=''.join([mapping_path_prefix,fam1,mapping_path_suffix])
 	path2=''.join([mapping_path_prefix,fam2,mapping_path_suffix])
 	f=open(path1)
@@ -60,18 +71,19 @@ def get_mapping(file_path,script,map_path_prefix,map_path_suffix):
 	return(mapping)
 
 def create_file(file_path,file,output_file,script,mapping_path_prefix,mapping_path_suffix):
+	file_name=file_path.split("/")[-1]
 	mapping=get_mapping(file_path,script,mapping_path_prefix,mapping_path_suffix)
 	table=get_table(file)
 	col_genes=get_col_genes(table)
 	row_genes=get_row_genes(table)
-	orientation1,orientation2=get_orientation(file_path,script)
+	orientation1,orientation2=get_orientation(file_name,script)
 	for i in range(len(row_genes)):
 		for j in range(len(col_genes)):
 			weight=get_weight(table,i,j)
 			if not weight=="0" and not int(col_genes[j])<0 and not int(row_genes[i])<0:
 				row_specie=mapping[row_genes[i]]
 				col_specie=mapping[col_genes[j]]
-				output_file.write(''.join([row_specie," ",row_genes[i]," ",orientation1," ",col_specie," ",col_genes[j]," ",orientation2," ",weight,"\n"]))
+				output_file.write(''.join([row_specie,"\t",row_genes[i],"\t",orientation1,"\t",col_specie,"\t",col_genes[j],"\t",orientation2,"\t",weight,"\n"]))
 
 
 f=open(sys.argv[1])
