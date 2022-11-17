@@ -70,8 +70,10 @@ def get_mapping(file_path,script,map_path_prefix,map_path_suffix):
 	mapping=get_gene_specie_map(map_file2)
 	return(mapping)
 
+
 def create_file(file_path,file,output_file,script,mapping_path_prefix,mapping_path_suffix):
 	file_name=file_path.split("/")[-1]
+	row_fam,col_fam=get_family_nums(file_name,script)
 	mapping=get_mapping(file_path,script,mapping_path_prefix,mapping_path_suffix)
 	table=get_table(file)
 	col_genes=get_col_genes(table)
@@ -83,7 +85,7 @@ def create_file(file_path,file,output_file,script,mapping_path_prefix,mapping_pa
 			if not weight=="0" and not int(col_genes[j])<0 and not int(row_genes[i])<0:
 				row_specie=mapping[row_genes[i]]
 				col_specie=mapping[col_genes[j]]
-				output_file.write(''.join([row_specie,"\t",row_genes[i],"\t",orientation1,"\t",col_specie,"\t",col_genes[j],"\t",orientation2,"\t",weight,"\n"]))
+				output_file.write(''.join([row_specie,"\t",'_'.join([str(row_fam),row_genes[i]]),"\t",orientation1,"\t",col_specie,"\t",'_'.join([str(col_fam),col_genes[j]]),"\t",orientation2,"\t",weight,"\n"]))
 
 
 f=open(sys.argv[1])

@@ -2,41 +2,27 @@ Set parameter TokenServer to value "license1.computecanada.ca"
 Set parameter LogFile to value "gurobi.log"
 Using license file /cvmfs/restricted.computecanada.ca/config/licenses/gurobi/clusters/cedar.lic
 
-Gurobi Optimizer version 9.5.0 build v9.5.0rc5 (linux64)
-Copyright (c) 2021, Gurobi Optimization, LLC
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (linux64)
+Copyright (c) 2022, Gurobi Optimization, LLC
 
 Read LP format model from file test3.ilp
-Reading time = 0.01 seconds
-: 490 rows, 270 columns, 1395 nonzeros
-Thread count: 32 physical cores, 32 logical processors, using up to 32 threads
-Optimize a model with 490 rows, 270 columns and 1395 nonzeros
-Model fingerprint: 0xcb99d45c
-Variable types: 0 continuous, 270 integer (227 binary)
+Reading time = 0.00 seconds
+: 0 rows, 0 columns, 0 nonzeros
+Thread count: 32 physical cores, 64 logical processors, using up to 32 threads
+Optimize a model with 0 rows, 0 columns and 0 nonzeros
+Model fingerprint: 0xf9715da1
 Coefficient statistics:
-  Matrix range     [1e+00, 3e+01]
-  Objective range  [2e-01, 5e-01]
-  Bounds range     [1e+00, 3e+01]
-  RHS range        [1e+00, 3e+01]
-Presolve removed 397 rows and 227 columns
-Presolve time: 0.04s
-Presolved: 93 rows, 43 columns, 294 nonzeros
-Variable types: 0 continuous, 43 integer (35 binary)
-Found heuristic solution: objective 3.0000000
+  Matrix range     [0e+00, 0e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [0e+00, 0e+00]
+Presolve time: 0.01s
+Presolve: All rows and columns removed
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   0.000000e+00      0s
 
-Root relaxation: cutoff, 12 iterations, 0.00 seconds (0.00 work units)
-
-    Nodes    |    Current Node    |     Objective Bounds      |     Work
- Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
-
-     0     0     cutoff    0         3.00000    3.00000  0.00%     -    0s
-
-Explored 1 nodes (12 simplex iterations) in 0.05 seconds (0.00 work units)
-Thread count was 32 (of 32 available processors)
-
-Solution count 1: 3 
-
-Optimal solution found (tolerance 1.00e-04)
-Best objective 3.000000000000e+00, best bound 3.000000000000e+00, gap 0.0000%
+Solved in 0 iterations and 0.01 seconds (0.00 work units)
+Optimal objective  0.000000000e+00
 
 Wrote result file 'test3.sol'
 
