@@ -1,0 +1,8 @@
+node_7	node_8
+node_7	node_9
+node_9	node_10
+node_9	Ndairenensis
+node_8	Cglabrata
+node_8	Scerevisiae
+node_10	Kafricana
+node_10	Knaganishii
