@@ -141,7 +141,7 @@ repeat the previous steps as necessary until all files are made
 `run_fix_macse_alignments.sh`
 
 ## Reconciled gene tree inference
-#### This step uses GeneRax to take in 
+#### This step uses GeneRax to take in Sequence algnments and create reconciled gene trees
 
 `mkdir ../EXP/GENERAX ../EXP/GENERAX/MUSCLE_PARALLEL ../EXP/GENERAX/MACSE_PARALLEL`
 
@@ -155,15 +155,30 @@ repeat the previous steps as necessary until all files are made
 
 `run_generax_macse_parallel.sh`
 
-## Getting adjacencies
+## Prep recocnciled gene trees for declone
+
+'run_xml_to_nhx.sh' With the desired version (muscle_1, muscle_2, macse_1 or macse_2)
+
+
+## Getting extant adjacencies and files for declone
 
 `run_create_adjacency_file.sh`
 
 `mkdir ../EXP/DECLONE ../EXP/DECLONE/MUSCLE_1_S ../EXP/DECLONE/MUSCLE_1_I ../EXP/DECLONE/MUSCLE_2_S ../EXP/DECLONE/MUSCLE_2_I ../EXP/DECLONE/MACSE_1_S ../EXP/DECLONE/MACSE_1_I ../EXP/DECLONE/MACSE_2_S ../EXP/DECLONE/MACSE_2_I ../DATA/GENERAX_INTO_NHX_MUSCLE_1 ../DATA/GENERAX_INTO_NHX_MUSCLE_2 ../DATA/GENERAX_INTO_NHX_MACSE_1 ../DATA/GENERAX_INTO_NHX_MACSE_2 ../DATA/DECLONE_MUSCLE_1_ADJ_PAIR_FILES/ ../DATA/DECLONE_MUSCLE_2_ADJ_PAIR_FILES/ ../DATA/DECLONE_MACSE_1_ADJ_PAIR_FILES/ ../DATA/DECLONE_MACSE_1_ADJ_PAIR_FILES/`
 
 `run_get_declone_script.sh` With the desired version (muscle_1, muscle_2, macse_1 or macse_2)
+
+## Run declone
 `run_declone.sh` With the desired version as above
 `run_declone.sh` Run again but will require changing the array range and ID increment to 9999 as the max array size is 9999 and we require more runs than that.
 
+## Prep declone file for SPP-DCJ
+'mkdir ../EXP/DECLONE_PROBABILITY_FILES/'
+'run_get_declone_prob_distr.sh'
+'newick_to_spp_tree.py' with inputs newick species tree (ex:../EXP/GENERAX/MACSE_PARALLEL/1/species_trees/inferred_species_tree.newick) and desired output tree path
+'run_get_spp_dcj_adj_script.sh' for desired threshold of adjacencies weight
 
 
+# Run SPP-DCJ
+'mkdir ../EXP/SPP_DCJ ../EXP/SPP_DCJ/MACSE_1_I/'
+'SPP_RUN/run_spp_dcj.sh'
